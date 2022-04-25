@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void openDiaryEditor(View v){
+        Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
+
+        startActivity(intent);
+    }
 }

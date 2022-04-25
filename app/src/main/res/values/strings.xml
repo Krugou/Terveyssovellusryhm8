@@ -3,4 +3,10 @@
     <string name="button_teelisays">Tee Lisäys!</string>
     <string name="button_avaapaivakirja">Avaa Päiväkirja</string>
     <string name="textview_title">RAVINTO PÄIVÄKIRJA</string>
+    <string name="textview_paivakirjatitle">Sinun Päiväkirjasi</string>
+    <string name="button_teelisayspaivakirjassa">Nappi, joka vie lisäys sivulle</string>
+    <string name="edittext_paivamaara">Syötä Päivämäärä</string>
+    <string name="button_lisaa">Päivitä Lisäys!</string>
+    <string name="multilineedittext_kirjaus2">Kirjoita Tähän</string>
+    <string name="edittext_kalorit">Syötä Kalorimäärä</string>
 </resources>
