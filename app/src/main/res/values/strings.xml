@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Terveyssovellusryhmä8</string>
+    <string name="button_teelisays">Tee Lisäys!</string>
+    <string name="button_avaapaivakirja">Avaa Päiväkirja</string>
+    <string name="textview_title">RAVINTO PÄIVÄKIRJA</string>
 </resources>
