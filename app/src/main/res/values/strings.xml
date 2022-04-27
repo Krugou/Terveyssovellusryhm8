@@ -9,4 +9,11 @@
     <string name="button_lisaa">Päivitä Lisäys!</string>
     <string name="multilineedittext_kirjaus2">Kirjoita Tähän</string>
     <string name="edittext_kalorit">Syötä Kalorimäärä</string>
+    <string name="textViewAloitusEka">Tervetuloa</string>
+    <string name="textViewAloitusToka">Käyttämään päiväkirjasovellusta ensimmäistä kertaa</string>
+    <string name="textViewAloitusVanha">Tervetuloa takaisin </string>
+    <string name="textViewAloitusVanha2">Käyttämään päiväkirjasovellusta</string>
+    <string name="textViewPresents2">Presents</string>
+    <string name="textViewPresents">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
+
 </resources>
