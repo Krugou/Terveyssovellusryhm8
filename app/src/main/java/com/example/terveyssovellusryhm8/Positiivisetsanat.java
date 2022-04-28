@@ -1,8 +1,9 @@
 package com.example.terveyssovellusryhm8;
 
 public class Positiivisetsanat {
-    private static String positivisetSanat;
-    private static String positivisetSanatTekija;
+    String positivisetSanat;
+
+    String positivisetSanatTekija;
 
     public Positiivisetsanat(String positivisetSanat, String positivisetSanatTekija) {
         this.positivisetSanat = positivisetSanat;
@@ -11,17 +12,19 @@ public class Positiivisetsanat {
 
 
 
-    public static String getPositiivisetSanat() {
+
+    public String getPositiivisetSanat() {
         return positivisetSanat;
     }
-    public void setPositiivisetSanat(String positivisetSanat) {
-        this.positivisetSanat = positivisetSanat;
-    }
-    public static String getPositiivisetSanatTekija() {
+
+    public String getPositiivisetSanatTekija() {
+
         return positivisetSanatTekija;
     }
-    public void setPositiivisetSanatTekija(String positivisetSanatTekija) {
-        this.positivisetSanatTekija = positivisetSanatTekija;
+    @Override
+    public String toString(){
+        return positivisetSanat;
+
     }
 
 }
