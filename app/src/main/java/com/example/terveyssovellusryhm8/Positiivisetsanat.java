@@ -9,16 +9,10 @@ public class Positiivisetsanat {
         this.positivisetSanat = positivisetSanat;
         this.positivisetSanatTekija = positivisetSanatTekija;
     }
-
-
-
-
     public String getPositiivisetSanat() {
         return positivisetSanat;
     }
-
     public String getPositiivisetSanatTekija() {
-
         return positivisetSanatTekija;
     }
     @Override
