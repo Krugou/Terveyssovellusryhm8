@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Terveyssovellusryhmä8">
         <activity
+            android:name=".tyhjaActivity"
+            android:exported="false" />
+        <activity
             android:name=".PaivakirjaLisaysActivity"
             android:exported="false" />
         <activity
@@ -17,19 +20,18 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Aloitusluokka"
             android:exported="true" />
         <activity
             android:name=".Presents"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
