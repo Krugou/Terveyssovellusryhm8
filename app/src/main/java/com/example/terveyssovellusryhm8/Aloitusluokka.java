@@ -1,6 +1,7 @@
 package com.example.terveyssovellusryhm8;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -202,6 +203,8 @@ public class Aloitusluokka extends AppCompatActivity {
             
             
             // Positiivisetsanatlistaoffline.positivisetSanatListaLuontiOffline();
+            SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+            ensimmaistaKertaaKayttamassa = sharedPreferences.getBoolean("onkoekakertataalla",ensimmaistaKertaaKayttamassa);
             TextView aloitusTekstinakyma = (TextView) findViewById(R.id.textView21);
             TextView aloitusTekstinakyma2 = (TextView) findViewById(R.id.textView22);
             TextView aloitusTekstinakyma3 = (TextView) findViewById(R.id.textView23);
@@ -209,6 +212,9 @@ public class Aloitusluokka extends AppCompatActivity {
                 aloitusTekstinakyma.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusEka));
                 aloitusTekstinakyma2.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusToka));
                 ensimmaistaKertaaKayttamassa = true;
+                SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                myEdit.putBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
+                myEdit.apply();
             } else {
                 aloitusTekstinakyma.setText(R.string.textViewAloitusVanha);
                 aloitusTekstinakyma2.setText(R.string.textViewAloitusVanha2);
