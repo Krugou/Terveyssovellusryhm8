@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Terveyssovellusryhmä8</string>
+    <!--Joonaksen stringit-->
+    <!--päiväkirja stringit-->
     <string name="button_teelisays">Tee Lisäys!</string>
     <string name="button_avaapaivakirja">Avaa Päiväkirja</string>
     <string name="textview_title">RAVINTO PÄIVÄKIRJA</string>
@@ -9,12 +11,24 @@
     <string name="button_lisaa">Päivitä Lisäys!</string>
     <string name="multilineedittext_kirjaus2">Kirjoita Tähän</string>
     <string name="edittext_kalorit">Syötä Kalorimäärä</string>
+    <!--päiväkirja stringit loppuu-->
+    <!--Joonaksen stringit loppuu-->
+    <!--Tor-Erikin stringit-->
+    
+    <!--Tor-Erikin stringit loppuu-->
+    <!--Aleksin stringit alkaa-->
+
+    <!--Aloitus Stringit alkaa-->
     <string name="textViewAloitusEka">Tervetuloa</string>
     <string name="textViewAloitusToka">Käyttämään päiväkirjasovellusta ensimmäistä kertaa</string>
     <string name="textViewAloitusVanha">Tervetuloa takaisin </string>
     <string name="textViewAloitusVanha2">Käyttämään päiväkirjasovellusta</string>
+    <!--Aloitus Stringit Loppuu-->
+    <!--Esittää Stringit alkaa-->
     <string name="textViewPresents2">Presents</string>
     <string name="textViewPresents">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
+    <!--Esittää Stringit Loppuu-->
+    <!--Lainaukset alkaa-->
     <string name="Lainausteksti1">Kun korvaat negatiiviset ajatukset positiivisilla, aloitat positiiviset tulokset.</string>
     <string name="Lainaustekija1">Willie Nelson.</string>
     <string name="Lainausteksti2">Pieni positiivinen muutos voi muuttaa koko päivän tai koko elämäsi.</string>
@@ -379,6 +393,8 @@
     <string name="Lainaustekija181">Marie Osmond</string>
     <string name="Lainausteksti182">Jos valitset, jopa odottamattomat takaiskut voivat tuoda uusia ja myönteisiä mahdollisuuksia.</string>
     <string name="Lainaustekija182">Ralph Marston</string>
+    <!--lainaukset loppuu-->
+    <!--Aleksin stringit loppuu-->
 
 
 </resources>
