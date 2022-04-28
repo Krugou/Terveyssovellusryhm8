@@ -14,12 +14,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
 
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
@@ -39,7 +43,9 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paivakirja_lisays);
-
+        String date_n = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
+        TextView date  = (TextView) findViewById(R.id.editTextDate);
+        date.setText(date_n);
 
     }
     public void buttonPressed(View view) {
