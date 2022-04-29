@@ -67,7 +67,7 @@
     <string name = "Lainaustekija15" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti16"> Det största värdet i livet är inte vad du får. Det största värdet i livet är vad du blir. </string>
     <string name = "Lainaustekija16" translatable = "false"> Jim Rohn </string>
-    <string name = "Lainausteksti17" Du kan inte ha ett positivt liv och ett negativt sinne. </string>
+    <string name = "Lainausteksti17"> Du kan inte ha ett positivt liv och ett negativt sinne. </string>
     <string name = "Lainaustekija17" translatable = "false"> Joyce Meyer </string>
     <string name = "Lainausteksti18"> Ingenting kan skrämma dig om du vägrar att vara rädd. </string>
     <string name = "Lainaustekija18" translatable = "false"> Mahatma Gandhi </string>
@@ -100,12 +100,12 @@
     <string name = "Lainausteksti32"> Lev livet fullt ut och fokusera på det positiva. </string>
     <string name = "Lainaustekija32" translatable = "false"> Matt Cameron </string>
     <string name = "Lainausteksti33"> Världen är vad vi tror. Om vi ​​kan förändra våra tankar kan vi förändra världen. </string>
-    <string name = "Lainausteksti33" translatable = "false"> HM. Tomlinson </string>
+    <string name = "Lainaustekija33" translatable = "false"> HM. Tomlinson </string>
     <string name = "Lainausteksti34"> Många gånger ser folk baksidan av vad de inte kan göra. Jag tittar alltid på vad jag kan göra. </string>
     <string name = "Lainaustekija34" translatable = "false"> Chuck Norris </string>
     <string name = "Lainausteksti35"> Konstant optimism är en maktfaktor. </string>
     <string name = "Lainaustekija35" translatable = "false"> Colin Powell </string>
-    <string name = "Lainausteksti36" Vi är alla här av en speciell anledning. Sluta vara en fånge av det förflutna. Bli framtidens arkitekt. </string>
+    <string name = "Lainausteksti36"> Vi är alla här av en speciell anledning. Sluta vara en fånge av det förflutna. Bli framtidens arkitekt. </string>
     <string name = "Lainaustekija36" translatable = "false"> Robin Sharma </string>
     <string name = "Lainausteksti37"> Den enda skillnaden mellan en bra och en dålig dag är attityden. </string>
     <string name = "Lainaustekija37" translatable = "false"> Dennis S. Brown </string>
@@ -151,11 +151,11 @@
     <string name = "Lainaustekija57" translatable = "false"> Denis Waitley </string>
     <string name = "Lainausteksti58"> Mata ditt sinne som om du var i din kropp. Sinnet klarar inte av skräp. </string>
     <string name = "Lainaustekija58" translatable = "false"> Jim Rohn </string>
-    <string name = "Lainausteksti59" Detta är lagen om attraktion: du får inte vad du vill ha. Du kan attrahera det du är. </string>
+    <string name = "Lainausteksti59"> Detta är lagen om attraktion: du får inte vad du vill ha. Du kan attrahera det du är. </string>
     <string name = "Lainaustekija59" translatable = "false"> Wayne Dyer </string>
     <string name = "Lainausteksti60"> Skriv i ditt hjärta att varje dag är den bästa dagen på året. </string>
     <string name = "Lainaustekija60" translatable = "false"> Ralph Waldo Emerson </string>
-    <string name = "Lainausteksti61" Attityden med positiva förväntningar är ett tecken på en högre personlighet. </string>
+    <string name = "Lainausteksti61"> Attityden med positiva förväntningar är ett tecken på en högre personlighet. </string>
     <string name = "Lainaustekija61" translatable = "false"> Brian Tracy </string>
     <string name = "Lainausteksti62"> En positiv tänkare ser det omöjliga, känner det immateriella och uppnår det omöjliga. </string>
     <string name = "Lainaustekija62"> Författare okänd </string>
@@ -224,7 +224,7 @@
     <string name = "Lainausteksti94"> Jag dör hellre när jag jagar det jag vill, lever det jag gör. </string>
     <string name = "Lainaustekija94"> Författare okänd </string>
     <string name = "Lainausteksti95"> Vi kallar lycka till med bra attityd, ansträngning, risk, kontinuitet och show. </string>
-    <string name = "Lainausteksti95"> Författare okänd </string>
+    <string name = "Lainaustekija95"> Författare okänd </string>
     <string name = "Lainausteksti96"> Den viktigaste typen av frihet är vad du verkligen är. </string>
     <string name = "Lainaustekija96" translatable = "false"> Jim Morrison </string>
     <string name = "Lainausteksti97"> Om du hittar en väg utan hinder leder den förmodligen till ingenting. </string>
@@ -276,7 +276,7 @@
     <string name = "Lainausteksti120"> Lycka, som en olycka, är ett proaktivt val. </string>
     <string name = "Lainaustekija120" translatable = "false"> Stephen Covey </string>
     <string name = "Lainausteksti121"> Du kan inte göra positiva val i ditt liv utan en miljö som gör dem enkla, naturliga och roliga val. </string>
-    <string name = "Lainausteksti121"> Författare okänd </string>
+    <string name = "Lainaustekija121"> Författare okänd </string>
     <string name = "Lainausteksti122"> En positiv attityd orsakar en kedjereaktion av tankar, händelser och positiva resultat. Det är en katalysator och ger exceptionella resultat.</string>
     <string name = "Lainaustekija122" translatable = "false"> Wade Boggs </string>
     <string name = "Lainausteksti123"> Det finns praktiskt taget inget omöjligt i den här världen om du helt enkelt bestämmer dig för det och upprätthåller en positiv attityd. </string>
@@ -287,7 +287,7 @@
     <string name = "Lainaustekija125" translatable = "false"> Brian Tracy </string>
     <string name = "Lainausteksti126"> Var djärv Ta risker Ingenting kan ersätta erfarenhet. </string>
     <string name = "Lainaustekija126" translatable = "false"> Paulo Coelho </string>
-    <string name = "Lainausteksti1212"> Ju mer medvetna vi är om vad vi verkligen är, desto mindre problem kommer vi att ha. </string>
+    <string name = "Lainausteksti127"> Ju mer medvetna vi är om vad vi verkligen är, desto mindre problem kommer vi att ha. </string>
     <string name = "Lainaustekija127" translatable = "false"> Lynn Grabhorn </string>
     <string name = "Lainausteksti128"> Du kan inte stoppa vågorna, men du kan lära dig att surfa. </string>
     <string name = "Lainaustekija128" translatable = "false"> Jon KabatZinn </string>

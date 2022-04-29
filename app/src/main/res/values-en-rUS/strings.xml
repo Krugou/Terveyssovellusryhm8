@@ -1,4 +1,402 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Terveyssovellusryhmä8</string>
+    <!--Joonaksen stringit-->
+    <!--päiväkirja stringit-->
+    <string name="button_teelisays"> Make an Addition! </string>
+     <string name="button_avaapaivakirja"> Open Diary </string>
+     <string name="textview_title"> NUTRITION DIARY </string>
+     <string name="textview_paivakirjatitle"> Your Diary </string>
+     <string name="button_teelisayspaivakirjassa"> Button that takes you to the page </string>
+     <string name="edittext_paivamaara"> Enter Date </string>
+     <string name="button_lisaa"> Update Add! </string>
+     <string name="multilineedittext_kirjaus2"> Enter Here </string>
+     <string name="edittext_kalorit"> Enter the number of calories </string>
+     <string name="button_koti"> The button that takes you home </string>
+     <string name="kirjotatahan"> Type here </string>
+     <string name="mieliala"> mood </string>
+     <string name="button_takaisin"> A button that takes you back to the diary </string>
+     <!--päiväkirja stringit loppuu-->
+    <!--Joonaksen stringit loppuu-->
+    <!--Tor-Erikin stringit-->
+    
+    <!--Tor-Erikin stringit loppuu-->
+    <!--Aleksin stringit alkaa-->
+
+    <!--Aloitus Stringit alkaa-->
+    <string name="oletustextview"> default text </string>
+    <string name="textViewAloitusEka"> Welcome </string>
+    <string name="textViewAloitusToka"> Use Diary for the first time </string>
+    <string name="textViewAloitusVanha"> Welcome back </string>
+    <string name="textViewAloitusVanha2"> To use the Diary application </string>
+    <!--Aloitus Stringit Loppuu-->
+    <!--Esittää Stringit alkaa-->
+    <string name="textViewPresents2">Presents</string>
+    <string name="textViewPresents" translatable="false">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
+    <string name = "Lainausteksti1"> When you replace negative thoughts with positive ones, you start with positive results. </string>
+    <string name = "Lainaustekija1" translatable = "false"> Willie Nelson. </string>
+    <string name = "Lainausteksti2"> A small positive change can change your entire day or your entire life. </string>
+    <string name = "Lainaustekija2" translatable = "false"> Nishant Grover. </string>
+    <string name = "Lainausteksti3"> Good things happen every day. We just have to tell you about them. </string>
+    <string name = "Lainaustekija3" translatable = "false"> Anne Wilson Schaef. </string>
+    <string name = "Lainausteksti4"> You can only change yourself, but sometimes it changes everything. </string>
+    <string name = "Lainaustekija4" translatable = "false"> Gary W Goldstein. </string>
+    <string name = "Lainausteksti5"> We awaken in others with the same mental attitude we have towards them. </string>
+    <string name = "Lainaustekija5" translatable = "false"> Elbert Hubbard. </string>
+    <string name = "Lainausteksti6"> A negative situation is always converted to a positive one. </string>
+    <string name = "Lainaustekija6" translatable = "false"> Michael Jordan. </string>
+    <string name = "Lainausteksti7"> We are what we think. Everything we are comes from our thoughts. We\'re thinking of building the world. </string>
+    <string name = "Lainaustekija7" translatable = "false"> Buddha. </string>
+    <string name = "Lainausteksti8"> We can change our lives. We can do, be and be exactly what we want. </string>
+    <string name = "Lainaustekija8" translatable = "false"> Tony Robbins </string>
+    <string name = "Lainausteksti9"> Everything is a seed. If you’re sitting on rotten seeds, don’t rely on picking delicious apples. </string>
+    <string name = "Lainaustekija9" translatable = "false"> Bill Meyer </string>
+    <string name = "Lainausteksti10"> Everything is either a growth opportunity or a barrier to growth. You can decide. </string>
+    <string name = "Lainaustekija10" translatable = "false"> Wayne Dyer </string>
+    <string name = "Lainausteksti11"> A positive attitude can really make me dream, he did it for me. </string>
+    <string name = "Lainaustekija11" translatable = "false"> David Bailey </string>
+    <string name = "Lainausteksti12"> A pessimist sees difficulties at every opportunity. The optimist sees the opportunity in any difficulty. </string>
+    <string name = "Lainaustekija12" translatable = "false"> Winston Churchill </string>
+    <string name = "Lainausteksti13"> What you become is more important than what you get. What you get affects what you are. </string>
+    <string name = "Lainaustekija13" translatable = "false"> Jim Rohn </string>
+    <string name = "Lainausteksti14"> Learn how to be happy with what you have when you continue what you want. </string>
+    <string name = "Lainaustekija14" translatable = "false"> Jim Rohn </string>
+    <string name = "Lainausteksti15"> Happiness is not procrastination. That\'s something you're planning for now. </string>
+    <string name = "Lainaustekija15" translatable = "false"> Jim Rohn </string>
+    <string name = "Lainausteksti16"> The greatest value in life is not what you get. The greatest value in life is what you become. </string>
+    <string name = "Lainaustekija16" translatable = "false"> Jim Rohn </string>
+    <string name = "Lainausteksti17"> You can\'t have a positive life and a negative mind. </string>
+    <string name = "Lainaustekija17" translatable = "false"> Joyce Meyer </string>
+    <string name = "Lainausteksti18"> Nothing can scare you if you refuse to be afraid. </string>
+    <string name = "Lainaustekija18" translatable = "false"> Mahatma Gandhi </string>
+    <string name = "Lainausteksti19"> The only place where your dreams are impossible is in your mind. </string>
+    <string name = "Lainaustekija19" translatable = "false"> Robert H Schulle </string>
+    <string name = "Lainausteksti20">Learning is a gift. Even if the pain is your teacher. </string>
+    <string name = "Lainaustekija20" translatable = "false"> Maya Watson </string>
+    <string name = "Lainausteksti21"> Love the life you have to live in the life you love. </string>
+    <string name = "Lainaustekija21" translatable = "false"> Huseein Nishah </string>
+    <string name = "Lainausteksti22"> Your smile gives you a positive look that makes you feel better. </string>
+    <string name = "Lainaustekija22" translatable = "false"> Les Brown </string>
+    <string name = "Lainausteksti23"> The person who can bring laughter to the room is blessed. </string>
+    <string name = "Lainaustekija23" translatable = "false"> Bennet Cerf </string>
+    <string name = "Lainausteksti24"> When you\'re excited about what you\'re doing, feel the positive energy. It's very simple. </string>
+    <string name = "Lainaustekija24" translatable = "false"> Paulo Coelho </string>
+    <string name = "Lainausteksti25"> When a person really wants something, the whole universe secretly helps them realize their dreams. </string>
+    <string name = "Lainaustekija25" translatable = "false"> Paulo Coelho </string>
+    <string name = "Lainausteksti26"> Winners tend to create their own expectations before the event. </string>
+    <string name = "Lainaustekija26" translatable = "false"> Brian Tracy </string>
+    <string name = "Lainausteksti27"> Man is nothing but the product of his thought. That will be what he thinks. </string>
+    <string name = "Lainaustekija27" translatable = "false"> Mahatma Gandhi </string>
+    <string name = "Lainausteksti28"> You\'re never too old to have another goal or another dream. </string>
+    <string name = "Lainaustekija28" translatable = "false"> C.S Lewis </string>
+    <string name = "Lainausteksti29"> Worst times can be best if you think positive energy. </string>
+    <string name = "Lainaustekija29" translatable = "false"> Domenico Dolce </string>
+    <string name = "Lainausteksti30"> Keep your face facing the sun and you won\'t see a single shadow. </string>
+    <string name = "Lainaustekija30" translatable = "false"> Helen Keller </string>
+    <string name = "Lainausteksti31"> You are capable of much more than you think, imagine or do now. </string>
+    <string name = "Lainaustekija31" translatable = "false"> Myles Munroe </string>
+    <string name = "Lainausteksti32"> Live life to the fullest and focus on the positive. </string>
+    <string name = "Lainaustekija32" translatable = "false"> Matt Cameron </string>
+    <string name = "Lainausteksti33"> The world is what we think. If we can change our thoughts, we can change the world. </string>
+    <string name = "Lainaustekija33" translatable = "false"> HM. Tomlinson </string>
+    <string name = "Lainausteksti34"> Many times people see the downside of what they can\'t do. I always look at what I can do. </string>
+    <string name = "Lainaustekija34" translatable = "false"> Chuck Norris </string>
+    <string name = "Lainausteksti35"> Constant optimism is a factor in power. </string>
+    <string name = "Lainaustekija35" translatable = "false"> Colin Powell </string>
+    <string name = "Lainausteksti36"> We are all here for a special reason. Stop being a prisoner of the past. Become the architect of the future. </string>
+    <string name = "Lainaustekija36" translatable = "false"> Robin Sharma </string>
+    <string name = "Lainausteksti37"> The only difference between a good and a bad day is attitude. </string>
+    <string name = "Lainaustekija37" translatable = "false"> Dennis S. Brown </string>
+    <string name = "Lainausteksti38"> The only thing that stands out in a person and what he wants in life is often a willingness to try and believe that it is possible to achieve it. </string>
+    <string name = "Lainaustekija38" translatable = "false"> Richard M.DeVos </string>
+    <string name = "Lainausteksti39"> Taking the right attitude can turn negative stress into positive ones. </string>
+    <string name = "Lainaustekija39" translatable = "false"> Dr. Hans Selye </string>
+    <string name = "Lainausteksti40"> Nevertheless, I think people are good at heart. </string>
+    <string name = "Lainaustekija40" translatable = "false"> Anne Frank </string>
+    <string name = "Lainausteksti41"> A strong and positive self-image is the best way to prepare for success. </string>
+    <string name = "Lainaustekija41" translatable = "false"> Joyce Brothers </string>
+    <string name = "Lainausteksti42">The sun does not shine on a few flowers and trees, but on the joy of the whole world. </string>
+    <string name = "Lainaustekija42" translatable = "false"> Henry Ward </string>
+    <string name = "Lainausteksti43"> Find a place in your interior where joy burns. </string>
+    <string name = "Lainaustekija43" translatable = "false"> Joseph Campbell </string>
+    <string name = "Lainausteksti44"> You need to start thinking the way you want to. </string>
+    <string name = "Lainaustekija44" translatable = "false"> David Viscott </string>
+    <string name = "Lainausteksti45"> A very positive attitude creates more miracles than any medicine. </string>
+    <string name = "Lainaustekija45" translatable = "false"> Patricia Neal </string>
+    <string name = "Lainausteksti46"> Pessimism leads to weakness, to the power of optimism. </string>
+    <string name = "Lainaustekija46" translatable = "false"> William James </string>
+    <string name = "Lainausteksti47"> The situation is not bad, your thoughts on the situation are negative. Change them. </string>
+    <string name = "Lainaustekija47" translatable = "false"> Unknown author </string>
+    <string name = "Lainausteksti48"> The only disability in life is bad attitude. </string>
+    <string name = "Lainaustekija48" translatable = "false"> Scott Hamilton </string>
+    <string name = "Lainausteksti49"> In order to take positive action, we need to develop a positive vision. </string>
+    <string name = "Lainaustekija49" translatable = "false"> Dalai Lama </string>
+    <string name = "Lainausteksti50"> Say and do something positive that will improve the situation; it doesn\'t take the brain to complain. </string>
+    <string name = "Lainaustekija50" translatable = "false"> Robert A.Cook </string>
+    <string name = "Lainausteksti51"> If you don\'t make mistakes, you won\'t do anything. </string>
+    <string name = "Lainaustekija51" translatable = "false"> John Wooden </string>
+    <string name = "Lainausteksti52"> To succeed, you need to find something to catch, something to motivate you, something to inspire you. </string>
+    <string name = "Lainaustekija52" translatable = "false"> Tony Dorsett </string>
+    <string name = "Lainausteksti53"> These are my latest words for you. Don\'t be afraid of life. Believe it is worth living and your faith will create a fact. </string>
+    <string name = "Lainaustekija53" translatable = "false"> William James </string>
+    <string name = "Lainausteksti54"> A little positive thought in the morning can change your whole day. </string>
+    <string name = "Lainaustekija54" translatable = "false"> Unknown </string>
+    <string name = "Lainausteksti55"> Our minds can change what matters because we live up to our expectations. </string>
+    <string name = "Lainaustekija55" translatable = "false"> Federico Fellini </string>
+    <string name = "Lainausteksti56"> I
+        \'m optimistic. There is no point in being anything else. </string>
+    <string name = "Lainaustekija56" translatable = "false"> Winston Churchill </string>
+    <string name = "Lainausteksti57"> Once in the valley, keep that goal in mind and have new energy to continue climbing. </string>
+    <string name = "Lainaustekija57" translatable = "false"> Denis Waitley </string>
+    <string name = "Lainausteksti58"> Feed your mind as if you were in your body. The mind can\'t cope with junk. </string>
+    <string name = "Lainaustekija58" translatable = "false"> Jim Rohn </string>
+    <string name = "Lainausteksti59">This is the law of attraction: you don\'t get what you want. You can attract what you are. </string>
+    <string name = "Lainaustekija59" translatable = "false"> Wayne Dyer </string>
+    <string name = "Lainausteksti60"> Write in your heart that every day is the best day of the year. </string>
+    <string name = "Lainaustekija60" translatable = "false"> Ralph Waldo Emerson </string>
+    <string name = "Lainausteksti61"> The attitude of positive expectations is a sign of a higher personality. </string>
+    <string name = "Lainaustekija61" translatable = "false"> Brian Tracy </string>
+    <string name = "Lainausteksti62"> A positive thinker sees the impossible, feels the intangible, and achieves the impossible. </string>
+    <string name = "Lainaustekija62"> Author unknown </string>
+    <string name = "Lainausteksti63"> Don\'t let the negativity of the world stop you. Instead, give yourself what motivates you. </string>
+    <string name = "Lainaustekija63" translatable = "false"> Les Brown </string>
+    <string name = "Lainausteksti64"> It\'s a lousy habit; Happy is the habit; and the choice is yours. </string>
+    <string name = "Lainaustekija64" translatable = "false"> Tom Hopkins </string>
+    <string name = "Lainausteksti65"> Work hard, be positive, and get up early. That\'s the best part of the day. </string>
+    <string name = "Lainaustekija65" translatable = "false"> George Allen </string>
+    <string name = "Lainausteksti66"> Optimism is the most important human trait, as it allows us to improve our situation and hope for a better tomorrow. </string>
+    <string name = "Lainaustekija66" translatable = "false"> Seth Godin </string>
+    <string name = "Lainausteksti67"> Refuse to comment on your attitude. </string>
+    <string name = "Lainaustekija67" translatable = "false"> Charles R. Swindoll </string>
+    <string name = "Lainausteksti68"> The world is moving so fast these days that a man who says you can\'t do something is interrupted by someone who does it. </string>
+    <string name = "Lainaustekija68" translatable = "false"> Elbert Hubbard </string>
+    <string name = "Lainausteksti69"> If someone says you can\'t, it really means I can't. </string>
+    <string name = "Lainaustekija69" translatable = "false"> Sean Stephenson </string>
+    <string name = "Lainausteksti70"> There are two ways to light: be a candle or a mirror that reflects it. </string>
+    <string name = "Lainaustekija70" translatable = "false"> Edith Wharton </string>
+    <string name = "Lainausteksti71"> While frustration is sometimes painful, it is a very positive and essential part of success. </string>
+    <string name = "Lainaustekija71"> Author unknown </string>
+    <string name = "Lainausteksti72"> Be honest with you and have positive people around you. </string>
+    <string name = "Lainaustekija72" translatable = "false"> Payal Kadakia </string>
+    <string name = "Lainausteksti73"> Positive thinking allows you to do something better than negative thinking. </string>
+    <string name = "Lainaustekija73" translatable = "false"> Zig Ziglar </string>
+    <string name = "Lainausteksti74"> If you don\'t protect something, nothing fell. </string>
+    <string name = "Lainaustekija74" translatable = "false"> Malcolm X </string>
+    <string name = "Lainausteksti75"> Love yourself. It\'s important to stay positive because beauty is coming out. </string>
+    <string name = "Lainaustekija75" translatable = "false"> Jenn Proske </string>
+    <string name = "Lainausteksti76"> A person is great because he or she has great qualities, not because there are no flaws. </string>
+    <string name = "Lainaustekija76"> Author unknown </string>
+    <string name = "Lainausteksti77"> Don\'t let people respect you. Surround yourself with positive people. </string>
+    <string name = "Lainaustekija77" translatable = "false"> Cuba Gooding, Jr </string>
+    <string name = "Lainausteksti78"> The past has no power at this time. </string>
+    <string name = "Lainaustekija78" translatable = "false"> Eckhart Tolle </string>
+    <string name = "Lainausteksti79"> When I do good, I feel good. When I do evil, I feel evil. This is my religion. </string>
+    <string name = "Lainaustekija79" translatable = "false"> Abraham Lincoln </string>
+    <string name = "Lainausteksti80"> The best way to gain self-esteem is to do what we fear. </string>
+    <string name = "Lainaustekija80" translatable = "false"> Author unknown </string>
+    <string name = "Lainausteksti81"> We have the ability to decide which thoughts to stop at. </string>
+    <string name = "Lainaustekija81" translatable = "false"> David DeNotaris </string>
+    <string name = "Lainausteksti82"> A mediocre idea that excites goes beyond a great idea that doesn\'t inspire anyone. </string>
+    <string name = "Lainaustekija82" translatable = "false"> Mary Kay Ash </string>
+    <string name = "Lainausteksti83"> It\'s great to be optimistic. Keeps you healthy and flexible. </string>
+    <string name = "Lainaustekija83" translatable = "false"> Daniel Kahneman </string>
+    <string name = "Lainausteksti84"> It\'s amazing If you leave it, life will change in a positive way quickly. </string>
+    <string name = "Lainaustekija84" translatable = "false"> Lindsey Vonn </string>
+    <string name = "Lainausteksti85"> When you encounter a negative situation, don\'t think about it. Make it positive. </string>
+    <string name = "Lainaustekija85" translatable = "false"> Yoko Ono </string>
+    <string name = "Lainausteksti86"> Work on energy and peace, knowing that the right thoughts and efforts will inevitably produce the right results. </string>
+    <string name = "Lainaustekija86" translatable = "false"> James Allen </string>
+    <string name = "Lainausteksti87"> I may not have gotten where I was trying to go, but I think I\'m ready where I needed to be. </string>
+    <string name = "Lainaustekija87" translatable = "false"> Douglas Adams </string>
+    <string name = "Lainausteksti88"> Every day brings new opportunities. </string>
+    <string name = "Lainaustekija88" translatable = "false"> Martha Beck </string>
+    <string name = "Lainausteksti89"> Repeated playback leads to conviction. </string>
+    <string name = "Lainaustekija89" translatable = "false"> Robert Collier </string>
+    <string name = "Lainausteksti90"> Anger has caused many problems in this world and has not solved it. </string>
+    <string name = "Lainaustekija90" translatable = "false"> Maya Angelou </string>
+    <string name = "Lainausteksti91"> A person is the product of their dreams. So make sure you dream big dreams. And then try to live your dream. </string>
+    <string name = "Lainaustekija91" translatable = "false"> Maya Angelou </string>
+    <string name = "Lainausteksti92"> If you don\'t like something, change it. If you can\'t change it, change your attitude. </string>
+    <string name = "Lainaustekija92" translatable = "false"> Maya Angelou </string>
+    <string name = "Lainausteksti93"> We rejoice in the beauty of the butterfly, but rarely acknowledge the changes that have taken place to achieve that beauty. </string>
+    <string name = "Lainaustekija93" translatable = "false"> Maya Angelou </string>
+    <string name = "Lainausteksti94"> I\'d rather die chasing what I want, living what I\'m doing. </string>
+    <string name = "Lainaustekija94"> Author unknown </string>
+    <string name = "Lainausteksti95"> We invite good luck with good attitude, effort, risk, continuity and show. </string>
+    <string name = "Lainaustekija95"> Author unknown </string>
+    <string name = "Lainausteksti96"> The most important type of freedom is what you really are. </string>
+    <string name = "Lainaustekija96" translatable = "false"> Jim Morrison </string>
+    <string name = "Lainausteksti97"> If you find a path without obstacles, it will probably lead to nothing. </string>
+    <string name = "Lainaustekija97" translatable = "false"> Frank A. Clark </string>
+    <string name = "Lainausteksti98"> This is not a goal. It\'s about becoming a person who can accomplish this goal. </string>
+    <string name = "Lainaustekija98" translatable = "false"> Tony Robbins </string>
+    <string name = "Lainausteksti99"> End the day with a positive thought. Tomorrow you have the opportunity to do better </string>
+    <string name = "Lainaustekija99"> Author unknown </string>
+    <string name = "Lainausteksti100"> If the opportunity doesn\'t ring, build a door. </string>
+    <string name = "Lainaustekija100" translatable = "false"> Milton Berle </string>
+    <string name = "Lainausteksti101"> If we grow up, we\'re always out of our comfort zone. </string>
+    <string name = "Lainaustekija101" translatable = "false"> John C Maxwell </string>
+    <string name = "Lainausteksti102"> Hope is a dream of a resurrected man. </string>
+    <string name = "Lainaustekija102" translatable = "false"> Aristotle </string>
+    <string name = "Lainausteksti103"> Be grateful for what you have; you end up getting more. If you focus on what you don’t have, you’ll never have enough </string>
+    <string name = "Lainaustekija103"> Author unknown </string>
+    <string name = "Lainausteksti104"> I\'m a positive thinker, and I think that helps me in the hardest times. </string>
+    <string name = "Lainaustekija104" translatable = "false"> Roger Federer </string>
+    <string name = "Lainausteksti105"> I don\'t know, man, I need to know him better. </string>
+    <string name = "Lainaustekija105" translatable = "false"> Abraham Lincoln </string>
+    <string name = "Lainausteksti106"> Without humble but reasonable confidence in your own strength, you cannot be successful or happy. </string>
+    <string name = "Lainaustekija106" translatable = "false"> Norman Vincent After </string>
+    <string name = "Lainausteksti107"> Inspiration comes from you. Must be positive. When you are, good things happen. </string>
+    <string name = "Lainaustekija107" translatable = "false"> Deep Roy </string>
+    <string name = "Lainausteksti108"> The best thing you can give your enemies is forgiveness; to the opponent, tolerance; to a friend, to your heart; good child, good example; father, respect; to your mother, be proud; to yourself, love you; for everyone, for charity. </string>
+    <string name = "Lainaustekija108" translatable = "false"> Benjamin Franklin </string>
+    <string name = "Lainausteksti109"> Next time you feel a little uncomfortable with the pressure of your life, remember that without pressure, there are no diamonds. Pressure is part of success. </string>
+    <string name = "Lainaustekija109" translatable = "false"> Eric Thomas </string>
+    <string name = "Lainausteksti110"> How great it is that no one has to wait a moment to heal the world. </string>
+    <string name = "Lainaustekija110" translatable = "false"> Anne Frank </string>
+    <string name = "Lainausteksti111"> Compassion, love, happiness, we all have these qualities, but we don\'t usually use them. </string>
+    <string name = "Lainaustekija111" translatable = "false"> Anne Frank </string>
+    <string name = "Lainausteksti112"> I don\'t want to live in vain like most people do. I want to be helpful or bring joy to people, even those I have never met. I want to continue living after death. </string>
+    <string name = "Lainaustekija112" translatable = "false"> Anne Frank </string>
+    <string name = "Lainausteksti113"> You cannot set any restrictions. The more you dream, the farther you get. </string>
+    <string name = "Lainaustekija113" translatable = "false"> Michael Phelps </string>
+    <string name = "Lainausteksti114"> Think first about what you really want. Then persecute him stubbornly, do not give up. When you fall, think about the rewards. You\'ve reached 50% of your goal. </string>
+    <string name = "Lainaustekija114"> Author unknown </string>
+    <string name = "Lainausteksti115"> Attitude is everything; It covers what we do, what we say, what we think, and what we get. </string>
+    <string name = "Lainaustekija115"> Author unknown </string>
+    <string name = "Lainausteksti116"> The best is yet to come, as long as you want </string>
+    <string name = "Lainaustekija116"> Author unknown </string>
+    <string name = "Lainausteksti117"> Positive thoughts don\'t automatically get impossible things, but impossible things can\'t be achieved without positive thoughts </string>
+    <string name = "Lainaustekija117"> Author unknown </string>
+    <string name = "Lainausteksti118"> The secret to success is to learn to use pain and pleasure instead of pain and joy. If you do, you will be in control of your life. If not, life will guide you </string>
+    <string name = "Lainaustekija118"> Author unknown </string>
+    <string name = "Lainausteksti119"> We don\'t see things as they are, we see them as we are. </string>
+    <string name = "Lainaustekija119" translatable = "false"> Anais Nin </string>
+    <string name = "Lainausteksti120"> Happiness, like an accident, is a proactive choice. </string>
+    <string name = "Lainaustekija120" translatable = "false"> Stephen Covey </string>
+    <string name = "Lainausteksti121"> You can\'t make positive choices in your life without an environment that makes them simple, natural, and enjoyable choices. </string>
+    <string name = "Lainaustekija121"> Author unknown </string>
+    <string name = "Lainausteksti122"> A positive attitude causes a chain reaction of thoughts, events, and positive results. It is a catalyst and produces exceptional results. </string>
+    <string name = "Lainaustekija122" translatable = "false"> Wade Boggs </string>
+    <string name = "Lainausteksti123"> There is virtually nothing impossible in this world if you simply put your mind to it and maintain a positive attitude. </string>
+    <string name = "Lainaustekija123" translatable = "false"> Lou Holtz </string>
+    <string name = "Lainausteksti124"> The time you enjoy wasting was not wasted. </string>
+    <string name = "Lainaustekija124" translatable = "false"> John Lennon </string>
+    <string name = "Lainausteksti125"> Never say anything about yourself that you don\'t want to become a reality. </string>
+    <string name = "Lainaustekija125" translatable = "false"> Brian Tracy </string>
+    <string name = "Lainausteksti126"> Be bold Take risks Nothing can replace experience. </string>
+    <string name = "Lainaustekija126" translatable = "false"> Paulo Coelho </string>
+    <string name = "Lainausteksti127"> The more aware we are of what we really are, the less trouble we will have. </string>
+    <string name = "Lainaustekija127" translatable = "false"> Lynn Grabhorn </string>
+    <string name = "Lainausteksti128"> You can\'t stop the waves, but you can learn to surf. </string>
+    <string name = "Lainaustekija128" translatable = "false"> Jon KabatZinn </string>
+    <string name = "Lainausteksti129"> Think of what you need, think of what others need. </string>
+    <string name = "Lainaustekija129"> Author unknown </string>
+    <string name = "Lainausteksti130"> There are always flowers for those who want to see them. </string>
+    <string name = "Lainaustekija130" translatable = "false"> Henri Matise </string>
+    <string name = "Lainausteksti131"> Always end the day with a positive thought. No matter how hard things were, there is a good opportunity tomorrow to make them better </string>
+    <string name = "Lainaustekija131"> Author unknown </string>
+    <string name = "Lainausteksti132"> People become truly exceptional when they start thinking they can do things. When they believe in themselves, they have the first secret to success. </string>
+    <string name = "Lainaustekija132" translatable = "false"> Norman Vincent After </string>
+    <string name = "Lainausteksti133"> Learn to smile in all situations. See it as an opportunity to test your strengths and abilities. </string>
+    <string name = "Lainaustekija133" translatable = "false"> Joe Brown </string>
+    <string name = "Lainausteksti134"> The day is what you make of him. Why not have a good day ?. </string>
+    <string name = "Lainaustekija134" translatable = "false"> Steve Schulte </string>
+    <string name = "Lainausteksti135"> We are responsible for who we are, and no matter what we want to be, we have the power to make ourselves. </string>
+    <string name = "Lainaustekija135" translatable = "false"> Swami Vivekanand </string>
+    <string name = "Lainausteksti136"> You have done this before and you can do it now. Look at the positive possibilities. Direct the significant energy of your frustration and turn it into a positive, effective, and unstoppable definition. </string>
+    <string name = "Lainaustekija136" translatable = "false"> Ralph Marston </string>
+    <string name = "Lainausteksti137"> A positive attitude is that everyone can work and learn to use it. </string>
+    <string name = "Lainaustekija137" translatable = "false"> Joan Lunden </string>
+    <string name = "Lainausteksti138"> Remember your dreams and fight for them. You need to know what you want out of life. There is only one thing that makes your dream impossible: the fear of failure. </string>
+    <string name = "Lainaustekija138" translatable = "false"> Paulo Coelho </string>
+    <string name = "Lainausteksti139"> How can I live today tomorrow I\'m committed ?. </string>
+    <string name = "Lainaustekija139" translatable = "false"> Tony Robbins </string>
+    <string name = "Lainausteksti140"> I believe anything is possible if you have the mentality, the will and the desire to do it and dedicate your time. </string>
+    <string name = "Lainaustekija140" translatable = "false"> Roger Clemes </string>
+    <string name = "Lainausteksti141"> There is a small difference between people, but this difference is a big difference. The small difference is the attitude. The big difference is whether it\'s positive or negative. </string>
+    <string name = "Lainaustekija141" translatable = "false"> W. Clement Stone </string>
+    <string name = "Lainausteksti142"> Positive thinking is more than a slogan. It changes the way we behave. I firmly believe that when I am positive, I am better and others are better. </string>
+    <string name = "Lainaustekija142" translatable = "false"> Harvey Mackay </string>
+    <string name = "Lainausteksti143"> It\'s during our darkest moments when we need to focus on looking at the light. </string>
+    <string name = "Lainaustekija143" translatable = "false"> Aristotle </string>
+    <string name = "Lainausteksti144"> After all, we don\'t remember the words of our enemies, but the silence of our friends. </string>
+    <string name = "Lainaustekija144" translatable = "false"> Martin Luther King Jr. </string>
+    <string name = "Lainausteksti145"> We have to accept a limited disappointment, but we never lose infinite hope. </string>
+    <string name = "Lainaustekija145" translatable = "false"> Martin Luther King, Jr. </string>
+    <string name = "Lainausteksti146"> You have to accept what\'s coming, and the only important thing is that you face it with courage and in the best possible way. </string>
+    <string name = "Lainaustekija146" translatable = "false"> Eleanor Roosevelt </string>
+    <string name = "Lainausteksti147"> You must first learn the rules of the game. Then you have to play better than anyone. </string>
+    <string name = "Lainaustekija147" translatable = "false"> Albert Einstein </string>
+    <string name = "Lainausteksti148"> Correction does a lot, but the mood does a lot more. </string>
+    <string name = "Lainaustekija148" translatable = "false"> Johann Wolfgang von Goethe </string>
+    <string name = "Lainausteksti149"> It\'s not about the situation, it\'s about whether we react negatively or positively. </string>
+    <string name = "Lainaustekija149" translatable = "false"> Zig Ziglar </string>
+    <string name = "Lainausteksti150"> The difference between winning and losing often doesn\'t give up. </string>
+    <string name = "Lainaustekija150" translatable = "false"> Walt Disney </string>
+    <string name = "Lainausteksti151"> A positive attitude may not solve all problems, but it does distract enough people. </string>
+    <string name = "Lainaustekija151" translatable = "false"> Herm Albright </string>
+    <string name = "Lainausteksti152"> If you\'re not excited, you\'ll be eagerly ignited. </string>
+    <string name = "Lainaustekija152" translatable = "false"> Vince Lombardi </string>
+    <string name = "Lainausteksti153"> Concern often overshadows something small. </string>
+    <string name = "Lainaustekija153"> Swiss proverb </string>
+    <string name = "Lainausteksti154"> The best preparation for tomorrow is to give you the best today. </string>
+    <string name = "Lainaustekija154" translatable = "false"> H. Jackson Brown, Jr. </string>
+    <string name = "Lainausteksti155"> Put your heart, mind, and soul into even the smallest deeds. That\'s the secret to success. </string>
+    <string name = "Lainaustekija155" translatable = "false"> Swami Sivananda </string>
+    <string name = "Lainausteksti156"> Optimism is a belief that guides achievement. Nade is possible without hope and trust. </string>
+    <string name = "Lainaustekija156" translatable = "false"> Helen Keller </string>
+    <string name = "Lainausteksti157"> If you can dream it, you can do it. </string>
+    <string name = "Lainaustekija157" translatable = "false"> Walt Disney </string>
+    <string name = "Lainausteksti158"> Keep your eyes on the stars and your feet on the ground. </string>
+    <string name = "Lainaustekija158" translatable = "false"> Theodore Roosevelt </string>
+    <string name = "Lainausteksti159"> Remember: a book, a pen, a child, and a teacher can change the world. </string>
+    <string name = "Lainaustekija159" translatable = "false"> Malala Yousafzai </string>
+    <string name = "Lainausteksti160"> All you need is a plan, a roadmap, and the courage to go. </string>
+    <string name = "Lainaustekija160" translatable = "false"> Earl Nightingale </string>
+    <string name = "Lainausteksti161"> Start where you are, use what you have. Do what you can. </string>
+    <string name = "Lainaustekija161" translatable = "false"> Arthur Ashe </string>
+    <string name = "Lainausteksti162"> Keep your dreams alive. Understand that faith in yourself, vision, hard work, determination, and dedication is needed to accomplish everything. </string>
+    <string name = "Lainaustekija162" translatable = "false"> Gail Devers </string>
+    <string name = "Lainausteksti163"> Faith is a bird that feels light when dawn is still dark. </string>
+    <string name = "Lainaustekija163" translatable = "false"> Rabindranath Tagore </string>
+    <string name = "Lainausteksti164"> Take a positive attitude every day, trying to be better. </string>
+    <string name = "Lainaustekija164" translatable = "false"> Stefon Diggs </string>
+    <string name = "Lainausteksti165"> Don\'t let yesterday take a lot today. </string>
+    <string name = "Lainaustekija165"> Author unknown </string>
+    <string name = "Lainausteksti166"> Learn more about failure than success. Don\'t let it stop you. Failure to build character. </string>
+    <string name = "Lainaustekija166"> Author unknown </string>
+    <string name = "Lainausteksti167"> Stay positive and happy. Work hard and don’t lose hope. Stay open to criticism and keep learning. </string>
+    <string name = "Lainaustekija167" translatable = "false"> Tena Desae </string>
+    <string name = "Lainausteksti168"> Positive action combined with positive thoughts is a success. </string>
+    <string name = "Lainaustekija168" translatable = "false"> Shiv Khera </string>
+    <string name = "Lainausteksti169"> Successful people have a positive outlook on life no matter what happens around them. </string>
+    <string name = "Lainaustekija169" translatable = "false"> Jack Canfield </string>
+    <string name = "Lainausteksti170"> Every day is 1440 minutes. This means we have 1,440 positive opportunities every day. </string>
+    <string name = "Lainaustekija170" translatable = "false"> Les Brown </string>
+    <string name = "Lainausteksti171"> If you have a positive attitude and are constantly striving to do your best, you can eventually overcome immediate problems and find yourself ready for bigger challenges. </string>
+    <string name = "Lainaustekija171" translatable = "false"> Pat Riley </string>
+    <string name = "Lainausteksti172"> Attitude is like a sign that gives color to your world. Color the gray image constantly, and the image is always gloomy. Try adding colors to your images, including your mood, and they\'ll work out. </string>
+    <string name = "Lainaustekija172" translatable = "false"> Allen Klein </string>
+    <string name = "Lainausteksti173"> Few things in the world are stronger than a positive impulse. Smile A world of optimism and hope. You can do it. when things get tough. </string>
+    <string name = "Lainaustekija173" translatable = "false"> Richard M. DeVos </string>
+    <string name = "Lainausteksti174"> Good laughter is the sun in the house. </string>
+    <string name = "Lainaustekija174" translatable = "false"> William Makepeace Thackeray </string>
+    <string name = "Lainausteksti175"> The key is to inspire people to be great at what they want to do. </string>
+    <string name = "Lainaustekija175" translatable = "false"> Kobe Bryant </string>
+    <string name = "Lainausteksti176"> No matter what you\'re going through, there's a light at the end of the tunnel, and it may seem hard to reach, but you can find the positive side if you keep working. </string>
+    <string name = "Lainaustekija176" translatable = "false"> Demi Lovato </string>
+    <string name = "Lainausteksti177"> Trust dreams because they hide eternity forever. </string>
+    <string name = "Lainaustekija177" translatable = "false"> Khalil Gibran </string>
+    <string name = "Lainausteksti178"> The ability to stay calm and focused on stressful situations is critical to making positive decisions. </string>
+    <string name = "Lainaustekija178" translatable = "false"> Goldie Hawn </string>
+    <string name = "Lainausteksti179"> You need to be able to deal with stress because hard times are coming and a positive outlook is what you can overcome. </string>
+    <string name = "Lainaustekija179" translatable = "false"> Marie Osmond </string>
+    <string name = "Lainausteksti180"> Every day you wake up, you have two options. You can be positive or negative; optimistic or pessimistic. </string>
+    <string name = "Lainaustekija180" translatable = "false"> Harvey Mackay </string>
+    <string name = "Lainausteksti181"> You can do anything to prevent bad things from happening to you, but in the end something bad will happen, so the best prevention is a positive attitude. </string>
+    <string name = "Lainaustekija181" translatable = "false"> Marie Osmond </string>
+    <string name = "Lainausteksti182"> If you choose, even unexpected setbacks can bring new and positive opportunities. </string>
+    <string name = "Lainaustekija182" translatable = "false"> Ralph Marston </string>
+
 </resources>
