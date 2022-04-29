@@ -59,14 +59,13 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         String mielialaString = mieliala.getText().toString();
         EditText kirjaus=findViewById(R.id.editTextKirjaus);
         String kirjausString=kirjaus.getText().toString();
-        if(paivamaaraString.equals("") ||kaloritString.equals("") || mielialaString.equals("") || kirjausString.equals("") )
+        if(paivamaaraString.equals(""))
         {
             ready = false;
-            Log.i("MYAPP", "asd23");
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("HUOMATUS!")
-                    .setMessage("Sinun Tulee Täyttää Kaikki Kohdat Ennen Jatkamista")
+                    .setMessage("Sinun pitää syöttää päivämäärä ennen jatkamista")
                     .setPositiveButton("OKEI", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
@@ -80,6 +79,21 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             ready=true;
         }
         if (ready==true) {
+
+            //JOS ARVOJA ON JÄTETTY TYHJÄKSI NE LISÄTÄÄN "TYHJÄ":KSI
+
+            if(kaloritString.equals("")){
+                kaloritString="Tyhjä";
+            }
+            if(mielialaString.equals(""))
+            {
+                mielialaString="Tyhjä";
+            }
+            if(kirjausString.equals(""))
+            {
+                kirjausString="Tyhjä";
+            }
+
 
             paivamaaraLista2=this.getArrayList("paivamaaralista");
             kaloritLista2=this.getArrayList("kaloritlista");
