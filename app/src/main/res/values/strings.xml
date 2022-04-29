@@ -11,9 +11,10 @@
     <string name="button_lisaa">Päivitä Lisäys!</string>
     <string name="multilineedittext_kirjaus2">Kirjoita Tähän</string>
     <string name="edittext_kalorit">Syötä Kalorimäärä</string>
-    <string name="button_koti">Koti</string>
+    <string name="button_koti">Nappi, joka vie kotiin</string>
     <string name="kirjotatahan">Kirjoita tähän</string>
     <string name="mieliala">Mieliala</string>
+    <string name="button_takaisin">Nappi, joka vie takaisin päiväkirjaan</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
