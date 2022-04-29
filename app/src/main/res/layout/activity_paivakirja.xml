@@ -10,33 +10,50 @@
         android:id="@+id/uusilisaysButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="28dp"
         android:clickable="true"
         android:contentDescription="@string/button_teelisayspaivakirjassa"
         android:onClick="openDiaryEditor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:layout_constraintTop_toTopOf="@+id/guideline18"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <ListView
         android:id="@+id/paivakirjaLista"
-        android:layout_width="403dp"
-        android:layout_height="639dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="88dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="246dp" />
 
-    <Button
-        android:id="@+id/button2"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/palaakotiinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/button_koti"
         android:onClick="openHome"
-        android:text="@string/button_koti"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

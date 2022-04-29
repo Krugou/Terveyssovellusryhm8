@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -30,7 +31,6 @@ public class tyhjaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tyhja);
         Intent intent = getIntent();
         int indeksi = intent.getIntExtra("nro", -1);
-        Log.i("MYAPP", Integer.toString(indeksi));
 
 
         paivamaaraLista=this.getArrayList("paivamaaralista");
@@ -70,5 +70,9 @@ public class tyhjaActivity extends AppCompatActivity {
         String json = prefs.getString(key, null);
         Type type = new TypeToken<ArrayList<String>>() {}.getType();
         return gson.fromJson(json, type);
+    }
+    public void goBack(View view){
+        Intent intent = new Intent(this, PaivakirjaActivity.class);
+        startActivity(intent);
     }
 }
