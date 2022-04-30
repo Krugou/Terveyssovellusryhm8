@@ -27,6 +27,8 @@
     <string name="kalorit">Kalorier:</string>
     <string name="mielialaString">Humör:</string>
     <string name="tyhjä">Tom</string>
+    <string name="buttonTallenna">Spara</string>
+    <string name="buttonMuokkaa">Redigera</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->

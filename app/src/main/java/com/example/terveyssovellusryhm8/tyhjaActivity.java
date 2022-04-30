@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 
 public class tyhjaActivity extends AppCompatActivity {
-
+    private int indeksi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -25,7 +25,7 @@ public class tyhjaActivity extends AppCompatActivity {
 
         //Otetaan vastaan clickatun näkymän numeroarvo.
         Intent intent = getIntent();
-        int indeksi = intent.getIntExtra("nro", -1);
+         indeksi = intent.getIntExtra("nro", -1);
 
         //Näihin listoihin tallennetaan preferencceihin tallennetut arvot.
       ArrayList<String>paivamaaraLista;
@@ -78,6 +78,11 @@ public class tyhjaActivity extends AppCompatActivity {
     //Metodi, jonka avulla käyttäjä palaa päiväkirja-aktiviteettiin napin painalluksella.
     public void goBack(View view){
         Intent intent = new Intent(this, PaivakirjaActivity.class);
+        startActivity(intent);
+    }
+    public void openEditor(View view){
+        Intent intent = new Intent(this, tyhjaActivityEditor.class);
+        intent.putExtra("indeksi", indeksi);
         startActivity(intent);
     }
 }

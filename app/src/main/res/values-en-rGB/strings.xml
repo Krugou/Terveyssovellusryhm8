@@ -27,6 +27,8 @@
     <string name="kalorit">Calories:</string>
     <string name="mielialaString">Mood:</string>
     <string name="tyhjä">Empty</string>
+    <string name="buttonTallenna">Save</string>
+    <string name="buttonMuokkaa">Edit</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->

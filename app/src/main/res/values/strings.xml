@@ -26,10 +26,12 @@
     <string name="kalorit">Kalorit:</string>
     <string name="mielialaString">Mieliala:</string>
     <string name="tyhjä">Tyhjä</string>
+    <string name="buttonTallenna">Tallenna</string>
+    <string name="buttonMuokkaa">Muokkaa</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
-    
+
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Terveyssovellusryhmä8">
         <activity
+            android:name=".tyhjaActivityEditor"
+            android:exported="false" />
+        <activity
             android:name=".tyhjaActivity"
             android:exported="false" />
         <activity
