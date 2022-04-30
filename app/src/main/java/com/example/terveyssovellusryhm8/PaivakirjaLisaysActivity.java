@@ -64,9 +64,9 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             ready=false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
-                    .setTitle("HUOMATUS!")
-                    .setMessage("Sinun pitää syöttää päivämäärä ennen jatkamista")
-                    .setPositiveButton("OKEI", (dialogInterface, i) -> {
+                    .setTitle(R.string.alertVaroitus)
+                    .setMessage(R.string.alertViesti)
+                    .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
 
                     })
                     .show();
@@ -77,17 +77,17 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         }
         if (ready) {
 
-            //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä".
+            //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä.
             if(kaloritString.equals("")){
-                kaloritString="Tyhjä";
+                kaloritString=getString(R.string.tyhjä);
             }
             if(mielialaString.equals(""))
             {
-                mielialaString="Tyhjä";
+                mielialaString=getString(R.string.tyhjä);
             }
             if(kirjausString.equals(""))
             {
-                kirjausString="Tyhjä";
+                kirjausString=getString(R.string.tyhjä);
             }
 
             // Näihin listoihin tallennetaan preferencceihin tallennetut merkkijono listat.

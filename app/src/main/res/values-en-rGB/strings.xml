@@ -16,6 +16,17 @@
     <string name="kirjotatahan"> Type here </string>
     <string name="mieliala"> mood </string>
     <string name="button_takaisin"> A button that takes you back to the diary </string>
+    <string name="alertViesti">You have to enter a date before continuing</string>
+    <string name="alertKyllä">Yes</string>
+    <string name="alertVaroitus">Warning!</string>
+    <string name="alertPoistoViesti">Do you want to delete the entry?</string>
+    <string name="alertEi">No</string>
+    <string name="alertOk">Okay</string>
+    <string name="päivä">Day:</string>
+    <string name="logi">Log:</string>
+    <string name="kalorit">Calories:</string>
+    <string name="mielialaString">Mood:</string>
+    <string name="tyhjä">Empty</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->

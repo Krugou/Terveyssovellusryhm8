@@ -84,11 +84,11 @@ tallennetaan luokan sisäisiin listoihin.
         //Tehdään alertti, joka varmistaa käyttäjän poistamisen.
             new AlertDialog.Builder(PaivakirjaActivity.this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
-                    .setTitle("Varmistus")
-                    .setMessage("Haluatko poistaa lisäyksen")
+                    .setTitle(R.string.alertVaroitus)
+                    .setMessage(R.string.alertPoistoViesti)
 
                     // Jos käyttäjä valitsee "Kyllä", listoista poistetaan longclickatun näkymän tiedot.
-                    .setPositiveButton("Kyllä", (dialogInterface, i1) -> {
+                    .setPositiveButton(R.string.alertKyllä, (dialogInterface, i1) -> {
 
                         paivamaaraLista.remove(poistettava);
                         kaloritLista.remove(poistettava);
@@ -105,7 +105,7 @@ tallennetaan luokan sisäisiin listoihin.
 
                     })
                     // Jos käyttäjä valitsee "Ei", mitään ei tapahdu.
-                    .setNegativeButton("Ei", null)
+                    .setNegativeButton(R.string.alertEi, null)
                     .show();
 
             return true;

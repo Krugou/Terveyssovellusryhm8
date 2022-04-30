@@ -40,28 +40,28 @@ public class tyhjaActivity extends AppCompatActivity {
         kirjausLista=this.getArrayList("kirjauslista");
 
         //Näkymän numeroarvon avulla haetaan kirjauksen informaatio ja lisätään se textviewiin.
-        String placeholder = "LOGI: "+kirjausLista.get(indeksi);
+        String placeholder = getString(R.string.logi)+" "+kirjausLista.get(indeksi);
         TextView tv = findViewById(R.id.kirjausText);
         tv.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan paivamaaran informaatio ja lisätään se textviewiin.
-        placeholder="Päivä: "+paivamaaraLista.get(indeksi);
+        placeholder=getString(R.string.päivä)+" "+paivamaaraLista.get(indeksi);
         TextView tv2 = findViewById(R.id.paivamaaraText);
         tv2.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan kaloreiden informaatio ja lisätään se textviewiin.
-        //Jos kalorit jätetty tyhjäksi, ei ilmoiteta arvoa kilokaloreina.
-        if(kaloritLista.get(indeksi).equals("Tyhjä")) {
-            placeholder = "Kalorit: " + kaloritLista.get(indeksi);
+        //Jos kalorit jätetty tyhjäksi, ei ilmoiteta arvoa kilokaloreina. Tyhjän arvo on ladattu stringeistä.
+        if(kaloritLista.get(indeksi).equals(getString(R.string.tyhjä))) {
+            placeholder = getString(R.string.kalorit) +" "+ kaloritLista.get(indeksi);
         }
         else{
-            placeholder = "Kalorit: " + kaloritLista.get(indeksi) + " kcal";
+            placeholder = getString(R.string.kalorit) +" "+ kaloritLista.get(indeksi) + " kcal";
         }
         TextView tv3 = findViewById(R.id.kaloritText);
         tv3.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan mielialan informaatio ja lisätään se textviewiin.
-        placeholder="Mieliala: "+mielialaLista.get(indeksi);
+        placeholder=getString(R.string.mielialaString)+" "+mielialaLista.get(indeksi);
         TextView tv4 = findViewById(R.id.mielialaText);
         tv4.setText(placeholder);
 

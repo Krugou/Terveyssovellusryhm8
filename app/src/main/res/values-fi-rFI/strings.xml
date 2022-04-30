@@ -16,6 +16,17 @@
     <string name="kirjotatahan">Kirjoita tähän</string>
     <string name="mieliala">Mieliala</string>
     <string name="button_takaisin">Nappi, joka vie takaisin päiväkirjaan</string>
+    <string name="alertViesti">Sinun pitää syöttää päivämäärä ennen jatkamista</string>
+    <string name="alertKyllä">Kyllä</string>
+    <string name="alertVaroitus">Varoitus!</string>
+    <string name="alertPoistoViesti">Haluatko poistaa lisäyksen?</string>
+    <string name="alertEi">Ei</string>
+    <string name="alertOk">Okei</string>
+    <string name="päivä">Päivä:</string>
+    <string name="logi">Logi:</string>
+    <string name="kalorit">Kalorit:</string>
+    <string name="mielialaString">Mieliala:</string>
+    <string name="tyhjä">Tyhjä</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
