@@ -30,7 +30,7 @@
     <string name="textViewAloitusVanha2">Käyttämään päiväkirjasovellusta</string>
     <!--Aloitus Stringit Loppuu-->
     <!--Esittää Stringit alkaa-->
-    <string name="textViewPresents2">Presents</string>
+    <string name="textViewPresents2" translatable="false">Presents</string>
     <string name="textViewPresents" translatable="false">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
     <!--Esittää Stringit Loppuu-->
     <!--Lainaukset alkaa-->
