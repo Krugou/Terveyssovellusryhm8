@@ -21,7 +21,7 @@ import java.util.Locale;
 
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
-    // Näihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
+    // Näihin listoihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
     private final ArrayList<String> paivamaaraLista = new ArrayList<>();
     private final ArrayList<String> kaloritLista = new ArrayList<>();
     private final ArrayList<String> mielialaLista= new ArrayList<>();
@@ -58,13 +58,13 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         EditText kirjaus=findViewById(R.id.editTextKirjaus);
         String kirjausString=kirjaus.getText().toString();
 
-        // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus.
+        // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus, joka käskee täyttää sen.
         if(paivamaaraString.equals(""))
         {
             ready=false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
-                    .setTitle(R.string.alertVaroitus)
+                    .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
                     .setMessage(R.string.alertViesti)
                     .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
 
@@ -77,7 +77,7 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         }
         if (ready) {
 
-            //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä.
+            //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä. huom. monikielisyys.
             if(kaloritString.equals("")){
                 kaloritString=getString(R.string.tyhjä);
             }
@@ -110,7 +110,7 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             mielialaLista.add(mielialaString);
             kirjausLista.add(kirjausString);
 
-            // Listat tallennetaan preferencceihin.
+            // Tallennetaan listat preferencceihin.
             this.saveArrayList(paivamaaraLista, "paivamaaralista");
             this.saveArrayList(kaloritLista, "kaloritlista");
             this.saveArrayList(mielialaLista, "mielialalista");

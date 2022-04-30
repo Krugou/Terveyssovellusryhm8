@@ -18,49 +18,61 @@ import java.util.ArrayList;
 
 public class tyhjaActivityEditor extends AppCompatActivity {
 
+    // Näihin listoihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
     private ArrayList<String> paivamaaraLista = new ArrayList<>();
     private ArrayList<String> kaloritLista = new ArrayList<>();
     private ArrayList<String> mielialaLista= new ArrayList<>();
     private ArrayList<String> kirjausLista = new ArrayList<>();
 
-    private EditText et1;
-    private EditText et2;
-    private EditText et3;
-    private EditText et4;
+    // Näillä päästään käsiksi EditText-näkymiin.
+    private EditText paivamaaraEdit;
+    private EditText kaloritEdit;
+    private EditText mieliaalaEdit;
+    private EditText kirjausEdit;
+
+    // Globaali indeksi muuttuja.
     private int indeksi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tyhja_editor);
+
+        // Otetaan vastaan intentin lähettämä numeroarvo. Tallennetaan se indeksi muuttujaan.
         Intent intent=getIntent();
          indeksi = intent.getIntExtra("indeksi", -1);
 
+         // Kopioidaan listoihin arvot preferencceistä.
          paivamaaraLista = this.getArrayList("paivamaaralista");
          kaloritLista = this.getArrayList("kaloritlista");
          mielialaLista = this.getArrayList("mielialalista");
          kirjausLista = this.getArrayList("kirjauslista");
 
-        et1=findViewById(R.id.editPaiva);
-        et2=findViewById(R.id.editKalorit);
-        et3=findViewById(R.id.editMieliala);
-        et4=findViewById(R.id.editKirjaus);
+         // Liitetään muuttujat EditTexteihin.
+        paivamaaraEdit=findViewById(R.id.editPaiva);
+        kaloritEdit=findViewById(R.id.editKalorit);
+        mieliaalaEdit=findViewById(R.id.editMieliala);
+        kirjausEdit=findViewById(R.id.editKirjaus);
 
-        et1.setText(paivamaaraLista.get(indeksi));
-        et2.setText(kaloritLista.get(indeksi));
-        et3.setText(mielialaLista.get(indeksi));
-        et4.setText(kirjausLista.get(indeksi));
+        // Syötetään EditTexteihin arvoiksi listalta löytyvät merkkijonot indeksi muuttujan avulla.
+        paivamaaraEdit.setText(paivamaaraLista.get(indeksi));
+        kaloritEdit.setText(kaloritLista.get(indeksi));
+        mieliaalaEdit.setText(mielialaLista.get(indeksi));
+        kirjausEdit.setText(kirjausLista.get(indeksi));
 
 
 
     }
+    // Tätä kutsutaan, kun Tallenna-nappia painetaan.
     public void saveEdits(View view){
         boolean ready;
-        String editoituPaivamaara = et1.getText().toString();
+        String editoituPaivamaara = paivamaaraEdit.getText().toString();
+
+        // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus, joka käskee täyttää sen.
         if (editoituPaivamaara.equals("")){
             ready = false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
-                    .setTitle(R.string.alertVaroitus)
+                    .setTitle(R.string.alertVaroitus) // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
                     .setMessage(R.string.alertViesti)
                     .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
 
@@ -72,10 +84,13 @@ public class tyhjaActivityEditor extends AppCompatActivity {
             ready=true;
         }
         if (ready) {
-            String editoituKalori = et2.getText().toString();
-            String editoituMieliala = et3.getText().toString();
-            String editoituKirjaus = et4.getText().toString();
 
+            // Tallennetaan käyttäjän syöttämät arvot merkkijonoihin
+            String editoituKalori = kaloritEdit.getText().toString();
+            String editoituMieliala = mieliaalaEdit.getText().toString();
+            String editoituKirjaus = kirjausEdit.getText().toString();
+
+            // Jos käyttäjä ei syöttänyt joitain arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä. Huom. monikielisyys.
             if(editoituKalori.equals("")){
                 editoituKalori=getString(R.string.tyhjä);
             }
@@ -86,21 +101,24 @@ public class tyhjaActivityEditor extends AppCompatActivity {
                 editoituKirjaus=getString(R.string.tyhjä);
             }
 
+            // Listojen indeksi muuttujan osoittamaan alkioon muokataan käyttäjän syöttämät arvot.
             paivamaaraLista.set(indeksi, editoituPaivamaara);
             kaloritLista.set(indeksi, editoituKalori);
             mielialaLista.set(indeksi, editoituMieliala);
             kirjausLista.set(indeksi, editoituKirjaus);
 
+            // Tallennetaan listat preferencceihin.
             this.saveArrayList(paivamaaraLista, "paivamaaralista");
             this.saveArrayList(kaloritLista, "kaloritlista");
             this.saveArrayList(mielialaLista, "mielialalista");
             this.saveArrayList(kirjausLista, "kirjauslista");
 
+            // Mennään takaisin päiväkirja-aktiviteettiin
             Intent intent = new Intent(this, PaivakirjaActivity.class);
             startActivity(intent);
         }
     }
-    //Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
+    // Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
     public void saveArrayList(ArrayList<String> list, String key){
         SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
@@ -110,7 +128,7 @@ public class tyhjaActivityEditor extends AppCompatActivity {
         editor.apply();
     }
 
-    //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
+    // Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
     public ArrayList<String> getArrayList(String key){
         SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
         Gson gson = new Gson();
