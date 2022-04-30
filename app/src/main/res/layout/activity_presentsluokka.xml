@@ -15,6 +15,7 @@
         android:text="@string/oletustextview"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="#4E342E"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
@@ -25,6 +26,7 @@
         android:layout_height="84dp"
         android:text="@string/oletustextview"
         android:textAlignment="center"
+        android:textColor="#4E342E"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline4" />
@@ -56,5 +58,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="268dp"
+        android:layout_height="197dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
