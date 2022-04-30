@@ -31,236 +31,127 @@
     <string name="textViewAloitusVanha2"> För att använda programmet Dagbok </string>
     <!--Aloitus Stringit Loppuu-->
     <!--Esittää Stringit alkaa-->
-    <string name="textViewPresents2" translatable="false" >Presents</string>
-    <string name="textViewPresents" translatable="false">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
     <!--Esittää Stringit Loppuu-->
     <!--Lainaukset alkaa-->
     <string name = "Lainausteksti1"> När du ersätter negativa tankar med positiva börjar du med positiva resultat. </string>
-    <string name = "Lainaustekija1" translatable = "false"> Willie Nelson. </string>
     <string name = "Lainausteksti2"> En liten positiv förändring kan förändra hela din dag eller hela ditt liv. </string>
-    <string name = "Lainaustekija2" translatable = "false"> Nishant Grover. </string>
     <string name = "Lainausteksti3"> Bra saker händer varje dag. Vi måste bara berätta om dem. </string>
-    <string name = "Lainaustekija3" translatable = "false"> Anne Wilson Schaef. </string>
     <string name = "Lainausteksti4"> Du kan bara ändra dig själv, men ibland förändras allt. </string>
-    <string name = "Lainaustekija4" translatable = "false"> Gary W Goldstein. </string>
     <string name = "Lainausteksti5"> Vi vaknar upp i andra med samma mentala attityd som vi har mot dem. </string>
-    <string name = "Lainaustekija5" translatable = "false"> Elbert Hubbard. </string>
     <string name = "Lainausteksti6"> En negativ situation konverteras alltid till en positiv. </string>
-    <string name = "Lainaustekija6" translatable = "false"> Michael Jordan. </string>
     <string name = "Lainausteksti7"> Vi är vad vi tror. Allt vi är kommer från våra tankar. Vi funderar på att bygga världen. </string>
-    <string name = "Lainaustekija7" translatable = "false"> Buddha. </string>
     <string name = "Lainausteksti8"> Vi kan förändra våra liv. Vi kan göra, vara och vara precis vad vi vill. </string>
-    <string name = "Lainaustekija8" translatable = "false"> Tony Robbins </string>
     <string name = "Lainausteksti9"> Allt är ett frö. Om du sitter på ruttna frön, lita inte på att plocka utsökta äpplen. </string>
-    <string name = "Lainaustekija9" translatable = "false"> Bill Meyer </string>
     <string name = "Lainausteksti10"> Allt är antingen en tillväxtmöjlighet eller ett hinder för tillväxt. Du kan bestämma. </string>
-    <string name = "Lainaustekija10" translatable = "false"> Wayne Dyer </string>
     <string name = "Lainausteksti11"> En positiv attityd kan verkligen få mig att drömma, han gjorde det åt mig. </string>
-    <string name = "Lainaustekija11" translatable = "false"> David Bailey </string>
     <string name = "Lainausteksti12"> En pessimist ser svårigheter vid varje tillfälle. Optimisten ser möjligheten i alla svårigheter. </string>
-    <string name = "Lainaustekija12" translatable = "false"> Winston Churchill </string>
     <string name = "Lainausteksti13"> Vad du blir är viktigare än vad du får. Vad du får påverkar vad du är. </string>
-    <string name = "Lainaustekija13" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti14"> Lär dig hur du blir nöjd med det du har när du fortsätter vad du vill. </string>
-    <string name = "Lainaustekija14" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti15"> Lycka är inte att förhala. Det är något du planerar för nu. </string>
-    <string name = "Lainaustekija15" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti16"> Det största värdet i livet är inte vad du får. Det största värdet i livet är vad du blir. </string>
-    <string name = "Lainaustekija16" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti17"> Du kan inte ha ett positivt liv och ett negativt sinne. </string>
-    <string name = "Lainaustekija17" translatable = "false"> Joyce Meyer </string>
     <string name = "Lainausteksti18"> Ingenting kan skrämma dig om du vägrar att vara rädd. </string>
-    <string name = "Lainaustekija18" translatable = "false"> Mahatma Gandhi </string>
     <string name = "Lainausteksti19"> Den enda platsen där dina drömmar är omöjliga är i ditt sinne. </string>
-    <string name = "Lainaustekija19" translatable = "false"> Robert H Schulle </string>
     <string name = "Lainausteksti20">Lärande är en gåva. Även om smärtan är din lärare. </string>
-    <string name = "Lainaustekija20" translatable = "false"> Maya Watson </string>
     <string name = "Lainausteksti21"> Älska livet du måste leva i det liv du älskar. </string>
-    <string name = "Lainaustekija21" translatable = "false"> Huseein Nishah </string>
     <string name = "Lainausteksti22"> Ditt leende ger dig en positiv look som får dig att må bättre. </string>
-    <string name = "Lainaustekija22" translatable = "false"> Les Brown </string>
-    <string name = "Lainausteksti23"> Den som kan få fram skratt till rummet är välsignad. </string>
-    <string name = "Lainaustekija23" translatable = "false"> Bennet Cerf </string>
     <string name = "Lainausteksti24"> När du är exalterad över vad du gör, känn den positiva energin. Det är väldigt enkelt. </string>
-    <string name = "Lainaustekija24" translatable = "false"> Paulo Coelho </string>
     <string name = "Lainausteksti25"> När en person verkligen vill ha något, hjälper hela universum dem i hemlighet att förverkliga sina drömmar. </string>
-    <string name = "Lainaustekija25" translatable = "false"> Paulo Coelho </string>
     <string name = "Lainausteksti26"> Vinnare tenderar att skapa sina egna förväntningar innan evenemanget. </string>
-    <string name = "Lainaustekija26" translatable = "false"> Brian Tracy </string>
     <string name = "Lainausteksti27"> Människan är ingenting annat än produkten av sin tanke. Det kommer att vara vad han tror. </string>
-    <string name = "Lainaustekija27" translatable = "false"> Mahatma Gandhi </string>
     <string name = "Lainausteksti28"> Du är aldrig för gammal för att ha ett annat mål eller en annan dröm. </string>
-    <string name = "Lainaustekija28" translatable = "false"> C.S Lewis </string>
     <string name = "Lainausteksti29"> Sämsta tider kan vara bäst om du tänker positiv energi. </string>
-    <string name = "Lainaustekija29" translatable = "false"> Domenico Dolce </string>
     <string name = "Lainausteksti30"> Håll ditt ansikte vänt mot solen så ser du inte en enda skugga. </string>
-    <string name = "Lainaustekija30" translatable = "false"> Helen Keller </string>
     <string name = "Lainausteksti31"> Du kan mycket mer än du tror, ​​föreställer dig eller gör nu. </string>
-    <string name = "Lainaustekija31" translatable = "false"> Myles Munroe </string>
     <string name = "Lainausteksti32"> Lev livet fullt ut och fokusera på det positiva. </string>
-    <string name = "Lainaustekija32" translatable = "false"> Matt Cameron </string>
     <string name = "Lainausteksti33"> Världen är vad vi tror. Om vi ​​kan förändra våra tankar kan vi förändra världen. </string>
-    <string name = "Lainaustekija33" translatable = "false"> HM. Tomlinson </string>
     <string name = "Lainausteksti34"> Många gånger ser folk baksidan av vad de inte kan göra. Jag tittar alltid på vad jag kan göra. </string>
-    <string name = "Lainaustekija34" translatable = "false"> Chuck Norris </string>
     <string name = "Lainausteksti35"> Konstant optimism är en maktfaktor. </string>
-    <string name = "Lainaustekija35" translatable = "false"> Colin Powell </string>
     <string name = "Lainausteksti36"> Vi är alla här av en speciell anledning. Sluta vara en fånge av det förflutna. Bli framtidens arkitekt. </string>
-    <string name = "Lainaustekija36" translatable = "false"> Robin Sharma </string>
     <string name = "Lainausteksti37"> Den enda skillnaden mellan en bra och en dålig dag är attityden. </string>
-    <string name = "Lainaustekija37" translatable = "false"> Dennis S. Brown </string>
     <string name = "Lainausteksti38"> Det enda som sticker ut i en person och vad han vill i livet är ofta en vilja att försöka tro att det är möjligt att uppnå det. </string>
-    <string name = "Lainaustekija38" translatable = "false"> Richard M.DeVos </string>
     <string name = "Lainausteksti39"> Att ha rätt attityd kan förvandla negativ stress till positiv. </string>
-    <string name = "Lainaustekija39" translatable = "false"> Dr. Hans Selye </string>
-    <string name = "Lainausteksti40"> Ändå tror jag att människor är goda i hjärtat. </string>
-    <string name = "Lainaustekija40" translatable = "false"> Anne Frank </string>
     <string name = "Lainausteksti41"> En stark och positiv självbild är det bästa sättet att förbereda sig för framgång. </string>
-    <string name = "Lainaustekija41" translatable = "false"> Joyce Brothers </string>
     <string name = "Lainausteksti42">Solen skiner inte på några få blommor och träd, utan på hela världens glädje. </string>
-    <string name = "Lainaustekija42" translatable = "false"> Henry Ward </string>
     <string name = "Lainausteksti43"> Hitta en plats i ditt inre där glädjen brinner. </string>
-    <string name = "Lainaustekija43" translatable = "false"> Joseph Campbell </string>
     <string name = "Lainausteksti44"> Du måste börja tänka som du vill. </string>
-    <string name = "Lainaustekija44" translatable = "false"> David Viscott </string>
     <string name = "Lainausteksti45"> En mycket positiv attityd skapar fler mirakel än någon medicin. </string>
-    <string name = "Lainaustekija45" translatable = "false"> Patricia Neal </string>
     <string name = "Lainausteksti46"> Pessimism leder till svaghet, till optimismens kraft. </string>
-    <string name = "Lainaustekija46" translatable = "false"> William James </string>
     <string name = "Lainausteksti47"> Situationen är inte dålig, dina tankar om situationen är negativa. Ändra dem. </string>
     <string name = "Lainaustekija47" translatable = "false"> Okänd författare </string>
     <string name = "Lainausteksti48"> Det enda handikappet i livet är dålig attityd. </string>
-    <string name = "Lainaustekija48" translatable = "false"> Scott Hamilton </string>
     <string name = "Lainausteksti49"> För att kunna vidta positiva åtgärder måste vi utveckla en positiv vision. </string>
-    <string name = "Lainaustekija49" translatable = "false"> Dalai Lama </string>
     <string name = "Lainausteksti50"> Säg och gör något positivt som förbättrar situationen; det krävs inte hjärnan för att klaga.</string>
-    <string name = "Lainaustekija50" translatable = "false"> Robert A.Cook </string>
     <string name = "Lainausteksti51"> Om du inte gör misstag kommer du inte att göra någonting. </string>
-    <string name = "Lainaustekija51" translatable = "false"> John Wooden </string>
     <string name = "Lainausteksti52"> För att lyckas måste du hitta något att fånga, något som motiverar dig, något som inspirerar dig. </string>
-    <string name = "Lainaustekija52" translatable = "false"> Tony Dorsett </string>
     <string name = "Lainausteksti53"> Det här är mina senaste ord för dig. Var inte rädd för livet. Tro att det är värt att leva och din tro kommer att skapa ett faktum.</string>
-    <string name = "Lainaustekija53" translatable = "false"> William James </string>
     <string name = "Lainausteksti54"> En liten positiv tanke på morgonen kan förändra hela din dag. </string>
-    <string name = "Lainaustekija54" translatable = "false"> Okänd </string>
     <string name = "Lainausteksti55"> Vårt sinne kan förändra det som betyder något eftersom vi lever upp till våra förväntningar. </string>
-    <string name = "Lainaustekija55" translatable = "false"> Federico Fellini </string>
     <string name = "Lainausteksti56"> Jag är optimistisk. Det är ingen idé att vara något annat. </string>
-    <string name = "Lainaustekija56" translatable = "false"> Winston Churchill </string>
     <string name = "Lainausteksti57"> Väl framme i dalen, ha det målet i åtanke och få ny energi att fortsätta klättra. </string>
-    <string name = "Lainaustekija57" translatable = "false"> Denis Waitley </string>
     <string name = "Lainausteksti58"> Mata ditt sinne som om du var i din kropp. Sinnet klarar inte av skräp. </string>
-    <string name = "Lainaustekija58" translatable = "false"> Jim Rohn </string>
     <string name = "Lainausteksti59"> Detta är lagen om attraktion: du får inte vad du vill ha. Du kan attrahera det du är. </string>
-    <string name = "Lainaustekija59" translatable = "false"> Wayne Dyer </string>
     <string name = "Lainausteksti60"> Skriv i ditt hjärta att varje dag är den bästa dagen på året. </string>
-    <string name = "Lainaustekija60" translatable = "false"> Ralph Waldo Emerson </string>
     <string name = "Lainausteksti61"> Attityden med positiva förväntningar är ett tecken på en högre personlighet. </string>
-    <string name = "Lainaustekija61" translatable = "false"> Brian Tracy </string>
     <string name = "Lainausteksti62"> En positiv tänkare ser det omöjliga, känner det immateriella och uppnår det omöjliga. </string>
     <string name = "Lainaustekija62"> Författare okänd </string>
     <string name = "Lainausteksti63"> Låt inte världens negativitet stoppa dig. Ge dig själv istället det som motiverar dig. </string>
-    <string name = "Lainaustekija63" translatable = "false"> Les Brown </string>
     <string name = "Lainausteksti64"> Det är en usel vana; Lycklig är vanan; och valet är ditt. </string>
-    <string name = "Lainaustekija64" translatable = "false"> Tom Hopkins </string>
     <string name = "Lainausteksti65"> Arbeta hårt, var positiv och gå upp tidigt. Det är den bästa delen av dagen. </string>
-    <string name = "Lainaustekija65" translatable = "false"> George Allen </string>
     <string name = "Lainausteksti66"> Optimism är den viktigaste mänskliga egenskapen, eftersom den tillåter oss att förbättra vår situation och hoppas på en bättre morgondag. </string>
-    <string name = "Lainaustekija66" translatable = "false"> Seth Godin </string>
     <string name = "Lainausteksti67"> Vägra att kommentera din attityd. </string>
-    <string name = "Lainaustekija67" translatable = "false"> Charles R. Swindoll </string>
     <string name = "Lainausteksti68"> Världen går så fort nu för tiden att en man som säger att du inte kan göra något blir avbruten av någon som gör det. </string>
-    <string name = "Lainaustekija68" translatable = "false"> Elbert Hubbard </string>
     <string name = "Lainausteksti69"> Om någon säger att du inte kan, betyder det verkligen att jag inte kan. </string>
-    <string name = "Lainaustekija69" translatable = "false"> Sean Stephenson </string>
     <string name = "Lainausteksti70"> Det finns två sätt att tända: vara ett ljus eller en spegel som reflekterar det. </string>
-    <string name = "Lainaustekija70" translatable = "false"> Edith Wharton </string>
     <string name = "Lainausteksti71"> Även om frustration ibland är smärtsam, är den en mycket positiv och viktig del av framgång. </string>
     <string name = "Lainaustekija71"> Författare okänd </string>
     <string name = "Lainausteksti72"> Var ärlig mot dig och det finns positiva människor runt dig. </string>
-    <string name = "Lainaustekija72" translatable = "false"> Payal Kadakia </string>
     <string name = "Lainausteksti73"> Positivt tänkande låter dig göra något bättre än negativt tänkande. </string>
-    <string name = "Lainaustekija73" translatable = "false"> Zig Ziglar </string>
     <string name = "Lainausteksti74"> Om du inte skyddar något föll ingenting. </string>
-    <string name = "Lainaustekija74" translatable = "false"> Malcolm X </string>
     <string name = "Lainausteksti75"> Älska dig själv. Det är viktigt att vara positiv eftersom skönhet kommer fram. </string>
-    <string name = "Lainaustekija75" translatable = "false"> Jenn Proske </string>
     <string name = "Lainausteksti76"> En person är fantastisk för att han eller hon har fantastiska egenskaper, inte för att det inte finns några brister. </string>
     <string name = "Lainaustekija76"> Författare okänd </string>
     <string name = "Lainausteksti77"> Låt inte folk respektera dig. Omge dig med positiva människor. </string>
-    <string name = "Lainaustekija77" translatable = "false"> Cuba Gooding, Jr </string>
     <string name = "Lainausteksti78"> Det förflutna har ingen makt just nu. </string>
-    <string name = "Lainaustekija78" translatable = "false"> Eckhart Tolle </string>
     <string name = "Lainausteksti79"> När jag gör bra ifrån mig mår jag bra. När jag gör ont känner jag mig ond. Det här är min religion. </string>
-    <string name = "Lainaustekija79" translatable = "false"> Abraham Lincoln </string>
     <string name = "Lainausteksti80"> Det bästa sättet att få självkänsla är att göra det vi fruktar. </string>
-    <string name = "Lainaustekija80" translatable = "false"> Författare okänd </string>
     <string name = "Lainausteksti81"> Vi har förmågan att bestämma vilka tankar vi ska stanna vid. </string>
-    <string name = "Lainaustekija81" translatable = "false"> David DeNotaris </string>
     <string name = "Lainausteksti82"> En medioker idé som upphetsar går utöver en bra idé som inte inspirerar någon. </string>
-    <string name = "Lainaustekija82" translatable = "false"> Mary Kay Ash </string>
     <string name = "Lainausteksti83"> Det är bra att vara optimistisk. Håller dig frisk och flexibel. </string>
-    <string name = "Lainaustekija83" translatable = "false"> Daniel Kahneman </string>
     <string name = "Lainausteksti84"> Det är fantastiskt Om du lämnar det kommer livet snabbt att förändras på ett positivt sätt. </string>
-    <string name = "Lainaustekija84" translatable = "false"> Lindsey Vonn </string>
     <string name = "Lainausteksti85"> När du stöter på en negativ situation, tänk inte på det. Gör det positivt. </string>
-    <string name = "Lainaustekija85" translatable = "false"> Yoko Ono </string>
     <string name = "Lainausteksti86"> Arbeta med energi och fred, i vetskap om att rätt tankar och ansträngningar oundvikligen kommer att ge rätt resultat. </string>
-    <string name = "Lainaustekija86" translatable = "false"> James Allen </string>
     <string name = "Lainausteksti87"> Jag kanske inte har kommit dit jag försökte gå, men jag tror att jag är redo där jag behövde vara. </string>
-    <string name = "Lainaustekija87" translatable = "false"> Douglas Adams </string>
     <string name = "Lainausteksti88"> Varje dag ger nya möjligheter. </string>
-    <string name = "Lainaustekija88" translatable = "false"> Martha Beck </string>
     <string name = "Lainausteksti89"> Upprepad uppspelning leder till fällande dom. </string>
-    <string name = "Lainaustekija89" translatable = "false"> Robert Collier </string>
     <string name = "Lainausteksti90"> Ilska har orsakat många problem i den här världen och har inte löst det. </string>
-    <string name = "Lainaustekija90" translatable = "false"> Maya Angelou </string>
     <string name = "Lainausteksti91"> En person är produkten av sina drömmar. Så se till att du drömmer stora drömmar. Och försök sedan leva din dröm. </string>
-    <string name = "Lainaustekija91" translatable = "false"> Maya Angelou </string>
     <string name = "Lainausteksti92"> Om du inte gillar något, ändra det. Om du inte kan ändra det, ändra din attityd. </string>
-    <string name = "Lainaustekija92" translatable = "false"> Maya Angelou </string>
     <string name = "Lainausteksti93"> Vi gläds åt fjärilens skönhet, men erkänner sällan de förändringar som har skett för att uppnå den skönheten. </string>
-    <string name = "Lainaustekija93" translatable = "false"> Maya Angelou </string>
     <string name = "Lainausteksti94"> Jag dör hellre när jag jagar det jag vill, lever det jag gör. </string>
     <string name = "Lainaustekija94"> Författare okänd </string>
     <string name = "Lainausteksti95"> Vi kallar lycka till med bra attityd, ansträngning, risk, kontinuitet och show. </string>
     <string name = "Lainaustekija95"> Författare okänd </string>
     <string name = "Lainausteksti96"> Den viktigaste typen av frihet är vad du verkligen är. </string>
-    <string name = "Lainaustekija96" translatable = "false"> Jim Morrison </string>
     <string name = "Lainausteksti97"> Om du hittar en väg utan hinder leder den förmodligen till ingenting. </string>
-    <string name = "Lainaustekija97" translatable = "false"> Frank A. Clark </string>
     <string name = "Lainausteksti98"> Detta är inte ett mål. Det handlar om att bli en person som kan uppnå detta mål. </string>
-    <string name = "Lainaustekija98" translatable = "false"> Tony Robbins </string>
     <string name = "Lainausteksti99"> Avsluta dagen med en positiv tanke. I morgon har du möjlighet att göra bättre </string>
     <string name = "Lainaustekija99"> Författare okänd </string>
     <string name = "Lainausteksti100"> Om möjligheten inte ringer, bygg en dörr. </string>
-    <string name = "Lainaustekija100" translatable = "false"> Milton Berle </string>
     <string name = "Lainausteksti101"> Om vi ​​växer upp är vi alltid utanför vår komfortzon. </string>
-    <string name = "Lainaustekija101" translatable = "false"> John C Maxwell </string>
     <string name = "Lainausteksti102"> Hopp är en dröm för en uppstånden man. </string>
-    <string name = "Lainaustekija102" translatable = "false"> Aristoteles </string>
     <string name = "Lainausteksti103"> Var tacksam för det du har; du får mer till slut. Om du fokuserar på det du inte har kommer du aldrig att ha tillräckligt med </string>
     <string name = "Lainaustekija103"> Författare okänd </string>
     <string name = "Lainausteksti104"> Jag är en positiv tänkare, och jag tror att det hjälper mig i de svåraste tiderna. </string>
-    <string name = "Lainaustekija104" translatable = "false"> Roger Federer </string>
     <string name = "Lainausteksti105"> Jag vet inte, man, jag måste lära känna honom bättre. </string>
-    <string name = "Lainaustekija105" translatable = "false"> Abraham Lincoln </string>
     <string name = "Lainausteksti106"> Utan ödmjuk men rimligt förtroende för din egen styrka kan du inte vara framgångsrik eller lycklig. </string>
-    <string name = "Lainaustekija106" translatable = "false"> Norman Vincent Efter </string>
     <string name = "Lainausteksti107"> Inspiration kommer från dig. Måste vara positiv. När du är det händer bra saker. </string>
-    <string name = "Lainaustekija107" translatable = "false"> Deep Roy </string>
     <string name = "Lainausteksti108"> Det bästa du kan ge dina fiender är förlåtelse; till motståndaren, tolerans; till en vän, till ditt hjärta; gott barn, gott exempel; far, respekt; till din mor, var stolt; till dig själv, älskar dig; för alla, för välgörenhet. </string>
-    <string name = "Lainaustekija108" translatable = "false"> Benjamin Franklin </string>
     <string name = "Lainausteksti109"> Nästa gång du känner dig lite obekväm med ditt livs press, kom ihåg att utan tryck finns det inga diamanter. Press är en del av framgång. </string>
-    <string name = "Lainaustekija109" translatable = "false"> Eric Thomas </string>
     <string name = "Lainausteksti110"> Så bra det är att ingen behöver vänta ett ögonblick för att hela världen. </string>
-    <string name = "Lainaustekija110" translatable = "false"> Anne Frank </string>
     <string name = "Lainausteksti111"> Medkänsla, kärlek, lycka, vi har alla dessa egenskaper, men vi brukar inte använda dem. </string>
-    <string name = "Lainaustekija111" translatable = "false"> Anne Frank </string>
     <string name = "Lainausteksti112"> Jag vill inte leva förgäves som de flesta gör. Jag vill vara hjälpsam eller glädja människor, även de jag aldrig träffat. Jag vill fortsätta leva efter döden. </string>
-    <string name = "Lainaustekija112" translatable = "false"> Anne Frank </string>
     <string name = "Lainausteksti113"> Du kan inte ställa in några begränsningar. Ju mer du drömmer, desto längre kommer du. </string>
-    <string name = "Lainaustekija113" translatable = "false"> Michael Phelps </string>
     <string name = "Lainausteksti114"> Tänk först på vad du verkligen vill ha. Förfölj honom sedan envist, ge inte upp. När du faller, tänk på belöningarna. Du har nått 50 % av ditt mål. </string>
     <string name = "Lainaustekija114"> Författare okänd </string>
     <string name = "Lainausteksti115"> Attityd är allt; Den täcker vad vi gör, vad vi säger, vad vi tycker och vad vi får. </string>
@@ -272,133 +163,80 @@
     <string name = "Lainausteksti118"> Hemligheten bakom framgång är att lära sig att använda smärta och njutning istället för smärta och glädje. Om du gör det kommer du att ha kontroll över ditt liv. Om inte, kommer livet att vägleda dig </string>
     <string name = "Lainaustekija118"> Författare okänd </string>
     <string name = "Lainausteksti119"> Vi ser inte saker som de är, vi ser dem som vi är. </string>
-    <string name = "Lainaustekija119" translatable = "false"> Anais Nin </string>
     <string name = "Lainausteksti120"> Lycka, som en olycka, är ett proaktivt val. </string>
-    <string name = "Lainaustekija120" translatable = "false"> Stephen Covey </string>
     <string name = "Lainausteksti121"> Du kan inte göra positiva val i ditt liv utan en miljö som gör dem enkla, naturliga och roliga val. </string>
     <string name = "Lainaustekija121"> Författare okänd </string>
     <string name = "Lainausteksti122"> En positiv attityd orsakar en kedjereaktion av tankar, händelser och positiva resultat. Det är en katalysator och ger exceptionella resultat.</string>
-    <string name = "Lainaustekija122" translatable = "false"> Wade Boggs </string>
     <string name = "Lainausteksti123"> Det finns praktiskt taget inget omöjligt i den här världen om du helt enkelt bestämmer dig för det och upprätthåller en positiv attityd. </string>
-    <string name = "Lainaustekija123" translatable = "false"> Lou Holtz </string>
     <string name = "Lainausteksti124"> Tiden du tycker om att slösa bort var inte bortkastad. </string>
-    <string name = "Lainaustekija124" translatable = "false"> John Lennon </string>
     <string name = "Lainausteksti125"> Säg aldrig något om dig själv som du inte vill ska bli verklighet. </string>
-    <string name = "Lainaustekija125" translatable = "false"> Brian Tracy </string>
     <string name = "Lainausteksti126"> Var djärv Ta risker Ingenting kan ersätta erfarenhet. </string>
-    <string name = "Lainaustekija126" translatable = "false"> Paulo Coelho </string>
     <string name = "Lainausteksti127"> Ju mer medvetna vi är om vad vi verkligen är, desto mindre problem kommer vi att ha. </string>
-    <string name = "Lainaustekija127" translatable = "false"> Lynn Grabhorn </string>
     <string name = "Lainausteksti128"> Du kan inte stoppa vågorna, men du kan lära dig att surfa. </string>
-    <string name = "Lainaustekija128" translatable = "false"> Jon KabatZinn </string>
     <string name = "Lainausteksti129"> Tänk på vad du behöver, tänk på vad andra behöver. </string>
     <string name = "Lainaustekija129"> Författare okänd </string>
     <string name = "Lainausteksti130"> Det finns alltid blommor för dem som vill se dem. </string>
-    <string name = "Lainaustekija130" translatable = "false"> Henri Matise </string>
     <string name = "Lainausteksti131"> Avsluta alltid dagen med en positiv tanke. Oavsett hur svåra saker och ting var, finns det en bra möjlighet i morgon att göra dem bättre </string>
     <string name = "Lainaustekija131"> Författare okänd </string>
     <string name = "Lainausteksti132"> Människor blir verkligen exceptionella när de börjar tro att de kan göra saker. När de tror på sig själva har de den första hemligheten till framgång. </string>
-    <string name = "Lainaustekija132" translatable = "false"> Norman Vincent Efter </string>
     <string name = "Lainausteksti133"> Lär dig att le i alla situationer. Se det som en möjlighet att testa dina styrkor och förmågor. </string>
-    <string name = "Lainaustekija133" translatable = "false"> Joe Brown </string>
     <string name = "Lainausteksti134"> Dagen är vad du gör honom till. Varför inte ha en bra dag?.</string>
-    <string name = "Lainaustekija134" translatable = "false"> Steve Schulte </string>
     <string name = "Lainausteksti135"> Vi är ansvariga för vilka vi är, och oavsett vad vi vill vara har vi makten att skapa oss själva. </string>
-    <string name = "Lainaustekija135" translatable = "false"> Swami Vivekanand </string>
     <string name = "Lainausteksti136"> Du har gjort detta förut och du kan göra det nu. Titta på de positiva möjligheterna. Rikta den betydande energin i din frustration och förvandla den till en positiv, effektiv och ostoppbar definition. </string>
-    <string name = "Lainaustekija136" translatable = "false"> Ralph Marston </string>
     <string name = "Lainausteksti137"> En positiv attityd är att alla kan arbeta och lära sig att använda det. </string>
-    <string name = "Lainaustekija137" translatable = "false"> Joan Lunden </string>
     <string name = "Lainausteksti138"> Kom ihåg dina drömmar och kämpa för dem. Du måste veta vad du vill ha ut av livet. Det finns bara en sak som gör din dröm omöjlig: rädslan för att misslyckas.</string>
-    <string name = "Lainaustekija138" translatable = "false"> Paulo Coelho </string>
-    <string name = "Lainausteksti139"> Hur kan jag leva idag imorgon Jag är engagerad?. </string>
-    <string name = "Lainaustekija139" translatable = "false"> Tony Robbins </string>
     <string name = "Lainausteksti140"> Jag tror att allt är möjligt om du har mentaliteten, viljan och viljan att göra det och ägnar din tid. </string>
-    <string name = "Lainaustekija140" translatable = "false"> Roger Clemes </string>
     <string name = "Lainausteksti141"> Det finns en liten skillnad mellan människor, men denna skillnad är en stor skillnad. Den lilla skillnaden är attityden. Den stora skillnaden är om det är positivt eller negativt. </string>
-    <string name = "Lainaustekija141" translatable = "false"> W. Clement Stone </string>
     <string name = "Lainausteksti142"> Positivt tänkande är mer än en slogan. Det förändrar hur vi beter oss. Jag är övertygad om att när jag är positiv är jag bättre och andra är bättre. </string>
-    <string name = "Lainaustekija142" translatable = "false"> Harvey Mackay </string>
     <string name = "Lainausteksti143"> Det är under våra mörkaste stunder när vi behöver fokusera på att titta på ljuset. </string>
-    <string name = "Lainaustekija143" translatable = "false"> Aristoteles </string>
     <string name = "Lainausteksti144"> Vi minns trots allt inte våra fienders ord, utan våra vänners tystnad. </string>
-    <string name = "Lainaustekija144" translatable = "false"> Martin Luther King Jr. </string>
     <string name = "Lainausteksti145"> Vi måste acceptera en begränsad besvikelse, men vi förlorar aldrig det oändliga hoppet. </string>
-    <string name = "Lainaustekija145" translatable = "false"> Martin Luther King, Jr. </string>
     <string name = "Lainausteksti146"> Du måste acceptera det som kommer, och det enda viktiga är att du möter det med mod och på bästa möjliga sätt. </string>
-    <string name = "Lainaustekija146" translatable = "false"> Eleanor Roosevelt </string>
     <string name = "Lainausteksti147"> Du måste först lära dig spelets regler. Då måste du spela bättre än någon annan. </string>
-    <string name = "Lainaustekija147" translatable = "false"> Albert Einstein </string>
     <string name = "Lainausteksti148"> Korrigering gör mycket, men stämningen gör mycket mer. </string>
-    <string name = "Lainaustekija148" translatable = "false"> Johann Wolfgang von Goethe </string>
     <string name = "Lainausteksti149"> Det handlar inte om situationen, det handlar om huruvida vi reagerar negativt eller positivt. </string>
-    <string name = "Lainaustekija149" translatable = "false"> Zig Ziglar </string>
-    <string name = "Lainausteksti150"> Skillnaden mellan att vinna och att förlora ger ofta inte upp. </string>
-    <string name = "Lainaustekija150" translatable = "false"> Walt Disney </string>
     <string name = "Lainausteksti151"> En positiv attityd kanske inte löser alla dina problem, men det kommer att distrahera tillräckligt många människor. </string>
-    <string name = "Lainaustekija151" translatable = "false"> Herm Albright </string>
     <string name = "Lainausteksti152"> Om du inte är upphetsad kommer du att bli ivrigt tänd. </string>
-    <string name = "Lainaustekija152" translatable = "false"> Vince Lombardi </string>
     <string name = "Lainausteksti153"> Oro överskuggar ofta något litet. </string>
     <string name = "Lainaustekija153"> schweiziskt ordspråk </string>
     <string name = "Lainausteksti154"> Den bästa förberedelsen för morgondagen är att ge dig det bästa idag. </string>
-    <string name = "Lainaustekija154" translatable = "false"> H. Jackson Brown, Jr. </string>
     <string name = "Lainausteksti155"> Lägg ditt hjärta, sinne och själ i även de minsta handlingar. Det är hemligheten till framgång. </string>
-    <string name = "Lainaustekija155" translatable = "false"> Swami Sivananda </string>
     <string name = "Lainausteksti156"> Optimism är en tro som styr prestation. Nade är möjligt utan hopp och tillit. </string>
-    <string name = "Lainaustekija156" translatable = "false"> Helen Keller </string>
     <string name = "Lainausteksti157"> Om du kan drömma kan du göra det. </string>
-    <string name = "Lainaustekija157" translatable = "false"> Walt Disney </string>
     <string name = "Lainausteksti158"> Håll ögonen på stjärnorna och fötterna på marken. </string>
-    <string name = "Lainaustekija158" translatable = "false"> Theodore Roosevelt </string>
     <string name = "Lainausteksti159"> Kom ihåg: en bok, en penna, ett barn och en lärare kan förändra världen. </string>
-    <string name = "Lainaustekija159" translatable = "false"> Malala Yousafzai </string>
     <string name = "Lainausteksti160"> Allt du behöver är en plan, en färdplan och modet att gå. </string>
-    <string name = "Lainaustekija160" translatable = "false"> Earl Nightingale </string>
     <string name = "Lainausteksti161"> Börja där du är, använd det du har. Gör vad du kan. </string>
-    <string name = "Lainaustekija161" translatable = "false"> Arthur Ashe </string>
     <string name = "Lainausteksti162"> Håll dina drömmar vid liv. Förstå att tro på dig själv, vision, hårt arbete, beslutsamhet och hängivenhet krävs för att åstadkomma allt. </string>
-    <string name = "Lainaustekija162" translatable = "false"> Gail Devers </string>
     <string name = "Lainausteksti163"> Tro är en fågel som känner ljuset när gryningen fortfarande är mörk. </string>
-    <string name = "Lainaustekija163" translatable = "false"> Rabindranath Tagore </string>
     <string name = "Lainausteksti164"> Inta en positiv attityd varje dag och försöka bli bättre. </string>
-    <string name = "Lainaustekija164" translatable = "false"> Stefon Diggs </string>
     <string name = "Lainausteksti165"> Låt inte gårdagen ta mycket idag. </string>
     <string name = "Lainaustekija165"> Författare okänd </string>
     <string name = "Lainausteksti166"> Lär dig mer om misslyckande än framgång. Låt det inte stoppa dig. Det gick inte att bygga karaktär. </string>
     <string name = "Lainaustekija166"> Författare okänd </string>
     <string name = "Lainausteksti167"> Var positiv och glad. Jobba hårt och tappa inte hoppet. Var öppen för kritik och fortsätt lära dig. </string>
-    <string name = "Lainaustekija167" translatable = "false"> Tena Desae </string>
     <string name = "Lainausteksti168"> Positiv handling i kombination med positiva tankar är en framgång. </string>
-    <string name = "Lainaustekija168" translatable = "false"> Shiv Khera </string>
     <string name = "Lainausteksti169"> Framgångsrika människor har en positiv syn på livet oavsett vad som händer omkring dem. </string>
-    <string name = "Lainaustekija169" translatable = "false"> Jack Canfield </string>
     <string name = "Lainausteksti170"> Varje dag är 1440 minuter. Det betyder att vi har 1 440 positiva möjligheter varje dag. </string>
-    <string name = "Lainaustekija170" translatable = "false"> Les Brown </string>
     <string name = "Lainausteksti171"> Om du har en positiv attityd och ständigt strävar efter att göra ditt bästa, kan du så småningom övervinna omedelbara problem och hitta dig själv redo för större utmaningar. </string>
-    <string name = "Lainaustekija171" translatable = "false"> Pat Riley </string>
     <string name = "Lainausteksti172"> Attityd är som ett tecken som ger färg till din värld. Färglägg den grå bilden hela tiden, och bilden är alltid dyster. Prova att lägga till färger i dina bilder, inklusive ditt humör, så löser de sig. </string>
-    <string name = "Lainaustekija172" translatable = "false"> Allen Klein </string>
     <string name = "Lainausteksti173"> Få saker i världen är starkare än en positiv impuls. Smile En värld av optimism och hopp. Du kan göra det. när det blir tufft. </string>
-    <string name = "Lainaustekija173" translatable = "false"> Richard M. DeVos </string>
     <string name = "Lainausteksti174"> Gott skratt är solen i huset. </string>
-    <string name = "Lainaustekija174" translatable = "false"> William Makepeace Thackeray </string>
     <string name = "Lainausteksti175"> Nyckeln är att inspirera människor att bli bra på det de vill göra. </string>
-    <string name = "Lainaustekija175" translatable = "false"> Kobe Bryant </string>
     <string name = "Lainausteksti176"> Oavsett vad du går igenom finns det ett ljus i slutet av tunneln, och det kan verka svårt att nå, men du kan hitta den positiva sidan om du fortsätter att arbeta. </string >
-    <string name = "Lainaustekija176" translatable = "false"> Demi Lovato </string>
     <string name = "Lainausteksti177"> Lita på drömmar eftersom de döljer evigheten för alltid. </string>
-    <string name = "Lainaustekija177" translatable = "false"> Khalil Gibran </string>
     <string name = "Lainausteksti178"> Förmågan att vara lugn och fokuserad på stressiga situationer är avgörande för att fatta positiva beslut. </string>
-    <string name = "Lainaustekija178" translatable = "false"> Goldie Hawn </string>
     <string name = "Lainausteksti179"> Du måste kunna hantera stress eftersom svåra tider kommer och en positiv syn är vad du kan övervinna. </string>
-    <string name = "Lainaustekija179" translatable = "false"> Marie Osmond </string>
     <string name = "Lainausteksti180"> Varje dag du vaknar har du två alternativ. Du kan vara positiv eller negativ; optimistisk eller pessimistisk. </string>
-    <string name = "Lainaustekija180" translatable = "false"> Harvey Mackay </string>
-    <string name = "Lainausteksti181"> Du kan göra vad som helst för att förhindra dåliga saker från att hända dig, men i slutändan kommer något dåligt att hända, så det bästa förebyggandet är en positiv attityd. </string>
-    <string name = "Lainaustekija181" translatable = "false"> Marie Osmond </string>
     <string name = "Lainausteksti182"> Om du väljer kan även oväntade motgångar ge nya och positiva möjligheter. </string>
-    <string name = "Lainaustekija182" translatable = "false"> Ralph Marston </string>
+    <string name="Lainausteksti10">" Allt är antingen en tillväxtmöjlighet eller ett hinder för tillväxt. Du kan bestämma. "</string>
+    <string name="Lainaustekija54">" Okänd författare "</string>
+    <string name="Lainausteksti181">" Du kan göra vad som helst för att förhindra dåliga saker från att hända dig, men i slutändan kommer något dåligt att hända, så det bästa förebyggandet är en positiv attityd. "</string>
+    <string name="Lainausteksti150">" Skillnaden mellan att vinna och att förlora ger ofta inte upp. "</string>
+    <string name="Lainausteksti139">" Hur kan jag leva idag imorgon Jag är engagerad?. "</string>
+    <string name="Lainaustekija80">" Författare okänd "</string>
+    <string name="Lainausteksti40">" Ändå tror jag att människor är goda i hjärtat. "</string>
+    <string name="Lainausteksti23">" Den som kan få fram skratt till rummet är välsignad. "</string>
     <!--lainaukset loppuu-->
     <!--Aleksin stringit loppuu-->
 </resources>

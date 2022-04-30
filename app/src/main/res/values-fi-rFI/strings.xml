@@ -31,236 +31,129 @@
     <string name="textViewAloitusVanha2">Käyttämään päiväkirjasovellusta</string>
     <!--Aloitus Stringit Loppuu-->
     <!--Esittää Stringit alkaa-->
-    <string name="textViewPresents2">Presents</string>
-    <string name="textViewPresents" translatable="false">Big Money Rantahahmo Oy Ab LLC Object 8 Team Productions</string>
     <!--Esittää Stringit Loppuu-->
     <!--Lainaukset alkaa-->
     <string name="Lainausteksti1">Kun korvaat negatiiviset ajatukset positiivisilla, aloitat positiiviset tulokset.</string>
-    <string name="Lainaustekija1" translatable="false">Willie Nelson.</string>
     <string name="Lainausteksti2">Pieni positiivinen muutos voi muuttaa koko päivän tai koko elämäsi.</string>
-    <string name="Lainaustekija2" translatable="false">Nishant Grover.</string>
     <string name="Lainausteksti3">Hyviä asioita tapahtuu joka päivä. Meidän täytyy vain kertoa niistä.</string>
-    <string name="Lainaustekija3" translatable="false">Anne Wilson Schaef.</string>
     <string name="Lainausteksti4">Voit muuttaa vain itseäsi, mutta joskus se muuttaa kaikkea.</string>
-    <string name="Lainaustekija4" translatable="false">Gary W Goldstein.</string>
     <string name="Lainausteksti5">Me heräämme toisissa samalla henkisellä asenteella, jota meillä on heitä kohtaan.</string>
-    <string name="Lainaustekija5" translatable="false">Elbert Hubbard.</string>
     <string name="Lainausteksti6">Negatiivinen tilanne muunnetaan aina positiiviseksi.</string>
-    <string name="Lainaustekija6" translatable="false">Michael Jordan.</string>
     <string name="Lainausteksti7">Olemme mitä ajattelemme. Kaikki mitä me olemme peräisin ajatuksistamme. Ajatamme me rakentaa maailmaa.</string>
-    <string name="Lainaustekija7" translatable="false">Buddha.</string>
     <string name="Lainausteksti8">Voimme muuttaa elämäämme. Voimme tehdä, olla ja olla juuri sitä, mitä haluamme.</string>
-    <string name="Lainaustekija8" translatable="false">Tony Robbins</string>
     <string name="Lainausteksti9">Kaikki ajatus on siemen. Jos istut mätäsi siemeniä, älä luota herkullisten omenoiden poimintaan.</string>
-    <string name="Lainaustekija9" translatable="false">Bill Meyer</string>
     <string name="Lainausteksti10">Kaikki on joko kasvumahdollisuus tai este, joka estää sinua kasvamasta. Voit päättää.</string>
-    <string name="Lainaustekija10" translatable="false">Wayne Dyer</string>
     <string name="Lainausteksti11">Positiivinen asenne voi todellakin tehdä unelmi;hän teki sen minulle.</string>
-    <string name="Lainaustekija11" translatable="false">David Bailey</string>
     <string name="Lainausteksti12">Pessimisti näkee vaikeuksia jokaisella mahdollisuudella. Optimisti näkee mahdollisuuden kaikissa vaikeuksissa.</string>
-    <string name="Lainaustekija12" translatable="false">Winston Churchill</string>
     <string name="Lainausteksti13">Mitä sinusta tulee, on paljon tärkeämpää kuin mitä saat. Mitä sinä saat, vaikuttaa siihen, mitä olet.</string>
-    <string name="Lainaustekija13" translatable="false">Jim Rohn</string>
     <string name="Lainausteksti14">Opi olemaan tyytyväisiä siihen, mitä sinulla on, kun jatkat sitä, mitä haluat.</string>
-    <string name="Lainaustekija14" translatable="false">Jim Rohn</string>
     <string name="Lainausteksti15">Onnellisuus ei ole lykkääminen tulevaisuuteen. Se on jotain, jota suunnittelet nykyiselle.</string>
-    <string name="Lainaustekija15" translatable="false">Jim Rohn</string>
     <string name="Lainausteksti16">Elämän suurin arvo ei ole se, mitä saat. Elämän suurin arvo on se, mitä sinusta tulee.</string>
-    <string name="Lainaustekija16" translatable="false">Jim Rohn</string>
     <string name="Lainausteksti17">Et voi olla positiivinen elämä ja negatiivinen mieli.</string>
-    <string name="Lainaustekija17" translatable="false">Joyce Meyer</string>
     <string name="Lainausteksti18">Mikään ei voi pelottaa sinua, jos kieltäydyt pelkäämästä.</string>
-    <string name="Lainaustekija18" translatable="false">Mahatma Gandhi</string>
     <string name="Lainausteksti19">Ainoa paikka, jossa unelmasi ovat mahdotonta, on ajatuksissanne.</string>
-    <string name="Lainaustekija19" translatable="false">Robert H Schulle</string>
     <string name="Lainausteksti20">Oppiminen on lahja. Vaikka kipu on opettajasi.</string>
-    <string name="Lainaustekija20" translatable="false">Maya Watson</string>
     <string name="Lainausteksti21">Rakasta elämää, jota sinun täytyy elää elämässäsi, jota rakastat.</string>
-    <string name="Lainaustekija21" translatable="false">Huseein Nishah</string>
     <string name="Lainausteksti22">Hymynne antaa sinulle positiivisen ilmeen, joka saa ihmiset tuntemaan itsesi paremmin.</string>
-    <string name="Lainaustekija22" translatable="false">Les Brown</string>
     <string name="Lainausteksti23">Henkilö, joka voi tuoda naurun hengen huoneeseen, on siunattu.</string>
-    <string name="Lainaustekija23" translatable="false">Bennet Cerf</string>
     <string name="Lainausteksti24">Kun olet innostunut siitä, mitä teet, tuntuu positiiviselta energialta. Se on hyvin yksinkertaista.</string>
-    <string name="Lainaustekija24" translatable="false">Paulo Coelho</string>
     <string name="Lainausteksti25">Kun henkilö todella haluaa jotain, koko maailmankaikkeus salaa auttaa häntä ymmärtämään unelmansa.</string>
-    <string name="Lainaustekija25" translatable="false">Paulo Coelho</string>
     <string name="Lainausteksti26">Voittajilla on tapana luoda omia odotuksiaan ennen tapahtumaa.</string>
-    <string name="Lainaustekija26" translatable="false">Brian Tracy</string>
     <string name="Lainausteksti27">Ihminen ei ole mitään muuta kuin hänen ajatuksensa tuotetta. Siitä tulee mitä hän ajattelee.</string>
-    <string name="Lainaustekija27" translatable="false">Mahatma Gandhi</string>
     <string name="Lainausteksti28">Et ole koskaan liian vanha saamaan toisen tavoitteen tai toisen unelman.</string>
-    <string name="Lainaustekija28" translatable="false">C.S Lewis</string>
     <string name="Lainausteksti29">Pahimmat ajat voivat olla parhaita, jos ajattelet positiivista energiaa.</string>
-    <string name="Lainaustekija29" translatable="false">Domenico Dolce</string>
     <string name="Lainausteksti30">Pidä kasvosi aurinkoa kohti ja et näe yhtä varjoa.</string>
-    <string name="Lainaustekija30" translatable="false">Helen Keller</string>
     <string name="Lainausteksti31">Olet kykenevä paljon enemmän kuin ajattelet, kuvittelet tai teet nyt.</string>
-    <string name="Lainaustekija31" translatable="false">Myles Munroe</string>
     <string name="Lainausteksti32">Elävä elämä täysin ja keskittyä positiiviseen.</string>
-    <string name="Lainaustekija32" translatable="false">Matt Cameron</string>
     <string name="Lainausteksti33">Maailma on se, mitä me ajattelemme. Jos voimme muuttaa ajatuksiamme, voimme muuttaa maailmaa.</string>
-    <string name="Lainaustekija33" translatable="false">HM. Tomlinson</string>
     <string name="Lainausteksti34">Monta kertaa ihmiset katsovat negatiivisen puolen siitä, mitä he eivät voi tehdä. Katson aina sitä, mitä voin tehdä.</string>
-    <string name="Lainaustekija34" translatable="false">Chuck Norris</string>
     <string name="Lainausteksti35">Jatkuva optimismi on voimankertoja.</string>
-    <string name="Lainaustekija35" translatable="false">Colin Powell</string>
     <string name="Lainausteksti36">Olemme kaikki täällä erityisestä syystä. Lopeta oleminen menneisyyden vanki. Ryhdy tulevaisuuden arkkitehtiksi.</string>
-    <string name="Lainaustekija36" translatable="false">Robin Sharma</string>
     <string name="Lainausteksti37">Ainoa ero hyvän ja huonon päivän välillä on asenne.</string>
-    <string name="Lainaustekija37" translatable="false">Dennis S. Brown</string>
     <string name="Lainausteksti38">Ainoa asia, joka seisoo ihmisen ja sen, mitä hän haluaa elämässä, on usein halukkuus kokeilla ja usko, että se on mahdollista saavuttaa.</string>
-    <string name="Lainaustekija38" translatable="false">Richard M.DeVos</string>
     <string name="Lainausteksti39">Oikean asenteen ottaminen voi kääntää negatiivisen stressin positiiviseksi .</string>
-    <string name="Lainaustekija39" translatable="false">Dr. Hans Selye</string>
     <string name="Lainausteksti40">Kaikesta huolimatta mielestäni ihmiset ovat hyviä sydämessä.</string>
-    <string name="Lainaustekija40" translatable="false">Anne Frank</string>
     <string name="Lainausteksti41">Vahva ja positiivinen itsekuva on paras mahdollinen valmistautuminen menestykseen.</string>
-    <string name="Lainaustekija41" translatable="false">Joyce Brothers</string>
     <string name="Lainausteksti42">Aurinko ei paista muutamille kukkille ja puille, vaan koko maailman iloksi.</string>
-    <string name="Lainaustekija42" translatable="false">Henry Ward</string>
     <string name="Lainausteksti43">Etsi paikka sisustuksessasi, jossa on iloa, ja ilo polttaa kipua.</string>
-    <string name="Lainaustekija43" translatable="false">Joseph Campbell</string>
     <string name="Lainausteksti44">Sinun täytyy alkaa ajatella itseäsi sellaisena kuin haluat.</string>
-    <string name="Lainaustekija44" translatable="false">David Viscott</string>
     <string name="Lainausteksti45">Voimakkaasti positiivinen asenne luo enemmän ihmeitä kuin mikään lääke.</string>
-    <string name="Lainaustekija45" translatable="false">Patricia Neal</string>
     <string name="Lainausteksti46">Pessimismi johtaa heikkouteen, optimismin valtaan.</string>
-    <string name="Lainaustekija46" translatable="false">William James</string>
     <string name="Lainausteksti47">Tilanne ei ole huono, ajatuksesi tilanteesta ovat kielteisiä. Muuta niitä.</string>
-    <string name="Lainaustekija47" translatable="false">Tuntematon kirjoittaja</string>
     <string name="Lainausteksti48">Ainoa elämässä oleva vamma on huono asenne.</string>
-    <string name="Lainaustekija48" translatable="false">Scott Hamilton</string>
     <string name="Lainausteksti49">Positiivisen toiminnan toteuttamiseksi meidän on kehitettävä myönteinen näkemys.</string>
-    <string name="Lainaustekija49" translatable="false">Dalai Lama</string>
     <string name="Lainausteksti50">Sano ja tee jotain myönteistä, mikä parantaa tilannetta; se ei ota aivoja valittamaan.</string>
-    <string name="Lainaustekija50" translatable="false">Robert A.Cook</string>
     <string name="Lainausteksti51">Jos et tee virheitä, et tee mitään.</string>
-    <string name="Lainaustekija51" translatable="false">John Wooden</string>
     <string name="Lainausteksti52">Onnistumiseen sinun on löydettävä jotain kiinni, jotain, joka motivoi sinua, jotain, joka inspiroi sinua.</string>
-    <string name="Lainaustekija52" translatable="false">Tony Dorsett</string>
     <string name="Lainausteksti53">Nämä ovat viimeisimmät sanani sinulle. Älä pelkää elämää. Usko, että kannattaa elää ja uskonne luo tosiasian.</string>
-    <string name="Lainaustekija53" translatable="false">William James</string>
     <string name="Lainausteksti54">Pieni positiivinen ajatus aamulla voi muuttaa koko päivänsi.</string>
-    <string name="Lainaustekija54" translatable="false">Tuntematon</string>
     <string name="Lainausteksti55">Mielemme voi muokata mitä asia on, koska toimimme odotuksemme mukaisesti.</string>
-    <string name="Lainaustekija55" translatable="false">Federico Fellini</string>
     <string name="Lainausteksti56">Olen optimistinen. Ei ole mitään järkeä olla mitään muuta.</string>
-    <string name="Lainaustekija56" translatable="false">Winston Churchill</string>
     <string name="Lainausteksti57">Kun olet laaksossa, pidä tavoite mielessäsi ja sinulla on uusi energia, jotta voit jatkaa kiipeilyä.</string>
-    <string name="Lainaustekija57" translatable="false">Denis Waitley</string>
     <string name="Lainausteksti58">Ruokaa mieli niin kuin olisit kehossasi. Mieli ei voi selviytyä roskaruonnosta.</string>
-    <string name="Lainaustekija58" translatable="false">Jim Rohn</string>
     <string name="Lainausteksti59">Tämä on vetovoiman laki: et houkuttele mitä haluat. Voit houkutella mitä olet.</string>
-    <string name="Lainaustekija59" translatable="false">Wayne Dyer</string>
     <string name="Lainausteksti60">Kirjoita sydämessäsi, että jokainen päivä on vuoden paras päivä.</string>
-    <string name="Lainaustekija60" translatable="false">Ralph Waldo Emerson</string>
     <string name="Lainausteksti61">Positiivisten odotusten asenne on ylemmän persoonallisuuden merkki.</string>
-    <string name="Lainaustekija61" translatable="false">Brian Tracy</string>
     <string name="Lainausteksti62">Positiivinen ajattelija näkee mahdottoman, tuntee aineettoman ja saavuttaa mahdottoman.</string>
     <string name="Lainaustekija62">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti63">Älä anna maailman negatiivisuuden estää sinua. Sen sijaan anna itsellesi se, mikä motivoi sinua.</string>
-    <string name="Lainaustekija63" translatable="false">Les Brown</string>
     <string name="Lainausteksti64">On surkea on tapa; Onnellinen on tapana; ja valinta on sinun.</string>
-    <string name="Lainaustekija64" translatable="false">Tom Hopkins</string>
     <string name="Lainausteksti65">Työskentele kovasti, olla positiivinen ja nousta aikaisin. Se on päivän paras osa.</string>
-    <string name="Lainaustekija65" translatable="false">George Allen</string>
     <string name="Lainausteksti66">Optimismi on tärkein ihmisen piirre, koska sen avulla voimme parantaa tilannettamme ja toivoa parempaa huomista.</string>
-    <string name="Lainaustekija66" translatable="false">Seth Godin</string>
     <string name="Lainausteksti67">Kieltäydy antamasta tilannetta asenneasi.</string>
-    <string name="Lainaustekija67" translatable="false">Charles R. Swindoll</string>
     <string name="Lainausteksti68">Maailma liikkuu niin nopeasti näinä päivinä, että mies, joka sanoo, että et voi tehdä jotakin, keskeytyy joku, joka tekee sen.</string>
-    <string name="Lainaustekija68" translatable="false">Elbert Hubbard</string>
     <string name="Lainausteksti69">Jos joku sanoo et voi se todella tarkoittaa en voi .</string>
-    <string name="Lainaustekija69" translatable="false">Sean Stephenson</string>
     <string name="Lainausteksti70">Valoa on kaksi tapaa: olla kynttilä tai peili, joka heijastaa sitä.</string>
-    <string name="Lainaustekija70" translatable="false">Edith Wharton</string>
     <string name="Lainausteksti71">Vaikka turhautuminen on joskus tuskallista, se on erittäin myönteinen ja olennainen osa menestystä.</string>
     <string name="Lainaustekija71">Kirjailija tuntematon</string>
     <string name="Lainausteksti72">Ole rehellinen kanssasi ja ympärilläsi on positiivisia ihmisiä.</string>
-    <string name="Lainaustekija72" translatable="false">Payal Kadakia</string>
     <string name="Lainausteksti73">Positiivinen ajattelu antaa sinulle mahdollisuuden tehdä jotain parempaa kuin negatiivinen ajattelu.</string>
-    <string name="Lainaustekija73" translatable="false">Zig Ziglar</string>
     <string name="Lainausteksti74">Jos et suojaa jotakin, lankesi mitään.</string>
-    <string name="Lainaustekija74" translatable="false">Malcolm X</string>
     <string name="Lainausteksti75">Rakasta itseäsi. On tärkeää pysyä positiivisena, koska kauneus tulee ulospäin.</string>
-    <string name="Lainaustekija75" translatable="false">Jenn Proske</string>
     <string name="Lainausteksti76">Henkilö on loistava, koska hänellä on suuria ominaisuuksiaan, ei vikojen puuttumisen vuoksi.</string>
     <string name="Lainaustekija76">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti77">Älä anna ihmisten kunnioittaa sinua. Ympäröi itsesi positiivisten ihmisten kanssa.</string>
-    <string name="Lainaustekija77" translatable="false">Kuba Gooding, Jr</string>
     <string name="Lainausteksti78">Menneisyydellä ei ole valtaa tällä hetkellä.</string>
-    <string name="Lainaustekija78" translatable="false">Eckhart Tolle</string>
     <string name="Lainausteksti79">Kun teen hyvää, tuntuu hyvältä. Kun teen pahan, tunnen pahaa. Tämä on minun uskontoni.</string>
-    <string name="Lainaustekija79" translatable="false">Abraham Lincoln</string>
     <string name="Lainausteksti80">Paras tapa saada itsetunto on tehdä se, mitä pelkäämme.</string>
     <string name="Lainaustekija80" translatable="false">Tekijä tuntematon</string>
     <string name="Lainausteksti81">Meillä on kyky päättää, mihin ajatuksiin me lopetamme.</string>
-    <string name="Lainaustekija81" translatable="false">David DeNotaris</string>
     <string name="Lainausteksti82">Keskinkertainen ajatus, joka herättää innostusta, menee pidemmälle kuin loistava idea, joka ei innosta ketään.</string>
-    <string name="Lainaustekija82" translatable="false">Mary Kay Ash</string>
     <string name="Lainausteksti83">On hienoa olla optimistinen. Pitää sinut terveenä ja joustavana.</string>
-    <string name="Lainaustekija83" translatable="false">Daniel Kahneman</string>
     <string name="Lainausteksti84">Se on hämmästyttävää Jos jätät sen, elämä muuttuu nopeasti positiivisella tavalla.</string>
-    <string name="Lainaustekija84" translatable="false">Lindsey Vonn</string>
     <string name="Lainausteksti85">Kun kohtaat negatiivisen tilanteen, älä ajattele sitä. Tee se positiiviseksi.</string>
-    <string name="Lainaustekija85" translatable="false">Yoko Ono</string>
     <string name="Lainausteksti86">Työskentele energian ja rauhan parissa tietäen, että oikeat ajatukset ja ponnistelut aiheuttavat väistämättä oikeat tulokset.</string>
-    <string name="Lainaustekija86" translatable="false">James Allen</string>
     <string name="Lainausteksti87">En ehkä ole saanut sitä, minne yritin mennä, mutta luulen, että olen valmis siellä, missä minun täytyi olla.</string>
-    <string name="Lainaustekija87" translatable="false">Douglas Adams</string>
     <string name="Lainausteksti88">Joka päivä tuo uusia mahdollisuuksia.</string>
-    <string name="Lainaustekija88" translatable="false">Martha Beck</string>
     <string name="Lainausteksti89">Jatkuva toistaminen johtaa vakaumukseen.</string>
-    <string name="Lainaustekija89" translatable="false">Robert Collier</string>
     <string name="Lainausteksti90">Vihaa on aiheuttanut monia ongelmia tässä maailmassa eikä ole ratkaissut sitä.</string>
-    <string name="Lainaustekija90" translatable="false">Maya Angelou</string>
     <string name="Lainausteksti91">Henkilö on heidän unelmiensa tuote. Varmista siis, että unelmoit suuria unia. Ja sitten yritä elää unelmasi.</string>
-    <string name="Lainaustekija91" translatable="false">Maya Angelou</string>
     <string name="Lainausteksti92">Jos et pidä jotain, muuta sitä. Jos et voi muuttaa sitä, vaihda asenne.</string>
-    <string name="Lainaustekija92" translatable="false">Maya Angelou</string>
     <string name="Lainausteksti93">Iloitsemme perhonen kauneudesta, mutta harvoin tunnustamme muutokset, jotka ovat tapahtuneet tämän kauneuden saavuttamiseksi.</string>
-    <string name="Lainaustekija93" translatable="false">Maya Angelou</string>
     <string name="Lainausteksti94">Haluan mieluummin kuolla jahtaa sitä, mitä haluan, elää tekemässäni mitä elämääni.</string>
     <string name="Lainaustekija94">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti95">Me kutsumme onnea hyvästä asenteesta, pyrkimyksestä, riskeistä, jatkuvuudesta ja näyttelystä.</string>
     <string name="Lainaustekija95">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti96">Tärkein vapauden tyyppi on se, mitä todella olet. </string>
-    <string name="Lainaustekija96" translatable="false">Jim Morrison</string>
     <string name="Lainausteksti97">Jos löydät polun ilman esteitä, se todennäköisesti johtaa mihinkään.</string>
-    <string name="Lainaustekija97" translatable="false">Frank A. Clark</string>
     <string name="Lainausteksti98">Kyse ei ole tavoitteesta. Kyse on siitä, että siitä tulee henkilö, joka pystyy saavuttamaan tämän tavoitteen.</string>
-    <string name="Lainaustekija98" translatable="false">Tony Robbins</string>
     <string name="Lainausteksti99">Lopeta päivä positiivisella ajatuksella. Huomenna sinulla on mahdollisuus tehdä paremmin</string>
     <string name="Lainaustekija99">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti100">Jos tilaisuus ei soita, rakenna ovi.</string>
-    <string name="Lainaustekija100" translatable="false">Milton Berle</string>
     <string name="Lainausteksti101">Jos kasvamme, olemme aina pois meidän mukavuusalueestamme.</string>
-    <string name="Lainaustekija101" translatable="false">John C Maxwell</string>
     <string name="Lainausteksti102">Hope on unelma herätetystä miehestä.</string>
-    <string name="Lainaustekija102" translatable="false">Aristoteles</string>
     <string name="Lainausteksti103">Ole kiitollinen siitä, mitä sinulla on; päädyt saamaan enemmän. Jos keskityt siihen, mitä sinulla ei ole, sinulla ei ole koskaan tarpeeksi</string>
     <string name="Lainaustekija103">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti104">Olen positiivinen ajattelija, ja mielestäni se auttaa minua vaikeimmissa tilanteissa.</string>
-    <string name="Lainaustekija104" translatable="false">Roger Federer</string>
     <string name="Lainausteksti105">En tiedä, että mies, minun täytyy tuntea hänet paremmin.</string>
-    <string name="Lainaustekija105" translatable="false">Abraham Lincoln</string>
     <string name="Lainausteksti106">Ilman nöyrää, mutta kohtuullista luottamusta omaan vahvuuteesi, et voi olla onnistunut tai onnellinen.</string>
-    <string name="Lainaustekija106" translatable="false">Norman Vincent Peale</string>
     <string name="Lainausteksti107">Inspiraatio tulee sinusta. On oltava positiivinen. Kun olet, hyviä asioita tapahtuu.</string>
-    <string name="Lainaustekija107" translatable="false">Deep Roy</string>
     <string name="Lainausteksti108">Paras, mitä voit antaa vihollisesi, on anteeksianto; vastustajalle, suvaitsevaisuus; ystävälle, sydämellesi; hyvä lapsi, hyvä esimerkki; isälle, kunnioitus; äidillesi, olla ylpeä; itsellesi, rakastaa sinua; jokaiselle, hyväntekeväisyyteen.</string>
-    <string name="Lainaustekija108" translatable="false">Benjamin Franklin</string>
     <string name="Lainausteksti109">Kun seuraavan kerran tuntuu hieman epämukavalta elämäsi paineesta, muista, että ilman painetta ei ole timantteja. Paine on osa menestystä.</string>
-    <string name="Lainaustekija109" translatable="false">Eric Thomas</string>
     <string name="Lainausteksti110">Kuinka hienoa on, ettei kenenkään tarvitse odottaa yhtä hetkiä ennen kuin parannetaan maailmaa.</string>
-    <string name="Lainaustekija110" translatable="false">Anne Frank</string>
     <string name="Lainausteksti111">Myötätuntoa, rakkautta, onnea, meillä kaikilla on näitä ominaisuuksia, mutta emme yleensä käytä niitä.</string>
-    <string name="Lainaustekija111" translatable="false">Anne Frank</string>
     <string name="Lainausteksti112">En halua asua turhaan kuten useimmat ihmiset. Haluan olla hyödyllinen tai tuoda iloa ihmisille, jopa niille, joita en ole koskaan tavannut. Haluan jatkaa elämääni myös kuoleman jälkeen.</string>
-    <string name="Lainaustekija112" translatable="false">Anne Frank</string>
     <string name="Lainausteksti113">Et voi asettaa mitään rajoitusta. Mitä enemmän unelmoit, sitä kauempana saat.</string>
-    <string name="Lainaustekija113" translatable="false">Michael Phelps</string>
     <string name="Lainausteksti114">Ajattele ensin, mitä todella haluat. Sitten vainoa häntä sitkeästi, älä anna periksi. Kun putoat, mieti palkintoja. Sillä olet saavuttanut 50% tavoitteestasi.</string>
     <string name="Lainaustekija114">Tekijä tuntematon</string>
     <string name="Lainausteksti115">Asenne on kaikki; Se kattaa sen, mitä teemme, mitä sanomme, mitä ajattelemme ja mitä saamme.</string>
@@ -272,133 +165,77 @@
     <string name="Lainausteksti118">Menestyksen salaisuus on oppia käyttämään kipua ja mielihyvää kivun ja ilon sijasta. Jos teet niin, hallitset elämääsi. Jos ei, elämä ohjaa sinua</string>
     <string name="Lainaustekija118">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti119">Emme näe asioita sellaisina kuin ne ovat, näemme ne sellaisina kuin olemme.</string>
-    <string name="Lainaustekija119" translatable="false">Anais Nin</string>
     <string name="Lainausteksti120">Onnellisuus, kuten onnettomuus, on ennakoiva valinta.</string>
-    <string name="Lainaustekija120" translatable="false">Stephen Covey</string>
     <string name="Lainausteksti121">Et voi tehdä positiivisia valintoja elämääsi ilman ympäristöä, joka tekee niistä yksinkertaisia, luonnollisia ja miellyttäviä valintoja.</string>
     <string name="Lainaustekija121">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti122">Positiivinen asenne aiheuttaa ajatusten, tapahtumien ja positiivisten tulosten ketjureaktion. Se on katalysaattori ja tuottaa poikkeuksellisia tuloksia.</string>
-    <string name="Lainaustekija122" translatable="false">Wade Boggs</string>
     <string name="Lainausteksti123">Tässä maailmassa ei ole käytännöllisesti katsoen mitään mahdotonta, jos yksinkertaisesti laitat mielesi siihen ja säilytätte myönteisen asenteen.</string>
-    <string name="Lainaustekija123" translatable="false">Lou Holtz</string>
     <string name="Lainausteksti124">Aika, jona nautit tuhlasta, ei ollut hukkaan.</string>
-    <string name="Lainaustekija124" translatable="false">John Lennon</string>
     <string name="Lainausteksti125">Älä koskaan sano mitään itsestäsi, ettet halua tulla todellisuuteen.</string>
-    <string name="Lainaustekija125" translatable="false">Brian Tracy</string>
     <string name="Lainausteksti126">Ole rohkea Ota riskejä Mitään ei voi korvata kokemusta.</string>
-    <string name="Lainaustekija126" translatable="false">Paulo Coelho</string>
     <string name="Lainausteksti127">Mitä enemmän olemme tietoisia siitä, mitä olemme todella, sitä vähemmän ongelmia meillä on.</string>
-    <string name="Lainaustekija127" translatable="false">Lynn Grabhorn</string>
     <string name="Lainausteksti128">Et voi pysäyttää aaltoja, mutta voit oppia surffaamaan.</string>
-    <string name="Lainaustekija128" translatable="false">Jon KabatZinn</string>
     <string name="Lainausteksti129">Ajattele, mitä tarvitset, miettiä, mitä tarvitsette muille.</string>
     <string name="Lainaustekija129">Tekijä tuntematon</string>
     <string name="Lainausteksti130">Niille, jotka haluavat nähdä heitä, on aina kukkia.</string>
-    <string name="Lainaustekija130" translatable="false">Henri Matise</string>
     <string name="Lainausteksti131">Lopeta päivä aina positiivisella ajatuksella. Riippumatta siitä, kuinka kovia asioita oli, huomenna on hyvä tilaisuus tehdä niistä parempia</string>
     <string name="Lainaustekija131">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti132">Ihmisistä tulee todella poikkeuksellisia, kun he alkavat ajatella, että he voivat tehdä asioita. Kun he uskovat itseensä, heillä on ensimmäinen menestyksen salaisuus.</string>
-    <string name="Lainaustekija132" translatable="false">Norman Vincent Peale</string>
     <string name="Lainausteksti133">Opi hymyilemään kaikissa tilanteissa. Katso se tilaisuutena testata vahvuutesi ja kykysi.</string>
-    <string name="Lainaustekija133" translatable="false">Joe Brown</string>
     <string name="Lainausteksti134">Päivä on se, mitä te teette hänestä. Miksi ei tehdä hyvää päivää?.</string>
-    <string name="Lainaustekija134" translatable="false">Steve Schulte</string>
     <string name="Lainausteksti135">Me olemme vastuussa siitä, keitä me olemme, ja riippumatta siitä, mitä haluamme olla, meillä on valta tehdä itseämme.</string>
-    <string name="Lainaustekija135" translatable="false">Swami Vivekanand</string>
     <string name="Lainausteksti136">Olette tehneet sen aikaisemmin ja voit tehdä sen nyt. Katsokaa positiivisia mahdollisuuksia. Ohjaa turhautumisenne merkittävä energia ja muuta se positiiviseksi, tehokkaaksi ja pysäyttämättömäksi määrittelyksi.</string>
-    <string name="Lainaustekija136" translatable="false">Ralph Marston</string>
     <string name="Lainausteksti137">Positiivinen asenne on se, että jokainen voi työskennellä ja oppia käyttämään sitä.</string>
-    <string name="Lainaustekija137" translatable="false">Joan Lunden</string>
     <string name="Lainausteksti138">Muista unelmasi ja taistele niiden puolesta. Sinun täytyy tietää, mitä haluat elämästä. On vain yksi asia, joka tekee unelmastasi mahdottomaksi: epäonnistumisen pelko.</string>
-    <string name="Lainaustekija138" translatable="false">Paulo Coelho</string>
     <string name="Lainausteksti139">Miten voin elää tänään huomenna olen sitoutunut?.</string>
-    <string name="Lainaustekija139" translatable="false">Tony Robbins</string>
     <string name="Lainausteksti140">Uskon, että kaikki on mahdollista, jos sinulla on mentaliteetti, tahto ja halu tehdä se ja omistautua aikaa.</string>
-    <string name="Lainaustekija140" translatable="false">Roger Clemes</string>
     <string name="Lainausteksti141">Ihmisissä on pieni ero, mutta tämä ero on suuri ero. Pieni ero on asenne. Suuri ero on se, onko se positiivinen vai negatiivinen.</string>
-    <string name="Lainaustekija141" translatable="false">W. Clement Stone</string>
     <string name="Lainausteksti142">Positiivinen ajattelu on enemmän kuin iskulause. Se muuttaa tapaa, jolla käyttäytymme. Uskon vakaasti, että kun olen positiivinen, olen parempi ja teen muutkin paremmin.</string>
-    <string name="Lainaustekija142" translatable="false">Harvey Mackay</string>
     <string name="Lainausteksti143">Se on meidän pimeimpien hetkien aikana, kun meidän on keskityttävä katsomaan valoa.</string>
-    <string name="Lainaustekija143" translatable="false">Aristoteles</string>
     <string name="Lainausteksti144">Loppujen lopuksi emme muista vihollistemme sanoja, vaan ystävien hiljaisuutta.</string>
-    <string name="Lainaustekija144" translatable="false">Martin Luther King Jr.</string>
     <string name="Lainausteksti145">Meidän on hyväksyttävä rajallinen pettymys, mutta emme koskaan menetä ääretöntä toivoa.</string>
-    <string name="Lainaustekija145" translatable="false">Martin Luther King, Jr.</string>
     <string name="Lainausteksti146">Sinun on hyväksyttävä se, mikä on tulossa, ja ainoa tärkeä asia on se, että kohtaatte sen rohkeudella ja parhaalla mahdollisella tavalla.</string>
-    <string name="Lainaustekija146" translatable="false">Eleanor Roosevelt</string>
     <string name="Lainausteksti147">Ensin on opittava pelin säännöt. Sitten sinun täytyy pelata paremmin kuin kukaan.</string>
-    <string name="Lainaustekija147" translatable="false">Albert Einstein</string>
     <string name="Lainausteksti148">Korjaus tekee paljon, mutta mieliala tekee paljon enemmän.</string>
-    <string name="Lainaustekija148" translatable="false">Johann Wolfgang von Goethe</string>
     <string name="Lainausteksti149">Kyse ei ole tilanteesta, vaan siitä, reagoimmeko tilanteeseen kielteisesti tai myönteisesti.</string>
-    <string name="Lainaustekija149" translatable="false">Zig Ziglar</string>
     <string name="Lainausteksti150">Voiton ja menettämisen välinen ero ei usein anna periksi.</string>
-    <string name="Lainaustekija150" translatable="false">Walt Disney</string>
     <string name="Lainausteksti151">Positiivinen asenne ei ehkä ratkaise kaikkia ongelmia, mutta se häiritsee tarpeeksi ihmisiä ponnistelemaa.</string>
-    <string name="Lainaustekija151" translatable="false">Herm Albright</string>
     <string name="Lainausteksti152">Jos et ole innostunut, sinut sytytetään innokkaasti.</string>
-    <string name="Lainaustekija152" translatable="false">Vince Lombardi</string>
     <string name="Lainausteksti153">Huoli antaa usein varjon jotain pienelle.</string>
     <string name="Lainaustekija153">Sveitsin sananlasku</string>
     <string name="Lainausteksti154">Paras valmistautuminen huomenna on antaa tänään sinulle paras .</string>
-    <string name="Lainaustekija154" translatable="false">H. Jackson Brown, Jr</string>
     <string name="Lainausteksti155">Laita sydämesi, mielesi ja sielusi jopa pienimpiin tekoihin. Se on menestyksen salaisuus.</string>
-    <string name="Lainaustekija155" translatable="false">Swami Sivananda</string>
     <string name="Lainausteksti156">Optimismi on usko, joka ohjaa saavutuksia. Nade on mahdollista ilman toivoa ja luottamusta.</string>
-    <string name="Lainaustekija156" translatable="false">Helen Keller</string>
     <string name="Lainausteksti157">Jos voit unelmoida, voit tehdä sen.</string>
-    <string name="Lainaustekija157" translatable="false">Walt Disney</string>
     <string name="Lainausteksti158">Pidä silmäsi tähdet ja jalkasi maan päällä.</string>
-    <string name="Lainaustekija158" translatable="false">Theodore Roosevelt</string>
     <string name="Lainausteksti159">Muista: kirja, kynä, lapsi ja opettaja voivat muuttaa maailmaa.</string>
-    <string name="Lainaustekija159" translatable="false">Malala Yousafzai</string>
     <string name="Lainausteksti160">Tarvitset vain suunnitelman, etenemissuunnitelman ja rohkeuden mennä kohteeseen.</string>
-    <string name="Lainaustekija160" translatable="false">Earl Nightingale</string>
     <string name="Lainausteksti161">Aloita missä olet, käytä mitä sinulla on. Tee mitä voit.</string>
-    <string name="Lainaustekija161" translatable="false">Arthur Ashe</string>
     <string name="Lainausteksti162">Pidä unelmasi elossa. Ymmärrä, että kaiken saavuttamiseksi tarvitaan uskoa itseesi, visioon, kovaan työhön, päättäväisyyteen ja omistautumiseen.</string>
-    <string name="Lainaustekija162" translatable="false">Gail Devers</string>
     <string name="Lainausteksti163">Usko on lintu, joka tuntee valon, kun aamunkoitto on vielä tumma.</string>
-    <string name="Lainaustekija163" translatable="false">Rabindranath Tagore</string>
     <string name="Lainausteksti164">Ota joka päivä positiivinen asenne, yrittäen olla parempi.</string>
-    <string name="Lainaustekija164" translatable="false">Stefon Diggs</string>
     <string name="Lainausteksti165">Älä anna eilen ottaa paljon tänään.</string>
     <string name="Lainaustekija165">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti166">Lisätietoja epäonnistumisesta kuin onnistumisesta. Älä anna sen pysäyttää sinua. Epäonnistuminen rakentaa merkkiä.</string>
     <string name="Lainaustekija166">Kirjoittaja tuntematon</string>
     <string name="Lainausteksti167">Pysy positiivisena ja onnellisena. Työskentele kovasti ja älä menetä toivoa. Pysy avoimena kritiikille ja pidä oppia.</string>
-    <string name="Lainaustekija167" translatable="false">Tena Desae</string>
     <string name="Lainausteksti168">Positiiviset toimet yhdistettynä positiivisiin ajatuksiin tuottavat menestystä.</string>
-    <string name="Lainaustekija168" translatable="false">Shiv Khera</string>
     <string name="Lainausteksti169">Onnistuneet ihmiset pitävät myönteistä huomiota elämään riippumatta siitä, mitä heidän ympärillään tapahtuu.</string>
-    <string name="Lainaustekija169" translatable="false">Jack Canfield</string>
     <string name="Lainausteksti170">Joka päivä on 1440 minuuttia. Tämä tarkoittaa, että meillä on päivittäin 1440 mahdollisuutta vaikuttaa myönteisesti.</string>
-    <string name="Lainaustekija170" translatable="false">Les Brown</string>
     <string name="Lainausteksti171">Jos sinulla on positiivinen asenne ja pyritte jatkuvasti tekemään parhaansa, voit lopulta voittaa välittömät ongelmat ja huomaa, että olet valmis suurempiin haasteisiin.</string>
-    <string name="Lainaustekija171" translatable="false">Pat Riley</string>
     <string name="Lainausteksti172">Asenne on kuin merkki, joka antaa värin maailmallesi. Väritä harmaata kuvaa jatkuvasti, ja kuva on aina synkkä. Yritä lisätä värejä kuviin, mukaan lukien mieliala, ja he alkavat selvittää.</string>
-    <string name="Lainaustekija172" translatable="false">Allen Klein</string>
     <string name="Lainausteksti173">Harvat asiat maailmassa ovat vahvempia kuin positiivinen impulssi. Hymy Optimismin ja toivon maailma. Voit tehdä se. kun asiat ovat vaikeita.</string>
-    <string name="Lainaustekija173" translatable="false">Richard M. DeVos</string>
     <string name="Lainausteksti174">Hyvä naurua on aurinko talossa.</string>
-    <string name="Lainaustekija174" translatable="false">William Makepeace Thackeray</string>
     <string name="Lainausteksti175">Tärkeintä on innostaa ihmisiä niin, että he voivat olla suuria, mitä he haluavat tehdä.</string>
-    <string name="Lainaustekija175" translatable="false">Kobe Bryant</string>
     <string name="Lainausteksti176">Riippumatta siitä, mitä olet menossa läpi, tunnelin päässä on valo, ja se saattaa tuntua vaikealta saavuttaa se, mutta voit löytää asian positiivisen puolen, jos jatkat työtä.</string>
-    <string name="Lainaustekija176" translatable="false">Demi Lovato</string>
     <string name="Lainausteksti177">Luota unelmiin, koska niissä ikuisuus ikuisuuteen on piilossa.</string>
-    <string name="Lainaustekija177" translatable="false">Khalil Gibran</string>
     <string name="Lainausteksti178">Kyky pysyä rauhallisena ja keskittyneenä stressaaviin tilanteisiin on ratkaisevan tärkeää positiivisten päätösten tekemiseksi.</string>
-    <string name="Lainaustekija178" translatable="false">Goldie Hawn</string>
     <string name="Lainausteksti179">Sinun täytyy pystyä käsittelemään stressiä, koska vaikeita aikoja tulee, ja positiivinen näkymä on, mitä voit voittaa ne.</string>
-    <string name="Lainaustekija179" translatable="false">Marie Osmond</string>
     <string name="Lainausteksti180">Joka päivä kun heräät, sinulla on kaksi vaihtoehtoa. Voit olla positiivinen tai negatiivinen; optimistia tai pessimistiä.</string>
-    <string name="Lainaustekija180" translatable="false">Harvey Mackay</string>
     <string name="Lainausteksti181">Voit tehdä kaiken estääkseen huonojen asioiden tapahtumisen teille, mutta lopulta tapahtuu jotain pahaa, joten paras ehkäisy on myönteinen asenne.</string>
-    <string name="Lainaustekija181" translatable="false">Marie Osmond</string>
     <string name="Lainausteksti182">Jos valitset, jopa odottamattomat takaiskut voivat tuoda uusia ja myönteisiä mahdollisuuksia.</string>
-    <string name="Lainaustekija182" translatable="false">Ralph Marston</string>
+    <string name="Lainaustekija47" translatable="false">Tuntematon kirjoittaja</string>
+    <string name="Lainaustekija54">Tuntematon kirjoittaja</string>
 
     <!--lainaukset loppuu-->
     <!--Aleksin stringit loppuu-->

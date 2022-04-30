@@ -127,7 +127,7 @@
     <string name="Lainausteksti46">Pessimismi johtaa heikkouteen, optimismin valtaan.</string>
     <string name="Lainaustekija46" translatable="false">William James</string>
     <string name="Lainausteksti47">Tilanne ei ole huono, ajatuksesi tilanteesta ovat kielteisiä. Muuta niitä.</string>
-    <string name="Lainaustekija47" translatable="false">Tuntematon kirjoittaja</string>
+    <string name="Lainaustekija47">Tuntematon kirjoittaja</string>
     <string name="Lainausteksti48">Ainoa elämässä oleva vamma on huono asenne.</string>
     <string name="Lainaustekija48" translatable="false">Scott Hamilton</string>
     <string name="Lainausteksti49">Positiivisen toiminnan toteuttamiseksi meidän on kehitettävä myönteinen näkemys.</string>
@@ -141,7 +141,7 @@
     <string name="Lainausteksti53">Nämä ovat viimeisimmät sanani sinulle. Älä pelkää elämää. Usko, että kannattaa elää ja uskonne luo tosiasian.</string>
     <string name="Lainaustekija53" translatable="false">William James</string>
     <string name="Lainausteksti54">Pieni positiivinen ajatus aamulla voi muuttaa koko päivänsi.</string>
-    <string name="Lainaustekija54" translatable="false">Tuntematon</string>
+    <string name="Lainaustekija54">Tuntematon kirjoittaja</string>
     <string name="Lainausteksti55">Mielemme voi muokata mitä asia on, koska toimimme odotuksemme mukaisesti.</string>
     <string name="Lainaustekija55" translatable="false">Federico Fellini</string>
     <string name="Lainausteksti56">Olen optimistinen. Ei ole mitään järkeä olla mitään muuta.</string>
@@ -193,7 +193,7 @@
     <string name="Lainausteksti79">Kun teen hyvää, tuntuu hyvältä. Kun teen pahan, tunnen pahaa. Tämä on minun uskontoni.</string>
     <string name="Lainaustekija79" translatable="false">Abraham Lincoln</string>
     <string name="Lainausteksti80">Paras tapa saada itsetunto on tehdä se, mitä pelkäämme.</string>
-    <string name="Lainaustekija80" translatable="false">Tekijä tuntematon</string>
+    <string name="Lainaustekija80">Tekijä tuntematon</string>
     <string name="Lainausteksti81">Meillä on kyky päättää, mihin ajatuksiin me lopetamme.</string>
     <string name="Lainaustekija81" translatable="false">David DeNotaris</string>
     <string name="Lainausteksti82">Keskinkertainen ajatus, joka herättää innostusta, menee pidemmälle kuin loistava idea, joka ei innosta ketään.</string>
