@@ -85,7 +85,7 @@
     <string name = "Lainausteksti52"> To succeed, you need to find something to catch, something to motivate you, something to inspire you. </string>
     <string name = "Lainausteksti53"> These are my latest words for you. Don\'t be afraid of life. Believe it is worth living and your faith will create a fact. </string>
     <string name = "Lainausteksti54"> A little positive thought in the morning can change your whole day. </string>
-    <string name = "Lainaustekija54" translatable = "false">Author unknown</string>
+    <string name = "Lainaustekija54" >Author unknown</string>
     <string name = "Lainausteksti55"> Our minds can change what matters because we live up to our expectations. </string>
     <string name = "Lainausteksti56"> I
         \'m optimistic. There is no point in being anything else. </string>
@@ -116,7 +116,7 @@
     <string name = "Lainausteksti78"> The past has no power at this time. </string>
     <string name = "Lainausteksti79"> When I do good, I feel good. When I do evil, I feel evil. This is my religion. </string>
     <string name = "Lainausteksti80"> The best way to gain self-esteem is to do what we fear. </string>
-    <string name = "Lainaustekija80" translatable = "false"> Author unknown </string>
+    <string name = "Lainaustekija80" > Author unknown </string>
     <string name = "Lainausteksti81"> We have the ability to decide which thoughts to stop at. </string>
     <string name = "Lainausteksti82"> A mediocre idea that excites goes beyond a great idea that doesn\'t inspire anyone. </string>
     <string name = "Lainausteksti83"> It\'s great to be optimistic. Keeps you healthy and flexible. </string>
