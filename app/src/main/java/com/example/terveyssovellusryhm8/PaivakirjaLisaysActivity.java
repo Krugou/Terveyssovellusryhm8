@@ -2,23 +2,17 @@ package com.example.terveyssovellusryhm8;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -27,50 +21,53 @@ import java.util.Locale;
 
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
-    // NÄIHIN LUETAAN KÄYTTÄJÄN SYÖTTÄMÄ TIETO JA LISÄTÄÄN PREFERENCCIT
-    private ArrayList<String> paivamaaraLista = new ArrayList<>();
-    private ArrayList<String> kaloritLista = new ArrayList<>();
-    private ArrayList<String> mielialaLista= new ArrayList<>();
-    private ArrayList<String> kirjausLista = new ArrayList<>();
+    // Näihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
+    private final ArrayList<String> paivamaaraLista = new ArrayList<>();
+    private final ArrayList<String> kaloritLista = new ArrayList<>();
+    private final ArrayList<String> mielialaLista= new ArrayList<>();
+    private final ArrayList<String> kirjausLista = new ArrayList<>();
 
 
-    // NÄIHIN LADATAAN PREFERENCEISSÄ OLEVAT TIEDOT
-    private ArrayList<String>paivamaaraLista2=new ArrayList<>();
-    private ArrayList<String>kaloritLista2=new ArrayList<>();
-    private ArrayList<String>mielialaLista2=new ArrayList<>();
-    private ArrayList<String>kirjausLista2=new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paivakirja_lisays);
-        // lisää oletuksena paikallisen päivämäärän "syötä päivämäärä" kohtaan
+
+        // lisää oletuksena paikallisen päivämäärän "syötä päivämäärä" kohtaan.
         String date_n = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
-        TextView date  = (TextView) findViewById(R.id.editTextDate);
+        TextView date  =  findViewById(R.id.editTextDate);
         date.setText(date_n);
 
     }
+
+    // Metodi, joka ajetaan kun lisäysnappia painetaan.
     public void buttonPressed(View view) {
-        boolean ready = false;
+
+        boolean ready; // Tällä arvolla todetaan, onko päivämäärä täytetty
+
+        // Tehdään EditText-näkymiin syötetyistä arvoista merkkijonoja.
         EditText paivamaara = findViewById(R.id.editTextDate);
         String paivamaaraString = paivamaara.getText().toString();
+
         EditText kalorit = findViewById(R.id.editTextKalorit);
         String kaloritString = kalorit.getText().toString();
+
         EditText mieliala = findViewById(R.id.editTextMieliala);
         String mielialaString = mieliala.getText().toString();
+
         EditText kirjaus=findViewById(R.id.editTextKirjaus);
         String kirjausString=kirjaus.getText().toString();
+
+        // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus.
         if(paivamaaraString.equals(""))
         {
-            ready = false;
+            ready=false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("HUOMATUS!")
                     .setMessage("Sinun pitää syöttää päivämäärä ennen jatkamista")
-                    .setPositiveButton("OKEI", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
+                    .setPositiveButton("OKEI", (dialogInterface, i) -> {
 
-                        }
                     })
                     .show();
 
@@ -78,10 +75,9 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         else{
             ready=true;
         }
-        if (ready==true) {
+        if (ready) {
 
-            //JOS ARVOJA ON JÄTETTY TYHJÄKSI NE LISÄTÄÄN "TYHJÄ":KSI
-
+            //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä".
             if(kaloritString.equals("")){
                 kaloritString="Tyhjä";
             }
@@ -94,54 +90,54 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
                 kirjausString="Tyhjä";
             }
 
+            // Näihin listoihin tallennetaan preferencceihin tallennetut merkkijono listat.
+            ArrayList<String> paivamaaraLista2 = this.getArrayList("paivamaaralista");
+            ArrayList<String> kaloritLista2 = this.getArrayList("kaloritlista");
+            ArrayList<String> mielialaLista2 = this.getArrayList("mielialalista");
+            ArrayList<String> kirjausLista2 = this.getArrayList("kirjauslista");
 
-            paivamaaraLista2=this.getArrayList("paivamaaralista");
-            kaloritLista2=this.getArrayList("kaloritlista");
-            mielialaLista2=this.getArrayList("mielialalista");
-            kirjausLista2=this.getArrayList("kirjauslista");
-            if (paivamaaraLista2!=null) {
-                for (int i = 0; i < paivamaaraLista2.size(); i++) {
-                    paivamaaraLista.add(paivamaaraLista2.get(i));
-                }
-                for (int i = 0; i < kaloritLista2.size(); i++) {
-                    kaloritLista.add(kaloritLista2.get(i));
-                }
-                for (int i = 0; i < mielialaLista2.size(); i++) {
-                    mielialaLista.add(mielialaLista2.get(i));
-                }
-                for (int i = 0; i < kirjausLista2.size(); i++) {
-                    kirjausLista.add(kirjausLista2.get(i));
-                }
+            // Jos preferenccien listat eivät ole tyhjiä, kopioidaan arvot toisiin listoihin.
+            if (paivamaaraLista2 !=null) {
+                paivamaaraLista.addAll(paivamaaraLista2);
+                kaloritLista.addAll(kaloritLista2);
+                mielialaLista.addAll(mielialaLista2);
+                kirjausLista.addAll(kirjausLista2);
             }
+
+            // Listoihin lisätään käyttäjän syöttämät tiedot.
             paivamaaraLista.add(paivamaaraString);
             kaloritLista.add(kaloritString);
             mielialaLista.add(mielialaString);
             kirjausLista.add(kirjausString);
 
+            // Listat tallennetaan preferencceihin.
             this.saveArrayList(paivamaaraLista, "paivamaaralista");
             this.saveArrayList(kaloritLista, "kaloritlista");
             this.saveArrayList(mielialaLista, "mielialalista");
             this.saveArrayList(kirjausLista, "kirjauslista");
 
 
-
+            // Siirrytään takaisin Päiväkirja-aktivitettiin.
             Intent intent = new Intent(this, PaivakirjaActivity.class);
             startActivity(intent);
 
 
         }
     }
+
+    //Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
     public void saveArrayList(ArrayList<String> list, String key){
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);;
+        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         Gson gson = new Gson();
         String json = gson.toJson(list);
         editor.putString(key, json);
-        editor.apply();     // This line is IMPORTANT !!!
+        editor.apply();
     }
 
+    //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
     public ArrayList<String> getArrayList(String key){
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);;
+        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
         Gson gson = new Gson();
         String json = prefs.getString(key, null);
         Type type = new TypeToken<ArrayList<String>>() {}.getType();

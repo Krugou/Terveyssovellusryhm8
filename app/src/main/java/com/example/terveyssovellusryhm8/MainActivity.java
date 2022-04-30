@@ -13,12 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //Metodi, joka siirtää päiväkirja-aktiviteettiin napin painalluksella.
     public void openDiary(View v){
         Intent intent = new Intent(this, PaivakirjaActivity.class);
 
         startActivity(intent);
     }
-
+    //Metodi, joka siirtää päiväkirjanlisäys-aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View v){
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
 
