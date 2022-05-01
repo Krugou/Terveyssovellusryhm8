@@ -39,6 +39,7 @@
         android:onClick="openDiary"
         android:text="@string/button_avaapaivakirja"
         android:textAlignment="center"
+        android:textColor="#607D8B"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/lisaysButton"
