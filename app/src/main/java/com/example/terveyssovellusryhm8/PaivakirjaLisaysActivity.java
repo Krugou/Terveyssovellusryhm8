@@ -96,6 +96,12 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             ArrayList<String> mielialaLista2 = this.getArrayList("mielialalista");
             ArrayList<String> kirjausLista2 = this.getArrayList("kirjauslista");
 
+            // Listoihin lisätään käyttäjän syöttämät tiedot.
+            paivamaaraLista.add(paivamaaraString);
+            kaloritLista.add(kaloritString);
+            mielialaLista.add(mielialaString);
+            kirjausLista.add(kirjausString);
+
             // Jos preferenccien listat eivät ole tyhjiä, kopioidaan arvot toisiin listoihin.
             if (paivamaaraLista2 !=null) {
                 paivamaaraLista.addAll(paivamaaraLista2);
@@ -103,12 +109,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
                 mielialaLista.addAll(mielialaLista2);
                 kirjausLista.addAll(kirjausLista2);
             }
-
-            // Listoihin lisätään käyttäjän syöttämät tiedot.
-            paivamaaraLista.add(paivamaaraString);
-            kaloritLista.add(kaloritString);
-            mielialaLista.add(mielialaString);
-            kirjausLista.add(kirjausString);
 
             // Tallennetaan listat preferencceihin.
             this.saveArrayList(paivamaaraLista, "paivamaaralista");
