@@ -29,6 +29,8 @@
     <string name="tyhjä">Tom</string>
     <string name="buttonTallenna">Spara</string>
     <string name="buttonMuokkaa">Redigera</string>
+    <string name="buttonTakaisin">En knapp som tar dig tillbaka till den senaste aktiviteten</string>
+
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->

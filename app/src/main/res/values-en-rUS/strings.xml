@@ -29,7 +29,8 @@
     <string name="tyhjä">Empty</string>
     <string name="buttonTallenna">Save</string>
     <string name="buttonMuokkaa">Edit</string>
-     <!--päiväkirja stringit loppuu-->
+    <string name="buttonTakaisin">A button that takes you back to the last activity</string>
+    <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
     

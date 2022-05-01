@@ -38,6 +38,7 @@ public class PaivakirjaActivity extends AppCompatActivity {
 //Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View view) {
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
+        intent.putExtra("viimeactivity", 2); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
 //Metodi, joka siirtää aloitussivulle napin painalluksella.

@@ -29,6 +29,7 @@
     <string name="tyhjä">Tyhjä</string>
     <string name="buttonTallenna">Tallenna</string>
     <string name="buttonMuokkaa">Muokkaa</string>
+    <string name="buttonTakaisin">Nappi, joka vie takaisin viime aktiviteettiin</string>
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->

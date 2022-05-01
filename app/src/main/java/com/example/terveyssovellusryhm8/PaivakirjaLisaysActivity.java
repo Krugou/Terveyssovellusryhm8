@@ -27,7 +27,8 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
     private final ArrayList<String> mielialaLista= new ArrayList<>();
     private final ArrayList<String> kirjausLista = new ArrayList<>();
 
-
+    // Tätä käytetään selvittämään paluunapi viemä sijainti.
+    private int viimeActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -142,6 +143,28 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         String json = prefs.getString(key, null);
         Type type = new TypeToken<ArrayList<String>>() {}.getType();
         return gson.fromJson(json, type);
+    }
+    public void goBack(View view){
+
+        if (viimeActivity==1) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
+        else{
+            Intent intent = new Intent(this, PaivakirjaActivity.class);
+            startActivity(intent);
+        }
+
+
+    }
+    // Kun activiteetti käynnistetään, otetaan selvää mistä activiteetista sinne tultiin.
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Intent intent = getIntent();
+        viimeActivity = intent.getIntExtra("viimeactivity", 1);
+
+
     }
 
 }
