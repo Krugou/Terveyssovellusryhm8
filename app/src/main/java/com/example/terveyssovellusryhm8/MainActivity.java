@@ -22,23 +22,55 @@ public class MainActivity extends AppCompatActivity {
         int videoNumero = sekalainen.nextInt((6 - 1) + 1) + 1;
         Log.i("my_app", String.valueOf(videoNumero));
         if (videoNumero == 1){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental1);
-    } else if ( videoNumero == 2){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental2);
-    } else if ( videoNumero == 3){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental3);
-    } else if ( videoNumero == 4){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental4);
-    } else if ( videoNumero == 5){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental5);
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental1);
+        } else if ( videoNumero == 2){
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental2);
+        } else if ( videoNumero == 3){
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental3);
+        } else if ( videoNumero == 4){
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental4);
+        } else if ( videoNumero == 5){
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental5);
 
-    } else if ( videoNumero == 6){
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
+        } else if ( videoNumero == 6){
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
 
-    }
+        }
         videoView.start();
         // looppi videolle
         videoView.setOnCompletionListener ( new MediaPlayer.OnCompletionListener() {
+
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                videoView.start();
+            }
+        });
+    }
+    @Override
+    protected void  onResume() {
+        super.onResume();
+        VideoView videoView = (VideoView) findViewById(R.id.videoView2);
+        Random sekalainen = new Random();
+        int videoNumero = sekalainen.nextInt((6 - 1) + 1) + 1;
+        Log.i("my_app", String.valueOf(videoNumero));
+        if (videoNumero == 1) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental1);
+        } else if (videoNumero == 2) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental2);
+        } else if (videoNumero == 3) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental3);
+        } else if (videoNumero == 4) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental4);
+        } else if (videoNumero == 5) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental5);
+
+        } else if (videoNumero == 6) {
+            videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
+
+        }
+        videoView.start();
+        // looppi videolle
+        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
 
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
