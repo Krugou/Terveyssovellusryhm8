@@ -73,6 +73,8 @@
         android:layout_width="305dp"
         android:layout_height="316dp"
         android:layout_marginTop="15dp"
+        android:layout_marginBottom="226dp"
+        app:layout_constraintBottom_toTopOf="@+id/paivakirjaButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
