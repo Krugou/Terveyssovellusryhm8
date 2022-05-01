@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.VideoView;
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         VideoView videoView = (VideoView) findViewById(R.id.videoView2);
         Random sekalainen = new Random();
         int videoNumero = sekalainen.nextInt((6 - 1) + 1) + 1;
+        Log.i("my_app", String.valueOf(videoNumero));
         if (videoNumero == 1){
         videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental1);
     } else if ( videoNumero == 2){
@@ -33,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
     } else if ( videoNumero == 6){
         videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
 
-    }videoView.start();
+    }
+        videoView.start();
+        // looppi videolle
         videoView.setOnCompletionListener ( new MediaPlayer.OnCompletionListener() {
 
             @Override
