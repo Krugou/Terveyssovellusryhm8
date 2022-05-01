@@ -67,4 +67,14 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.25" />
 
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="305dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
