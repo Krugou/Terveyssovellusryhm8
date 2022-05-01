@@ -1,6 +1,7 @@
 package com.example.terveyssovellusryhm8;
 
 public class Positiivisetsanat {
+    // positiivisien sanojen olioluokka
     String positivisetSanat;
 
     String positivisetSanatTekija;
@@ -9,6 +10,7 @@ public class Positiivisetsanat {
         this.positivisetSanat = positivisetSanat;
         this.positivisetSanatTekija = positivisetSanatTekija;
     }
+    // tulostaa takaisin sanat ja tekijät
     public String getPositiivisetSanat() {
         return positivisetSanat;
     }

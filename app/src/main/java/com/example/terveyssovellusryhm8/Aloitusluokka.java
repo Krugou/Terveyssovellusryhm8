@@ -17,6 +17,8 @@ public class Aloitusluokka extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aloitusluokka);
+
+        // Luodaan lista positiivisista lauseista ja tekijöistä
         ArrayList<Positiivisetsanat> positivisetSanatLista = new ArrayList<>();
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti1), getApplicationContext().getResources().getString(R.string.Lainaustekija1)));
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti2), getApplicationContext().getResources().getString(R.string.Lainaustekija2)));
@@ -202,7 +204,8 @@ public class Aloitusluokka extends AppCompatActivity {
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti182), getApplicationContext().getResources().getString(R.string.Lainaustekija182)));
 
 
-        // Positiivisetsanatlistaoffline.positivisetSanatListaLuontiOffline();
+        // jos eka kerta käyttämässä tulostetaan ruudulle "käytät ensimmäistä kertaa" ja tallennetaan boolean muuttuja siitä prefenssiin
+        // kun seuraavan kerran tullaan paikalle viesti muuttuu
         SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE);
         ensimmaistaKertaaKayttamassa = sharedPreferences.getBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
         TextView aloitusTekstinakyma = (TextView) findViewById(R.id.textView21);
@@ -212,19 +215,19 @@ public class Aloitusluokka extends AppCompatActivity {
             aloitusTekstinakyma.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusEka));
             aloitusTekstinakyma2.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusToka));
             ensimmaistaKertaaKayttamassa = true;
-            SharedPreferences.Editor myEdit = sharedPreferences.edit();
-            myEdit.putBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
-            myEdit.apply();
+            SharedPreferences.Editor asetusTallennus = sharedPreferences.edit();
+            asetusTallennus.putBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
+            asetusTallennus.apply();
         } else {
             aloitusTekstinakyma.setText(R.string.textViewAloitusVanha);
             aloitusTekstinakyma2.setText(R.string.textViewAloitusVanha2);
 
         }
-        int i2 = (int) (Math.random() * positivisetSanatLista.size());
-        Log.i("my_app", " " + i2);
-        Log.i("my_app", " " + positivisetSanatLista.get(i2) + " \n" + " -" + positivisetSanatLista.get(i2).getPositiivisetSanatTekija());
-        aloitusTekstinakyma3.setText(positivisetSanatLista.get(i2) + " \n" + " -" + positivisetSanatLista.get(i2).getPositiivisetSanatTekija());
-        Thread welcomeThread = new Thread() {
+        int valitseSekalainenNumeroInt = (int) (Math.random() * positivisetSanatLista.size());
+        Log.i("my_app", " " + valitseSekalainenNumeroInt);
+        Log.i("my_app", " " + positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
+        aloitusTekstinakyma3.setText(positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
+        Thread tervetuloaLanka = new Thread() {
             @Override
             public void run() {
                 try {
@@ -235,14 +238,14 @@ public class Aloitusluokka extends AppCompatActivity {
 
                 } finally {
 
-                    Intent i = new Intent(Aloitusluokka.this,
+                    Intent uusiSiirtyma = new Intent(Aloitusluokka.this,
                             MainActivity.class);
-                    startActivity(i);
+                    startActivity(uusiSiirtyma);
                     finish();
                 }
             }
         };
-        welcomeThread.start();
+        tervetuloaLanka.start();
     }
 
 
