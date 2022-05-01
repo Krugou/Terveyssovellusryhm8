@@ -72,15 +72,13 @@
 
     <VideoView
         android:id="@+id/videoView2"
-        android:layout_width="305dp"
-        android:layout_height="316dp"
+        android:layout_width="207dp"
+        android:layout_height="193dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="226dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/paivakirjaButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
