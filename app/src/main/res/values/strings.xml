@@ -32,7 +32,113 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="mood1">1. Minkälainen on mielialasi?</string>
+    <string name="mood1_1">Mielialani on melko valoisa ja hyvä</string>
+    <string name="mood1_2">En ole alakuloinen tai surullinen</string>
+    <string name="mood1_3">Tunnen itseni alakuloiseksi ja surulliseksi</string>
+    <string name="mood1_4">Olen alakuloinen jatkuvasti, enkä pääse siitä</string>
+    <string name="mood1_5">Olen niin masentunut ja alavireinen, etten kestä enää</string>
 
+    <string name="mood2">2. Miten suhtaudut tulevaisuuteen?</string>
+    <string name="mood2_1">Suhtauden tulevaisuuteen toiveikkaasti</string>
+    <string name="mood2_2">En suhtaudu tulevaisuuteen toivottomasti</string>
+    <string name="mood2_3">Tulevaisuus tuntuu minusta melko masentavalta</string>
+    <string name="mood2_4">Minusta tuntuu, ettei minulla ole tulevaisuudelta mitään odotettavaa</string>
+    <string name="mood2_5">Tulevaisuus tuntuu minusta toivottomalta, enkä jaksa uskoa, että asiat muuttuisivat parempaan päin</string>
+
+    <string name="mood3">3. Miten katsot elämäsi sujuneen?</string>
+    <string name="mood3_1">Olen elämässäni onnistunut huomattavan usein</string>
+    <string name="mood3_2">En tunne epäonnistuneeni elämässä</string>
+    <string name="mood3_3">Minusta tuntuu, että olen epäonnistunut pyrkimyksissäni tavallista useammin</string>
+    <string name="mood3_4">Elämäni on tähän saakka ollut vain sarja epäonnistumisia</string>
+    <string name="mood3_5">Tunnen epäonnistuneeni täydellisesti ihmisenä</string>
+
+    <string name="mood4">4. Miten tyytyväiseksi tai tyytymättömäksi tunnet itsesi?</string>
+    <string name="mood4_1">Olen varsin tyytyväinen elämääni</string>
+    <string name="mood4_2">En ole erityisen tyytyväinen</string>
+    <string name="mood4_3">En nauti asioista samalla tavoin kuin ennen</string>
+    <string name="mood4_4">Minusta tuntuu, etten saa enää tyydytystä juuri mistään</string>
+    <string name="mood4_5">Olen täysin tyytymätön kaikkeen</string>
+
+    <string name="mood5">5. Minkälaisena pidät itseäsi?</string>
+    <string name="mood5_1">Tunnen itseni melko hyväksi</string>
+    <string name="mood5_2">En tunne itseäni huonoksi ja arvottomaksi</string>
+    <string name="mood5_3">Tunnen itseni huonoksi ja arvottomaksi melko usein</string>
+    <string name="mood5_4">Nykyään tunnen itseni arvottomaksi melkein aina</string>
+    <string name="mood5_5">Olen kerta kaikkiaan huono ja arvoton</string>
+
+    <string name="mood6">6. Onko sinulla pettymyksen tunteita?</string>
+    <string name="mood6_1">Olen tyytyväinen itseeni ja suorituksiini</string>
+    <string name="mood6_2">En ole pettynyt itseni suhteen</string>
+    <string name="mood6_3">Olen pettynyt itseni suhteen</string>
+    <string name="mood6_4">Minua inhottaa itseni</string>
+    <string name="mood6_5">Vihaan itseäni</string>
+
+    <string name="mood7">7. Onko sinulla itsesi vahingoittamiseen liittyviä ajatuksia?</string>
+    <string name="mood7_1">Minulla ei ole koskaan ollut itsemurha-ajatuksia</string>
+    <string name="mood7_2">En ajattele, enkä halua vahingoittaa itseäni</string>
+    <string name="mood7_3">Minusta tuntuu, että olisi parempi jos olisin kuollut</string>
+    <string name="mood7_4">Minulla on tarkat suunnitelmat itsemurhasta</string>
+    <string name="mood7_5">Tekisin itsemurhan, jos siihen olisi mahdollisuus</string>
+
+    <string name="mood8">8. Miten suhtaudut vieraiden ihmisten tapaamiseen?</string>
+    <string name="mood8_1">Pidän ihmisten tapaamisesta ja juttelemisesta</string>
+    <string name="mood8_2">En ole menettänyt kiinnostusta muihin ihmisiin</string>
+    <string name="mood8_3">Toiset ihmiset eivät enää kiinnosta minua niin paljon kuin ennen</string>
+    <string name="mood8_4">Olen melkein menettänyt mielenkiintoni sekä tunteeni toisia ihmisiä kohtaan</string>
+    <string name="mood8_5">Olen menettänyt mielenkiintoni muihin ihmisiin, enkä välitä heistä lainkaan</string>
+
+    <string name="mood9">9. Miten suhtaudut vieraiden ihmisten tapaamiseen?</string>
+    <string name="mood9_1">erilaisten päätösten tekeminen on minulle helppoa</string>
+    <string name="mood9_2">pystyn tekemään päätöksiä samoin kuin ennenkin</string>
+    <string name="mood9_3">Varmuuteni on vähentynyt ja yritän lykätä päätöksen tekoa</string>
+    <string name="mood9_4">Minulla on suuria vaikeuksia päätösten teossa</string>
+    <string name="mood9_5">En pysty enää lainkaan tekemään ratkaisuja ja päätöksiä</string>
+
+    <string name="mood10">10. Minkälaisena pidät olemustasi ja ulkonäössäsi</string>
+    <string name="mood10_1">Olen melko tyytyväinen ulkonäkööni ja olemukseeni</string>
+    <string name="mood10_2">Ulkonäössäni ei ole minua haittaavia piirteitä</string>
+    <string name="mood10_3">Olen huolissani siitä, että näytän epämiellyttävältä</string>
+    <string name="mood10_4">Minusta tuntuu, että näytän rumalta</string>
+    <string name="mood10_5">Olen varma, että näytän rumalta ja vastenmieliseltä</string>
+
+    <string name="mood11">11. Minkälaista nukkumisesi on?</string>
+    <string name="mood11_1">Minulla ei ole nukkumisessa minkäänlaisia vaikeuksia</string>
+    <string name="mood11_2">Nukun yhtä hyvin kuin ennenkin</string>
+    <string name="mood11_3">Herätessäni aamuisin olen paljon väsyneempi kuin ennen</string>
+    <string name="mood11_4">Minua haittaa unettomuus</string>
+    <string name="mood11_5">kärsin unettomuudesta, nukahtamisvaikeuksista tai liian aikaisesta kesken unien heräämisestä</string>
+
+    <string name="mood12">12. Tunnetko väsymystä ja uupumusta?</string>
+    <string name="mood12_1">Väsyminen on minulle lähes täysin vierasta</string>
+    <string name="mood12_2">En väsy helpommin kuin tavallisestikaan</string>
+    <string name="mood12_3">Väsyn helpommin kuin ennen</string>
+    <string name="mood12_4">Vähäinen työ väsyttää ja uuvuttaa minua</string>
+    <string name="mood12_5">Olen liian väsynyt tehdäkseni mitään</string>
+
+    <string name="mood13">13. Minkälainen ruokahalusi on?</string>
+    <string name="mood13_1">Ruokahalussani ei ole mitään hankaluuksia</string>
+    <string name="mood13_2">Ruokahaluni on ennallaan</string>
+    <string name="mood13_3">Ruokahaluni on huonompi kuin ennen</string>
+    <string name="mood13_4">Ruokahaluni on nyt paljon huonompi kuin ennen</string>
+    <string name="mood13_5">Minulla ei ole enää lainkaan ruokahalua</string>
+
+    <string name="mood14">14. Oletko ahdistunut ja jännittynyt?</string>
+    <string name="mood14_1">Pidän itseäni melko hyvähermoisena enkä ahdistu kovinkaan helposti</string>
+    <string name="mood14_2">En tunne itseäni ahdistuneeksi tai "huonohermoiseksi"</string>
+    <string name="mood14_3">Ahdistun ja jännityn melko helposti</string>
+    <string name="mood14_4">Tulen erityisen helposti tuskaiseksi, ahdistuneeksi tai jännittyneeksi</string>
+    <string name="mood14_5">Tunnen itseni jatkuvasti ahdistuneeksi ja tuskaiseksi kuin hermoni olisivat "loppuun kuluneet"</string>
+
+    <string name="depression1">Ei masennusoireita</string>
+    <string name="depression2">Lieviä masennusoireita</string>
+    <string name="depression3">Kohtalaisia masennusoireita</string>
+    <string name="depression4">Vakavia masennusoireita</string>
+
+    <string name="forwards">Eteenpäin</string>
+    <string name="backwards">Taaksepäin</string>
+    <string name="answer">Vastaa kysymykseen!</string>
+    <string name="end">Katso tulokset</string>
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 
