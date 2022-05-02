@@ -33,113 +33,113 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
-    <string name="mood1">1. Minkälainen on mielialasi?</string>
-    <string name="mood1_1">Mielialani on melko valoisa ja hyvä</string>
-    <string name="mood1_2">En ole alakuloinen tai surullinen</string>
-    <string name="mood1_3">Tunnen itseni alakuloiseksi ja surulliseksi</string>
-    <string name="mood1_4">Olen alakuloinen jatkuvasti, enkä pääse siitä</string>
-    <string name="mood1_5">Olen niin masentunut ja alavireinen, etten kestä enää</string>
+    <string name="mood1">1. Hurdan är din sinnesstämning?</string>
+    <string name="mood1_1">Min sinnesstämning är rätt ljus och bra</string>
+    <string name="mood1_2">Jag är inte nedstämd eller sorgsen</string>
+    <string name="mood1_3">Jag känner mig nedstämd och sorgsen</string>
+    <string name="mood1_4">Jag är hela tiden nedstämd och kommer inte ur det</string>
+    <string name="mood1_5">Jag är så deprimerad och nere att jag inte står ut längre</string>
 
-    <string name="mood2">2. Miten suhtaudut tulevaisuuteen?</string>
-    <string name="mood2_1">Suhtauden tulevaisuuteen toiveikkaasti</string>
-    <string name="mood2_2">En suhtaudu tulevaisuuteen toivottomasti</string>
-    <string name="mood2_3">Tulevaisuus tuntuu minusta melko masentavalta</string>
-    <string name="mood2_4">Minusta tuntuu, ettei minulla ole tulevaisuudelta mitään odotettavaa</string>
-    <string name="mood2_5">Tulevaisuus tuntuu minusta toivottomalta, enkä jaksa uskoa, että asiat muuttuisivat parempaan päin</string>
+    <string name="mood2">2. Hur förhåller du dig till framtiden?</string>
+    <string name="mood2_1">Jag känner mig förhoppningsfull inför framtiden</string>
+    <string name="mood2_2">Jag känner inte hopplöshet inför framtiden</string>
+    <string name="mood2_3">Framtiden känns ganska deprimerande</string>
+    <string name="mood2_4">Jag känner att jag inte har något att vänta av framtiden</string>
+    <string name="mood2_5">Ramtiden känns hopplös och jag orkar inte tro att det ska bli bättre</string>
 
-    <string name="mood3">3. Miten katsot elämäsi sujuneen?</string>
-    <string name="mood3_1">Olen elämässäni onnistunut huomattavan usein</string>
-    <string name="mood3_2">En tunne epäonnistuneeni elämässä</string>
-    <string name="mood3_3">Minusta tuntuu, että olen epäonnistunut pyrkimyksissäni tavallista useammin</string>
-    <string name="mood3_4">Elämäni on tähän saakka ollut vain sarja epäonnistumisia</string>
-    <string name="mood3_5">Tunnen epäonnistuneeni täydellisesti ihmisenä</string>
+    <string name="mood3">3. Hur tycker du att ditt liv har varit?</string>
+    <string name="mood3_1">Jag har lyckats väldigt ofta</string>
+    <string name="mood3_2">Jag känner mig inte som en förlorare</string>
+    <string name="mood3_3">Jag tycker att jag har misslyckats mer än vanligt</string>
+    <string name="mood3_4">Mitt liv har varit en rad av misslyckanden</string>
+    <string name="mood3_5">Jag känner mig helt misslyckad som människa</string>
 
-    <string name="mood4">4. Miten tyytyväiseksi tai tyytymättömäksi tunnet itsesi?</string>
-    <string name="mood4_1">Olen varsin tyytyväinen elämääni</string>
-    <string name="mood4_2">En ole erityisen tyytyväinen</string>
-    <string name="mood4_3">En nauti asioista samalla tavoin kuin ennen</string>
-    <string name="mood4_4">Minusta tuntuu, etten saa enää tyydytystä juuri mistään</string>
-    <string name="mood4_5">Olen täysin tyytymätön kaikkeen</string>
+    <string name="mood4">4. Hur nöjd eller missnöjd känner du dig?</string>
+    <string name="mood4_1">Jag är rätt nöjd med livet</string>
+    <string name="mood4_2">Jag är inte särskilt nöjd</string>
+    <string name="mood4_3">Jag njuter inte av saker på samma sätt som förr</string>
+    <string name="mood4_4">Jag tycker att nästan ingenting ger mig tillfredsställelse längre</string>
+    <string name="mood4_5">Jag är missnöjd med allt och alla</string>
 
-    <string name="mood5">5. Minkälaisena pidät itseäsi?</string>
-    <string name="mood5_1">Tunnen itseni melko hyväksi</string>
-    <string name="mood5_2">En tunne itseäni huonoksi ja arvottomaksi</string>
-    <string name="mood5_3">Tunnen itseni huonoksi ja arvottomaksi melko usein</string>
-    <string name="mood5_4">Nykyään tunnen itseni arvottomaksi melkein aina</string>
-    <string name="mood5_5">Olen kerta kaikkiaan huono ja arvoton</string>
+    <string name="mood5">5. Hurdan tycker du att du är?</string>
+    <string name="mood5_1">Jag tycker att jag är rätt bra</string>
+    <string name="mood5_2">Jag tycker inte att jag är dålig eller värdelös</string>
+    <string name="mood5_3">Jag känner mig rätt ofta dålig och värdelös</string>
+    <string name="mood5_4">Nuförtiden känner jag mig nästan alltid värdelös</string>
+    <string name="mood5_5">Jag är helt enkelt dålig och värdelös</string>
 
-    <string name="mood6">6. Onko sinulla pettymyksen tunteita?</string>
-    <string name="mood6_1">Olen tyytyväinen itseeni ja suorituksiini</string>
-    <string name="mood6_2">En ole pettynyt itseni suhteen</string>
-    <string name="mood6_3">Olen pettynyt itseni suhteen</string>
-    <string name="mood6_4">Minua inhottaa itseni</string>
-    <string name="mood6_5">Vihaan itseäni</string>
+    <string name="mood6">6. Känner du dig besviken?</string>
+    <string name="mood6_1">Jag är nöjd med mig själv och mina prestationer</string>
+    <string name="mood6_2">Jag är inte besviken på mig själv</string>
+    <string name="mood6_3">Jag är besviken på mig själv</string>
+    <string name="mood6_4">Jag är utled på mig själv</string>
+    <string name="mood6_5">Jag hatar mig själv</string>
 
-    <string name="mood7">7. Onko sinulla itsesi vahingoittamiseen liittyviä ajatuksia?</string>
-    <string name="mood7_1">Minulla ei ole koskaan ollut itsemurha-ajatuksia</string>
-    <string name="mood7_2">En ajattele, enkä halua vahingoittaa itseäni</string>
-    <string name="mood7_3">Minusta tuntuu, että olisi parempi jos olisin kuollut</string>
-    <string name="mood7_4">Minulla on tarkat suunnitelmat itsemurhasta</string>
-    <string name="mood7_5">Tekisin itsemurhan, jos siihen olisi mahdollisuus</string>
+    <string name="mood7">7. Har du tankar om att skada dig själv?</string>
+    <string name="mood7_1">Jag har aldrig haft självmordstankar</string>
+    <string name="mood7_2">Jag har inga sådana tankar och jag vill inte skada mig själv</string>
+    <string name="mood7_3">Jag tycker det skulle vara bättre om jag var död</string>
+    <string name="mood7_4">Jag har ingående planer på självmord</string>
+    <string name="mood7_5">Jag skulle ta livet av mig om jag bara hade tillfälle till det</string>
 
-    <string name="mood8">8. Miten suhtaudut vieraiden ihmisten tapaamiseen?</string>
-    <string name="mood8_1">Pidän ihmisten tapaamisesta ja juttelemisesta</string>
-    <string name="mood8_2">En ole menettänyt kiinnostusta muihin ihmisiin</string>
-    <string name="mood8_3">Toiset ihmiset eivät enää kiinnosta minua niin paljon kuin ennen</string>
-    <string name="mood8_4">Olen melkein menettänyt mielenkiintoni sekä tunteeni toisia ihmisiä kohtaan</string>
-    <string name="mood8_5">Olen menettänyt mielenkiintoni muihin ihmisiin, enkä välitä heistä lainkaan</string>
+    <string name="mood8">8. Vad tycker du om att träffa främmande personer?</string>
+    <string name="mood8_1">Jag gillar att träffa folk och prata med dem</string>
+    <string name="mood8_2">Jag har inte tappat intresset för andra människor</string>
+    <string name="mood8_3">Jag är inte längre lika intresserad av andra människor</string>
+    <string name="mood8_4">Jag har tappat det mesta av intresset och känslorna för andra människor</string>
+    <string name="mood8_5">Jag har tappat intresset för andra människor och bryr mig inte alls om dem</string>
 
-    <string name="mood9">9. Miten suhtaudut vieraiden ihmisten tapaamiseen?</string>
-    <string name="mood9_1">erilaisten päätösten tekeminen on minulle helppoa</string>
-    <string name="mood9_2">pystyn tekemään päätöksiä samoin kuin ennenkin</string>
-    <string name="mood9_3">Varmuuteni on vähentynyt ja yritän lykätä päätöksen tekoa</string>
-    <string name="mood9_4">Minulla on suuria vaikeuksia päätösten teossa</string>
-    <string name="mood9_5">En pysty enää lainkaan tekemään ratkaisuja ja päätöksiä</string>
+    <string name="mood9">9. Hur tycker du det är att fatta beslut?</string>
+    <string name="mood9_1">Jag har lätt att fatta beslut</string>
+    <string name="mood9_2">Jag kan fatta beslut på samma sätt som förr</string>
+    <string name="mood9_3">Jag har blivit osäkrare och försöker skjuta upp beslut</string>
+    <string name="mood9_4">Jag har stora svårigheter att fatta beslut</string>
+    <string name="mood9_5">Jag kan inte fatta några beslut alls längre</string>
 
-    <string name="mood10">10. Minkälaisena pidät olemustasi ja ulkonäössäsi</string>
-    <string name="mood10_1">Olen melko tyytyväinen ulkonäkööni ja olemukseeni</string>
-    <string name="mood10_2">Ulkonäössäni ei ole minua haittaavia piirteitä</string>
-    <string name="mood10_3">Olen huolissani siitä, että näytän epämiellyttävältä</string>
-    <string name="mood10_4">Minusta tuntuu, että näytän rumalta</string>
-    <string name="mood10_5">Olen varma, että näytän rumalta ja vastenmieliseltä</string>
+    <string name="mood10">10. Hur uppfattar du dig och ditt utseende?</string>
+    <string name="mood10_1">Jag är rätt nöjd med mitt utseende och mig själv</string>
+    <string name="mood10_2">Det finns ingenting som stör mig i mitt utseende</string>
+    <string name="mood10_3">Jag är orolig för att jag inte är attraktiv</string>
+    <string name="mood10_4">Jag tycker att jag är ful</string>
+    <string name="mood10_5">Jag är säker på att jag är ful och frånstötande</string>
 
-    <string name="mood11">11. Minkälaista nukkumisesi on?</string>
-    <string name="mood11_1">Minulla ei ole nukkumisessa minkäänlaisia vaikeuksia</string>
-    <string name="mood11_2">Nukun yhtä hyvin kuin ennenkin</string>
-    <string name="mood11_3">Herätessäni aamuisin olen paljon väsyneempi kuin ennen</string>
-    <string name="mood11_4">Minua haittaa unettomuus</string>
-    <string name="mood11_5">kärsin unettomuudesta, nukahtamisvaikeuksista tai liian aikaisesta kesken unien heräämisestä</string>
+    <string name="mood11">11. Hur har du det med sömnen?</string>
+    <string name="mood11_1">Jag har inga sömnproblem</string>
+    <string name="mood11_2">Jag sover lika bra som förr</string>
+    <string name="mood11_3">När jag vaknar på morgonen är jag mycket tröttare än förr</string>
+    <string name="mood11_4">Jag har problem med sömnlöshet</string>
+    <string name="mood11_5">Jag lider av sömnlöshet, har svårt att somna eller vaknar för tidigt</string>
 
-    <string name="mood12">12. Tunnetko väsymystä ja uupumusta?</string>
-    <string name="mood12_1">Väsyminen on minulle lähes täysin vierasta</string>
-    <string name="mood12_2">En väsy helpommin kuin tavallisestikaan</string>
-    <string name="mood12_3">Väsyn helpommin kuin ennen</string>
-    <string name="mood12_4">Vähäinen työ väsyttää ja uuvuttaa minua</string>
-    <string name="mood12_5">Olen liian väsynyt tehdäkseni mitään</string>
+    <string name="mood12">12. Känner du dig trött eller utmattad?</string>
+    <string name="mood12_1">Trötthet är nästan helt obekant för mig</string>
+    <string name="mood12_2">Jag blir inte lättare trött än vanligt</string>
+    <string name="mood12_3">Jag blir lättare trött än vanligt</string>
+    <string name="mood12_4">Jag blir trött och utmattad av minsta lilla</string>
+    <string name="mood12_5">Jag är för trött för att göra någonting alls</string>
 
-    <string name="mood13">13. Minkälainen ruokahalusi on?</string>
-    <string name="mood13_1">Ruokahalussani ei ole mitään hankaluuksia</string>
-    <string name="mood13_2">Ruokahaluni on ennallaan</string>
-    <string name="mood13_3">Ruokahaluni on huonompi kuin ennen</string>
-    <string name="mood13_4">Ruokahaluni on nyt paljon huonompi kuin ennen</string>
-    <string name="mood13_5">Minulla ei ole enää lainkaan ruokahalua</string>
+    <string name="mood13">13. Hur har du det med aptiten?</string>
+    <string name="mood13_1">Jag har inga problem med aptiten</string>
+    <string name="mood13_2">Min aptit är oförändrad</string>
+    <string name="mood13_3">Jag har sämre aptit än förut</string>
+    <string name="mood13_4">Jag har mycket sämre aptit än förut</string>
+    <string name="mood13_5">Jag har nästan ingen aptit alls</string>
 
-    <string name="mood14">14. Oletko ahdistunut ja jännittynyt?</string>
-    <string name="mood14_1">Pidän itseäni melko hyvähermoisena enkä ahdistu kovinkaan helposti</string>
-    <string name="mood14_2">En tunne itseäni ahdistuneeksi tai "huonohermoiseksi"</string>
-    <string name="mood14_3">Ahdistun ja jännityn melko helposti</string>
-    <string name="mood14_4">Tulen erityisen helposti tuskaiseksi, ahdistuneeksi tai jännittyneeksi</string>
-    <string name="mood14_5">Tunnen itseni jatkuvasti ahdistuneeksi ja tuskaiseksi kuin hermoni olisivat "loppuun kuluneet"</string>
+    <string name="mood14">14. Har du ångest eller känner du dig spänd?</string>
+    <string name="mood14_1">Jag tycker att jag har rätt goda nerver och får inte ångest särskilt lätt</string>
+    <string name="mood14_2">Jag tycker inte att jag har ångest eller ”dåliga nerver”</string>
+    <string name="mood14_3">Jag får ångest och spänner mig ganska lätt</string>
+    <string name="mood14_4">Jag får ångest, mår dåligt och spänner mig väldigt lätt</string>
+    <string name="mood14_5">Jag har ångest och mår dåligt hela tiden, det känns som om mina nerver är ”helt slut”</string>
 
-    <string name="depression1">Ei masennusoireita</string>
-    <string name="depression2">Lieviä masennusoireita</string>
-    <string name="depression3">Kohtalaisia masennusoireita</string>
-    <string name="depression4">Vakavia masennusoireita</string>
+    <string name="depression1">Inga symtom på depression</string>
+    <string name="depression2">Lindriga depressionssymtom</string>
+    <string name="depression3">Måttliga depressionssymtom </string>
+    <string name="depression4">Allvarliga depressionssymtom</string>
 
-    <string name="forwards">Eteenpäin</string>
-    <string name="backwards">Taaksepäin</string>
-    <string name="answer">Vastaa kysymykseen!</string>
-    <string name="end">Katso tulokset</string>
+    <string name="forwards">Nästa fråga</string>
+    <string name="backwards">Föregående fråga</string>
+    <string name="answer">Svara gärna på frågan</string>
+    <string name="end">Se resultatet</string>
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 
