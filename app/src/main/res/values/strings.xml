@@ -32,6 +32,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="mielialakysely" translatable="false">Mielialakysely</string>
     <string name="mood1">1. Minkälainen on mielialasi?</string>
     <string name="mood1_1">Mielialani on melko valoisa ja hyvä</string>
     <string name="mood1_2">En ole alakuloinen tai surullinen</string>

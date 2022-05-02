@@ -58,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
         videoPlayLoop();
 
     }
+    public void openMoodActivity(View view) {
+        Intent intent = new Intent(this, MielialakyselyActivity.class);
+        startActivity(intent);
+    }
     //Metodi, joka siirtää päiväkirja-aktiviteettiin napin painalluksella.
     public void openDiary(View v){
         Intent intent = new Intent(this, PaivakirjaActivity.class);
