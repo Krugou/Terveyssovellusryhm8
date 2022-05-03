@@ -6,8 +6,11 @@
     android:layout_height="match_parent"
 
 
+    android:background="@color/desertsand"
+    android:visibility="visible"
+    tools:context=".MielialakyselyActivity"
+    tools:visibility="visible">
 
-    tools:context=".MielialakyselyActivity">
     <TextView
         android:id="@+id/testNumber"
         android:layout_width="wrap_content"
@@ -22,9 +25,15 @@
 
     <TextView
         android:id="@+id/moodQuestion"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:duplicateParentState="false"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
         android:text="Mielialakysely"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -36,16 +45,22 @@
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        
+        android:background="@color/green"
+        android:hapticFeedbackEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline28"
+        app:layout_constraintStart_toStartOf="@+id/guideline26"
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/option1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:text="RadioButton"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -53,7 +68,9 @@
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:text="RadioButton"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -61,7 +78,11 @@
             android:id="@+id/option3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
+            android:hapticFeedbackEnabled="true"
+            android:minHeight="48dp"
             android:text="RadioButton"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -69,7 +90,10 @@
             android:id="@+id/option4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:hapticFeedbackEnabled="true"
+            android:minHeight="48dp"
             android:text="RadioButton"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -77,7 +101,10 @@
             android:id="@+id/option5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:hapticFeedbackEnabled="true"
+            android:minHeight="48dp"
             android:text="RadioButton"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
     </RadioGroup>
@@ -86,8 +113,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/forwards"
         android:onClick="forwards"
+        android:text="@string/forwards"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
@@ -99,8 +126,8 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/backwards"
         android:onClick="backwards"
+        android:text="@string/backwards"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
@@ -118,4 +145,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
 </androidx.constraintlayout.widget.ConstraintLayout>
