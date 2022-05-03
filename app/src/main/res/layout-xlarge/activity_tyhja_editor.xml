@@ -40,6 +40,8 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
+        android:maxLength="350"
+        android:maxLines="10"
         android:hint="@string/mieliala"
         android:inputType="textPersonName"
         android:minHeight="48dp"
