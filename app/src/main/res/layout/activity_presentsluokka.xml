@@ -6,32 +6,31 @@
     android:layout_height="match_parent"
 
 
-
-    android:background="@color/grey"
-    android:backgroundTint="@color/teal_700">
+    android:background="@color/aquasqueeze">
 
 
     <TextView
         android:id="@+id/textView31"
-        android:layout_width="247dp"
-        android:layout_height="53dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/textViewPresents"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#4E342E"
-        android:textSize="16sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/guideline6"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
         android:id="@+id/textView32"
-        android:layout_width="159dp"
-        android:layout_height="84dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/textViewPresents2"
         android:textAlignment="center"
         android:textColor="#4E342E"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -67,9 +66,9 @@
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="268dp"
-        android:layout_height="197dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="253dp"
         app:layout_constraintBottom_toTopOf="@+id/textView32"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

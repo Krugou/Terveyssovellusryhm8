@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
 
 
-
-    android:background="@color/orange">
+    android:background="@color/aquasqueeze">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
