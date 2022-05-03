@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+
 public class Aloitusluokka extends AppCompatActivity {
     boolean ensimmaistaKertaaKayttamassa;
 
@@ -202,15 +203,18 @@ public class Aloitusluokka extends AppCompatActivity {
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti180), getApplicationContext().getResources().getString(R.string.Lainaustekija180)));
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti181), getApplicationContext().getResources().getString(R.string.Lainaustekija181)));
         positivisetSanatLista.add(new Positiivisetsanat(getApplicationContext().getResources().getString(R.string.Lainausteksti182), getApplicationContext().getResources().getString(R.string.Lainaustekija182)));
-
-
+        TextView aloitusTekstinakyma3 = findViewById(R.id.textView23);
+        int valitseSekalainenNumeroInt = (int) (Math.random() * positivisetSanatLista.size());
+        Log.i("my_app", " " + valitseSekalainenNumeroInt);
+        Log.i("my_app", " " + positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
+        aloitusTekstinakyma3.setText(positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
         // jos eka kerta käyttämässä tulostetaan ruudulle "käytät ensimmäistä kertaa" ja tallennetaan boolean muuttuja siitä prefenssiin
         // kun seuraavan kerran tullaan paikalle viesti muuttuu
         SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE);
         ensimmaistaKertaaKayttamassa = sharedPreferences.getBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
-        TextView aloitusTekstinakyma = (TextView) findViewById(R.id.textView21);
-        TextView aloitusTekstinakyma2 = (TextView) findViewById(R.id.textView22);
-        TextView aloitusTekstinakyma3 = (TextView) findViewById(R.id.textView23);
+        TextView aloitusTekstinakyma = findViewById(R.id.textView21);
+        TextView aloitusTekstinakyma2 = findViewById(R.id.textView22);
+
         if (!ensimmaistaKertaaKayttamassa) {
             aloitusTekstinakyma.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusEka));
             aloitusTekstinakyma2.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusToka));
@@ -223,10 +227,7 @@ public class Aloitusluokka extends AppCompatActivity {
             aloitusTekstinakyma2.setText(R.string.textViewAloitusVanha2);
 
         }
-        int valitseSekalainenNumeroInt = (int) (Math.random() * positivisetSanatLista.size());
-        Log.i("my_app", " " + valitseSekalainenNumeroInt);
-        Log.i("my_app", " " + positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
-        aloitusTekstinakyma3.setText(positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
+
         Thread tervetuloaLanka = new Thread() {
             @Override
             public void run() {

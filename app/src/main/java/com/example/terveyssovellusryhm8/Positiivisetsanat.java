@@ -10,6 +10,8 @@ public class Positiivisetsanat {
         this.positivisetSanat = positivisetSanat;
         this.positivisetSanatTekija = positivisetSanatTekija;
     }
+
+
     // tulostaa takaisin sanat ja tekijät
     public String getPositiivisetSanat() {
         return positivisetSanat;
