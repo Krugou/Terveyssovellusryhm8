@@ -27,61 +27,86 @@
         android:id="@+id/lisaysButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
         android:layout_marginBottom="3dp"
         android:onClick="openDiaryEditor"
         android:padding="5dp"
+        android:shadowColor="@color/deepteal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
         android:text="@string/button_teelisays"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline24"
         app:layout_constraintEnd_toStartOf="@+id/guideline30"
-        app:layout_constraintHorizontal_weight="1" />
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/guideline29" />
 
     <Button
         android:id="@+id/paivakirjaButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
         android:layout_marginBottom="3dp"
         android:onClick="openDiary"
         android:padding="5dp"
+        android:shadowColor="@color/deepteal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
         android:text="@string/button_avaapaivakirja"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/lisaysButton"
         app:layout_constraintEnd_toStartOf="@+id/guideline30"
-        app:layout_constraintHorizontal_weight="1" />
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="@+id/guideline29"
+        app:layout_constraintTop_toTopOf="@+id/guideline31"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
         android:layout_marginBottom="3dp"
         android:onClick="openMoodActivity"
         android:padding="5dp"
+        android:shadowColor="@color/deepteal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
         android:text="@string/mielialakysely"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintHorizontal_weight="1"
-        app:layout_constraintStart_toStartOf="@+id/guideline30" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline32"
+        app:layout_constraintHorizontal_weight="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline30"
+        app:layout_constraintTop_toTopOf="@+id/guideline31"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
         android:onClick="openMoodActivity"
         android:padding="5dp"
+        android:shadowColor="@color/deepteal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
         android:text="@string/mielialakysely"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline24"
-        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline32"
+        app:layout_constraintHorizontal_weight="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline30" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -92,11 +117,18 @@
         app:layout_constraintGuide_percent="0.85" />
 
     <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.72" />
+
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.15" />
+        app:layout_constraintGuide_percent="0.1" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline27"
@@ -110,7 +142,7 @@
         android:layout_width="0dp"
         android:layout_height="316dp"
         android:layout_marginLeft="70sp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:layout_marginRight="70sp"
         android:layout_marginBottom="226dp"
         android:foregroundGravity="center"
@@ -129,12 +161,12 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.05" />
 
-    <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/barrier2"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:barrierDirection="left"
-        app:constraint_referenced_ids="lisaysButton" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline30"
