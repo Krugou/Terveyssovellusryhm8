@@ -66,7 +66,7 @@ tallennetaan luokan sisäisiin listoihin.
             // Listview saa adapterin listaan, jossa on päivämäärät.
             this.listAdapter = new ArrayAdapter<>(
                     this,
-                    android.R.layout.simple_list_item_1,
+                    R.layout.listviewtext,
                     paivamaaraLista);
             paivakirjaLista.setAdapter(this.listAdapter);
 
