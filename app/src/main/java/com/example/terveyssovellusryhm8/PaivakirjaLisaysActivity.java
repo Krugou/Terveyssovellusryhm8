@@ -35,9 +35,9 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         setContentView(R.layout.activity_paivakirja_lisays);
 
         // lisää oletuksena paikallisen päivämäärän "syötä päivämäärä" kohtaan.
-        String date_n = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
-        TextView date  =  findViewById(R.id.editTextPaiva);
-        date.setText(date_n);
+        String tanPaivanLisays = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
+        TextView etsiPaivaRuutuRuudulta  =  findViewById(R.id.editTextPaiva);
+        etsiPaivaRuutuRuudulta.setText(tanPaivanLisays);
 
 
     }
