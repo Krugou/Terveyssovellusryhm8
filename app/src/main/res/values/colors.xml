@@ -13,4 +13,15 @@
     <color name="green">#36c58d</color>
     <color name="reddish">#8c2451</color>
     <color name="beige">#fff2cc</color>
+    <!--päävärit 1-->
+        <color name="goldfusion">#716543</color>
+    <color name="turquoise">#48E5C2</color>
+    <color name="desertsand">#F3D3BD</color>
+    <color name="richblack">#051014</color>
+    <!--//päävärit 2-->
+    <color name="catawba">#653239</color>
+    <color name="tuscany">#C3979F</color>
+    <color name="teagreen">#CCDDB7</color>
+    <color name="darkslategray">#384D48</color>
+
 </resources>

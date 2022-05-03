@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+android:windowNoTitle="true"
+android:windowActionBar="false"
+
+
+
     android:background="@color/orange">
 
     <androidx.constraintlayout.widget.Guideline
