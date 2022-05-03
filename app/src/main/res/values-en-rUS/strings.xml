@@ -11,10 +11,10 @@
      <string name="edittext_paivamaara"> Enter Date </string>
      <string name="button_lisaa"> Update Add! </string>
      <string name="multilineedittext_kirjaus2"> Enter Here </string>
-     <string name="edittext_kalorit">" Enter calories "</string>
+     <string name="edittext_kalorit"> Enter calories </string>
      <string name="button_koti"> The button that takes you home </string>
      <string name="kirjotatahan"> Type here </string>
-     <string name="mieliala"> mood </string>
+     <string name="mieliala"> Mood </string>
      <string name="button_takaisin"> A button that takes you back to the diary </string>
     <string name="alertViesti">You have to enter a date before continuing</string>
     <string name="alertKyllä">Yes</string>
