@@ -25,7 +25,9 @@
     <color name="darkslategray">#384D48</color>
     <!--päävärit 1-->
     <color name="deepteal">#005368</color>
+    <color name="deepteal2">#004B5E</color>
     <color name="palepink">#f3dddd</color>
     <color name="aquasqueeze">#e8f4ec</color>
+    <color name="aquasqueeze2">#BAD3C2</color>
 
 </resources>
