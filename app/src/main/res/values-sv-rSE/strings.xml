@@ -33,6 +33,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="mielialakysely">Humör frågeformulär</string>
     <string name="mood1">1. Hurdan är din sinnesstämning?</string>
     <string name="mood1_1">Min sinnesstämning är rätt ljus och bra</string>
     <string name="mood1_2">Jag är inte nedstämd eller sorgsen</string>
@@ -140,6 +141,8 @@
     <string name="backwards">Föregående fråga</string>
     <string name="answer">Svara gärna på frågan</string>
     <string name="end">Se resultatet</string>
+
+    <string name="results">Humör frågeformulär resultat</string>
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 

@@ -33,6 +33,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="mielialakysely">Mielialakysely</string>
     <string name="mood1">1. Minkälainen on mielialasi?</string>
     <string name="mood1_1">Mielialani on melko valoisa ja hyvä</string>
     <string name="mood1_2">En ole alakuloinen tai surullinen</string>
@@ -140,6 +141,9 @@
     <string name="backwards">Taaksepäin</string>
     <string name="answer">Vastaa kysymykseen!</string>
     <string name="end">Katso tulokset</string>
+
+    <string name="results">Mielialakyselyn tulokset</string>
+
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 

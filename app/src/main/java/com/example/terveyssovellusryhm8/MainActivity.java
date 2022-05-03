@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental4);
         } else if (videoNumero == 5) {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental5);
-
-        } else if (videoNumero == 6) {
+        // Ei tarvi olla else if viimisessä
+        } else {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
 
         }

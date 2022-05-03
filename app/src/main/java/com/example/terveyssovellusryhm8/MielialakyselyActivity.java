@@ -3,8 +3,10 @@ package com.example.terveyssovellusryhm8;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -12,7 +14,7 @@ import android.widget.TextView;
 import java.util.Arrays;
 
 public class MielialakyselyActivity extends AppCompatActivity {
-
+    public static final String EXTRA_MESSAGE = "com.example.terveyssovellusryhm8.MESSAGE";
     int round;
     int[] points = new int[14];
 
@@ -24,7 +26,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mielialakysely);
 
 
-        Arrays.fill(points, -1);
+        Arrays.fill(points, 0);
 
         round = 1;
         printTexts(round);
@@ -51,22 +53,30 @@ public class MielialakyselyActivity extends AppCompatActivity {
 
                 System.out.println(rg.getCheckedRadioButtonId());
 
-                tn.setText(Integer.toString(totalValue()));
+                tn.setText(Integer.toString(round));
                 round++;
                 rg.clearCheck();
                 printTexts(round);
-
+                System.out.println("round " + round);
             } else {
+                // Add code to get out from this mood questionnaire
                 tn.setText(R.string.answer);
+
+
             }
+        } else{
+            Intent intent = new Intent(this, MielialaVastausActivity.class);
+            intent.putExtra(EXTRA_MESSAGE, points);
+
+            startActivity(intent);
         }
     }
+    // The method that is called when you call the
+    // backwards button. It shows the previous question.
     public void backwards(View v){
         RadioGroup rg = findViewById(R.id.radioGroup);
-        if (round == 1){
 
-        }
-        else {
+        if (round != 1) {
             round--;
             RadioButton rb;
 
@@ -110,6 +120,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         RadioButton rb3 = findViewById(R.id.option3);
         RadioButton rb4 = findViewById(R.id.option4);
         RadioButton rb5 = findViewById(R.id.option5);
+        Button next = findViewById(R.id.button2);
 
         // Testikoodia, poista lopulliseen
         //TextView tn = findViewById(R.id.testNumber);
@@ -230,6 +241,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
                 rb3.setText(R.string.mood13_3);
                 rb4.setText(R.string.mood13_4);
                 rb5.setText(R.string.mood13_5);
+                next.setText(R.string.forwards);
                 break;
 
             case 14:
@@ -239,6 +251,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
                 rb3.setText(R.string.mood14_3);
                 rb4.setText(R.string.mood14_4);
                 rb5.setText(R.string.mood14_5);
+                next.setText(R.string.end);
                 break;
         }
     }

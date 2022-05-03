@@ -33,6 +33,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="mielialakysely">Mood questionnaire</string>
     <string name="mood1">1. How is your mood?</string>
     <string name="mood1_1">My mood is bright and good</string>
     <string name="mood1_2">I\'m not sad nor gloomy</string>
@@ -140,6 +141,8 @@
     <string name="backwards">Previous</string>
     <string name="answer">Could you answer the question, please</string>
     <string name="end">Results</string>
+
+    <string name="results">Mood questionnaire results</string>
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
 
