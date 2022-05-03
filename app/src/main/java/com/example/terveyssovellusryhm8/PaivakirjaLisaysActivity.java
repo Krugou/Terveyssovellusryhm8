@@ -36,8 +36,9 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
         // lisää oletuksena paikallisen päivämäärän "syötä päivämäärä" kohtaan.
         String date_n = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
-        TextView date  =  findViewById(R.id.editTextDate);
+        TextView date  =  findViewById(R.id.editTextPaiva);
         date.setText(date_n);
+
 
     }
 
@@ -47,7 +48,7 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         boolean ready; // Tällä arvolla todetaan, onko päivämäärä täytetty
 
         // Tehdään EditText-näkymiin syötetyistä arvoista merkkijonoja.
-        EditText paivamaara = findViewById(R.id.editTextDate);
+        EditText paivamaara = findViewById(R.id.editTextPaiva);
         String paivamaaraString = paivamaara.getText().toString();
 
         EditText kalorit = findViewById(R.id.editTextKalorit);
@@ -146,14 +147,14 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
     }
     public void goBack(View view){
 
+        Intent intent;
         if (viimeActivity==1) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+            intent = new Intent(this, MainActivity.class);
         }
         else{
-            Intent intent = new Intent(this, PaivakirjaActivity.class);
-            startActivity(intent);
+            intent = new Intent(this, PaivakirjaActivity.class);
         }
+        startActivity(intent);
 
 
     }
@@ -166,5 +167,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
 
     }
+
 
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@color/aquasqueeze"
 
 
     tools:context=".tyhjaActivityEditor">
@@ -46,7 +46,8 @@
         android:hint="@string/mieliala"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
+        android:textColor="@color/deepteal"
+        android:textColorHint="#616161"
         app:layout_constraintBottom_toTopOf="@+id/guideline21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -54,19 +55,22 @@
 
     <EditText
         android:id="@+id/editKirjaus"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:autofillHints=""
         android:ems="10"
-        android:maxLength="350"
-        android:maxLines="10"
         android:gravity="start|top"
         android:hint="@string/kirjotatahan"
         android:inputType="textMultiLine"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
-        app:layout_constraintTop_toTopOf="@+id/guideline21"
-        tools:layout_editor_absoluteX="41dp" />
+        android:textColor="@color/deepteal"
+        android:textColorHint="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline21" />
 
     <Button
         android:id="@+id/buttonTallenna"
@@ -81,14 +85,18 @@
         android:id="@+id/editPaiva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/edittext_paivamaara"
-        android:inputType="date"
+        android:inputType="textPersonName"
+        android:maxLength="12"
+        android:maxLines="1"
         android:minHeight="48dp"
+        android:textColor="@color/deepteal"
+        android:textColorHint="#546E7A"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editKalorit"
@@ -98,8 +106,11 @@
         android:ems="10"
         android:hint="@string/edittext_kalorit"
         android:inputType="number"
+        android:maxLength="12"
+        android:maxLines="1"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
+        android:textColor="@color/deepteal"
+        android:textColorHint="#616161"
         app:layout_constraintBottom_toTopOf="@+id/guideline19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
