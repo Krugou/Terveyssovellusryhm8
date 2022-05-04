@@ -36,23 +36,20 @@
         app:layout_constraintTop_toTopOf="@+id/guideline20" />
 
     <Button
-        app:autoSizeMaxTextSize="30dp"
-        app:autoSizeMinTextSize="10dp"
-        app:autoSizeTextType="uniform"
-        android:ellipsize="end"
         android:id="@+id/buttonLisays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/minunnappini"
+        android:ellipsize="end"
         android:onClick="buttonPressed"
         android:padding="5dp"
         android:text="@string/button_lisaa"
-        android:textColor="#FFFDE7"
-        app:layout_constraintBottom_toTopOf="@+id/guideline20"
-        app:layout_constraintStart_toStartOf="@+id/guideline33"
-        app:layout_constraintTop_toTopOf="@+id/guideline22"
-        app:layout_constraintVertical_bias="0.648" />
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideline22"
+        app:layout_constraintEnd_toStartOf="@+id/guideline47" />
 
     <EditText
         app:autoSizeMaxTextSize="30dp"
@@ -157,7 +154,14 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline47"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline33"

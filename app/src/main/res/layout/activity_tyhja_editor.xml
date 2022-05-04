@@ -34,24 +34,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
     <Button
-        app:autoSizeMaxTextSize="30dp"
-        app:autoSizeMinTextSize="10dp"
-        app:autoSizeTextType="uniform"
-        android:ellipsize="end"
-        android:background="@drawable/minunnappini"
-        android:padding="5dp"
         android:id="@+id/buttonTallenna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:background="@drawable/minunnappini"
+        android:ellipsize="end"
         android:onClick="saveEdits"
-        android:textColor="#FFFDE7"
+        android:padding="5dp"
         android:text="@string/buttonTallenna"
-        app:layout_constraintBottom_toTopOf="@+id/guideline13"
-        app:layout_constraintStart_toStartOf="@+id/guideline23"
-        app:layout_constraintTop_toTopOf="@+id/guideline19"
-        app:layout_constraintVertical_bias="0.648"  />
+        android:textColor="#FFFDE7"
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline45" />
     <EditText
         app:autoSizeMaxTextSize="30dp"
         app:autoSizeMinTextSize="10dp"
@@ -151,7 +150,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline23"
@@ -160,6 +159,12 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.6" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline45"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
