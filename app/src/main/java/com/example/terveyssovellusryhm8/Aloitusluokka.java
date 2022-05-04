@@ -207,18 +207,20 @@ public class Aloitusluokka extends AppCompatActivity {
 
         TextView aloitusTekstinakyma3 = findViewById(R.id.textView23);
         int valitseSekalainenNumeroInt = (int) (Math.random() * positivisetSanatLista.size());
-        Log.i("my_app", " " + valitseSekalainenNumeroInt);
-        Log.i("my_app", " " + positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
+        //Log.i("my_app", " " + valitseSekalainenNumeroInt);
+        //Log.i("my_app", " " + positivisetSanatLista.get(valitseSekalainenNumeroInt) + " \n" + " -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
         TextView aloitusTekstinakyma4 = findViewById(R.id.textView24);
         aloitusTekstinakyma3.setText(positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanat());
         aloitusTekstinakyma4.setText(" -" + positivisetSanatLista.get(valitseSekalainenNumeroInt).getPositiivisetSanatTekija());
-
+        TextView aloitusTekstinakyma5 = findViewById(R.id.textView25);
+        aloitusTekstinakyma5.setText(getApplicationContext().getResources().getString(R.string.tekijat)+":"+"\n"+ getApplicationContext().getResources().getString(R.string.Todellinenhakkeri)+"\n"+getApplicationContext().getResources().getString(R.string.Koodivelho)+"\n"+getApplicationContext().getResources().getString(R.string.Ohjelmointimestari));
         // jos eka kerta käyttämässä tulostetaan ruudulle "käytät ensimmäistä kertaa" ja tallennetaan boolean muuttuja siitä prefenssiin
         // kun seuraavan kerran tullaan paikalle viesti muuttuu
         SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE);
         ensimmaistaKertaaKayttamassa = sharedPreferences.getBoolean("onkoekakertataalla", ensimmaistaKertaaKayttamassa);
         TextView aloitusTekstinakyma = findViewById(R.id.textView21);
         TextView aloitusTekstinakyma2 = findViewById(R.id.textView22);
+        
 
         if (!ensimmaistaKertaaKayttamassa) {
             aloitusTekstinakyma.setText(getApplicationContext().getResources().getString(R.string.textViewAloitusEka));
