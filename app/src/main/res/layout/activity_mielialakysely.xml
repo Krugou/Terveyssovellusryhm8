@@ -14,15 +14,19 @@
 
     <TextView
         android:id="@+id/testNumber"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:textColor="@color/turquoise"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintTop_toBottomOf="@+id/moodQuestion" />
 
     <TextView
         android:id="@+id/moodQuestion"
@@ -46,9 +50,7 @@
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_margin="15dp"
         android:hapticFeedbackEnabled="true"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
@@ -61,12 +63,12 @@
             android:id="@+id/option1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:background="@drawable/minunradionappini"
             android:minHeight="48dp"
             android:padding="8dp"
             android:text="RadioButton"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -74,14 +76,14 @@
             android:id="@+id/option2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/minunradionappini"
             android:minHeight="48dp"
             android:padding="8dp"
             android:text="RadioButton"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -89,7 +91,7 @@
             android:id="@+id/option3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/minunradionappini"
@@ -98,7 +100,7 @@
             android:minHeight="48dp"
             android:padding="8dp"
             android:text="RadioButton"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -106,7 +108,7 @@
             android:id="@+id/option4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/minunradionappini"
@@ -114,7 +116,7 @@
             android:minHeight="48dp"
             android:padding="8dp"
             android:text="RadioButton"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
 
@@ -122,7 +124,7 @@
             android:id="@+id/option5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/minunradionappini"
@@ -130,18 +132,18 @@
             android:minHeight="48dp"
             android:padding="8dp"
             android:text="RadioButton"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="176dp"
             tools:layout_editor_absoluteY="378dp" />
     </RadioGroup>
 
     <Button
-        android:padding="8dp"
-        android:background="@drawable/minunnappini"
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/minunnappini"
         android:onClick="forwards"
+        android:padding="8dp"
         android:text="@string/forwards"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -151,12 +153,12 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <Button
-        android:padding="8dp"
-        android:background="@drawable/minunnappini"
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/minunnappini"
         android:onClick="backwards"
+        android:padding="8dp"
         android:text="@string/backwards"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -11,10 +11,12 @@
 
     <TextView
         android:id="@+id/mielialani"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
         android:text="@string/results"
-        android:textSize="24sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -24,8 +26,10 @@
 
     <TextView
         android:id="@+id/points"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
         android:text="@string/oletustextview"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,8 +41,10 @@
 
     <TextView
         android:id="@+id/selitys"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
         android:text="@string/oletustextview"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,6 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+
         android:id="@+id/kotiinnappi"
         android:padding="8dp"
         android:layout_width="wrap_content"

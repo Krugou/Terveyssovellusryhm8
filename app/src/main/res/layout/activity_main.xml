@@ -26,7 +26,7 @@
 
     <Button
         android:id="@+id/lisaysButton"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
         android:background="@drawable/minunnappini"
@@ -43,14 +43,13 @@
 
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline30"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toStartOf="@+id/guideline29"
         app:layout_constraintTop_toTopOf="@+id/guideline24" />
 
     <Button
         android:id="@+id/paivakirjaButton"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
         android:background="@drawable/minunnappini"
@@ -71,7 +70,7 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
         android:background="@drawable/minunnappini"
@@ -93,7 +92,7 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
         android:background="@drawable/minunnappini"
@@ -108,7 +107,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline32"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintHorizontal_weight="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline30"
         app:layout_constraintTop_toTopOf="@+id/guideline24" />
