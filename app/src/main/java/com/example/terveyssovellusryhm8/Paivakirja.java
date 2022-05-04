@@ -17,12 +17,12 @@ public class Paivakirja {
     private final ArrayList<String> kirjausLista;
     private final Context context;
 
-    public Paivakirja(String paivamaara, String kalorit, String mieliala, String kirjaus, Context context){
+    public Paivakirja(String paivamaara, String kalorit, String mieliala, String kirjaus, Context context) {
 
-        this.context=context;
+        this.context = context;
         paivamaaraLista = new ArrayList<>();
         kaloritLista = new ArrayList<>();
-        mielialaLista= new ArrayList<>();
+        mielialaLista = new ArrayList<>();
         kirjausLista = new ArrayList<>();
 
         paivamaaraLista.add(paivamaara);
@@ -32,8 +32,8 @@ public class Paivakirja {
 
     }
 
-    public Paivakirja(Context context){
-        this.context=context;
+    public Paivakirja(Context context) {
+        this.context = context;
         paivamaaraLista = getArrayList("paivamaaralista");
         kaloritLista = getArrayList("kaloritlista");
         mielialaLista = getArrayList("mielialalista");
@@ -42,7 +42,7 @@ public class Paivakirja {
     }
 
     // Metodi lisää listohihin preferencceissä olevien listojen tiedot.
-    public void addPrevious(){
+    public void addPrevious() {
 
         // Listoihin luetaan preferencceissä olevat listat.
         ArrayList<String> paivamaaraLista2 = getArrayList("paivamaaralista");
@@ -51,7 +51,7 @@ public class Paivakirja {
         ArrayList<String> kirjausLista2 = getArrayList("kirjauslista");
 
         // Lisätään listoihin kaikki merkkijonot preferenccien listoista.
-        if (paivamaaraLista2 !=null){
+        if (paivamaaraLista2 != null) {
             paivamaaraLista.addAll(paivamaaraLista2);
             kaloritLista.addAll(kaloritLista2);
             mielialaLista.addAll(mielialaLista2);
@@ -59,35 +59,40 @@ public class Paivakirja {
         }
     }
 
-    public void applyChanges(){
+    public void applyChanges() {
         saveArrayList(paivamaaraLista, "paivamaaralista");
         saveArrayList(kaloritLista, "kaloritlista");
         saveArrayList(mielialaLista, "mielialalista");
         saveArrayList(kirjausLista, "kirjauslista");
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return paivamaaraLista == null;
     }
 
-    public void removeFromLists(int i){
+    public void removeFromLists(int i) {
         paivamaaraLista.remove(i);
         kaloritLista.remove(i);
         mielialaLista.remove(i);
         kirjausLista.remove(i);
     }
-    public ArrayList<String> getPaivamaaraLista(){
+
+    public ArrayList<String> getPaivamaaraLista() {
         return paivamaaraLista;
     }
-    public ArrayList<String> getKaloritLista(){
+
+    public ArrayList<String> getKaloritLista() {
         return kaloritLista;
     }
-    public ArrayList<String> getMielialaLista(){
+
+    public ArrayList<String> getMielialaLista() {
         return mielialaLista;
     }
-    public ArrayList<String> getKirjausLista(){
+
+    public ArrayList<String> getKirjausLista() {
         return kirjausLista;
     }
+
     //Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
     public void saveArrayList(ArrayList<String> list, String key) {
         SharedPreferences prefs = this.context.getSharedPreferences("testaus41", Context.MODE_PRIVATE);
@@ -99,11 +104,12 @@ public class Paivakirja {
     }
 
     //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
-    public ArrayList<String> getArrayList(String key){
+    public ArrayList<String> getArrayList(String key) {
         SharedPreferences prefs = this.context.getSharedPreferences("testaus41", Context.MODE_PRIVATE);
         Gson gson = new Gson();
         String json = prefs.getString(key, null);
-        Type type = new TypeToken<ArrayList<String>>() {}.getType();
+        Type type = new TypeToken<ArrayList<String>>() {
+        }.getType();
         return gson.fromJson(json, type);
     }
 }

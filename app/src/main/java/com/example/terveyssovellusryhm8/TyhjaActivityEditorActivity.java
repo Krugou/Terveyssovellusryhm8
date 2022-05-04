@@ -19,6 +19,7 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
     private Paivakirja paivakirja;
     // Globaali indeksi muuttuja.
     private int indeksi;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,14 +28,14 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
         paivakirja = new Paivakirja(this);
 
         // Otetaan vastaan intentin lähettämä numeroarvo. Tallennetaan se indeksi muuttujaan.
-        Intent intent=getIntent();
-         indeksi = intent.getIntExtra("indeksi", -1);
+        Intent intent = getIntent();
+        indeksi = intent.getIntExtra("indeksi", -1);
 
-         // Liitetään muuttujat EditTexteihin.
-        paivamaaraEdit=findViewById(R.id.editPaiva);
-        kaloritEdit=findViewById(R.id.editKalorit);
-        mieliaalaEdit=findViewById(R.id.editMieliala);
-        kirjausEdit=findViewById(R.id.editKirjaus);
+        // Liitetään muuttujat EditTexteihin.
+        paivamaaraEdit = findViewById(R.id.editPaiva);
+        kaloritEdit = findViewById(R.id.editKalorit);
+        mieliaalaEdit = findViewById(R.id.editMieliala);
+        kirjausEdit = findViewById(R.id.editKirjaus);
 
         // Syötetään EditTexteihin arvoiksi listalta löytyvät merkkijonot indeksi muuttujan avulla.
         paivamaaraEdit.setText(paivakirja.getPaivamaaraLista().get(indeksi));
@@ -44,13 +45,14 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
 
 
     }
+
     // Tätä kutsutaan, kun Tallenna-nappia painetaan.
-    public void saveEdits(View view){
+    public void saveEdits(View view) {
         boolean ready;
         String editoituPaivamaara = paivamaaraEdit.getText().toString();
 
         // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus, joka käskee täyttää sen.
-        if (editoituPaivamaara.equals("")){
+        if (editoituPaivamaara.equals("")) {
             ready = false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
@@ -59,9 +61,8 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
                     .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
                     })
                     .show();
-        }
-        else {
-            ready=true;
+        } else {
+            ready = true;
         }
         if (ready) {
 
@@ -71,14 +72,14 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
             String editoituKirjaus = kirjausEdit.getText().toString();
 
             // Jos käyttäjä ei syöttänyt joitain arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä. Huom. monikielisyys.
-            if(editoituKalori.equals("")){
-                editoituKalori=getString(R.string.tyhjä);
+            if (editoituKalori.equals("")) {
+                editoituKalori = getString(R.string.tyhjä);
             }
-            if(editoituMieliala.equals("")){
-                editoituMieliala=getString(R.string.tyhjä);
+            if (editoituMieliala.equals("")) {
+                editoituMieliala = getString(R.string.tyhjä);
             }
-            if (editoituKirjaus.equals("")){
-                editoituKirjaus=getString(R.string.tyhjä);
+            if (editoituKirjaus.equals("")) {
+                editoituKirjaus = getString(R.string.tyhjä);
             }
 
             // Listojen indeksi muuttujan osoittamaan alkioon muokataan käyttäjän syöttämät arvot.
@@ -94,8 +95,9 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
     // Metodi, joka vie takaisin TyhjaActivityyn.
-    public void goBack(View view){
+    public void goBack(View view) {
         Intent intent = new Intent(this, TyhjaActivity.class);
         intent.putExtra("nro", indeksi); // Mukaan indeksi, jonka avulla TyhjaActivity hakee infot listoista.
         startActivity(intent);
