@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MielialaVastausActivity extends AppCompatActivity {
@@ -41,5 +42,9 @@ public class MielialaVastausActivity extends AppCompatActivity {
             totalValue += point;
         }
         return totalValue;
+    }
+    public void goHome(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
