@@ -49,11 +49,20 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
 
     public void playHumppa(View v){
         System.out.println(Integer.toString(i));
-        if (i == 0){
-            soundPlayer.playSomeMusic("https://supla.digitacdn.net/live/_definst_/supla/radiorock/chunklist.m3u8", firstTime);
+
+        if (i == 0) {
+            new Thread(new Runnable() {
+                public void run() {
+                    String url = "https://supla.digitacdn.net/live/_definst_/supla/radiorock/chunklist.m3u8";
+                    soundPlayer.playSomeMusic(url, firstTime);
+                }
+            }).start();
+
+
             firstTime = 1;
             i = 1;
         } else{
+
             i = 0;
             soundPlayer.stopHumppa();
 
