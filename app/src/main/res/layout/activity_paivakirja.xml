@@ -16,20 +16,20 @@
         android:clickable="true"
         android:contentDescription="@string/button_teelisayspaivakirjassa"
         android:onClick="openDiaryEditor"
-        app:layout_constraintBottom_toTopOf="@+id/guideline18"
-        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:layout_constraintBottom_toTopOf="@+id/paivakirjaLista"
+        app:layout_constraintEnd_toStartOf="@+id/guideline48"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <ListView
-        app:autoSizeMaxTextSize="30dp"
-        app:autoSizeMinTextSize="10dp"
-        app:autoSizeTextType="uniform"
-        android:ellipsize="end"
         android:id="@+id/paivakirjaLista"
         android:layout_width="0dp"
         android:layout_height="692dp"
         android:layout_margin="20dp"
+        android:ellipsize="end"
         android:padding="5dp"
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/guideline18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +41,13 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline48"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline34"
