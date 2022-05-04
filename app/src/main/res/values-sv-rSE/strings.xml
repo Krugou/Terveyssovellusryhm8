@@ -22,7 +22,7 @@
     <string name="alertPoistoViesti">Vill du ta bort tillägget?</string>
     <string name="alertEi">Nej</string>
     <string name="alertOk">Okej</string>
-    <string name="päivä">Dag:</string>
+    <string name="päivä">Datum:</string>
     <string name="logi">Log:</string>
     <string name="kalorit">Kalorier:</string>
     <string name="mielialaString">Humör:</string>

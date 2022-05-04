@@ -22,7 +22,7 @@
     <string name="alertPoistoViesti">Do you want to delete the entry?</string>
     <string name="alertEi">No</string>
     <string name="alertOk">Okay</string>
-    <string name="päivä">Day:</string>
+    <string name="päivä">Date:</string>
     <string name="logi">Log:</string>
     <string name="kalorit">Calories:</string>
     <string name="mielialaString">Mood:</string>
@@ -86,7 +86,7 @@
     <string name="mood8">8. How do you feel about meeting with strangers?</string>
     <string name="mood8_1">I like meeting and chatting with people</string>
     <string name="mood8_2">I haven\'t lost interest in other people</string>
-    <string name="mood8_3">OTher people don\'t interest me as much as they used to</string>
+    <string name="mood8_3">Other people don\'t interest me as much as they used to</string>
     <string name="mood8_4">I\'ve lost almost completely all my interest and feelings towards other people</string>
     <string name="mood8_5">I\'ve lost all my interest towards other people, and I don\'t care about them at all</string>
 
