@@ -102,7 +102,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
             rb.setChecked(true);
 
             printTexts(round);
-            rg.check(round);
+            //rg.check(round);
             //rg.indexOfChild(findViewById(rg.getCheckedRadioButtonId()));
             //rg.getCheckedRadioButtonId();
 
@@ -121,7 +121,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         RadioButton rb4 = findViewById(R.id.option4);
         RadioButton rb5 = findViewById(R.id.option5);
         Button next = findViewById(R.id.button2);
-
+        Button previous = findViewById(R.id.button3);
         // Testikoodia, poista lopulliseen
         //TextView tn = findViewById(R.id.testNumber);
         //tn.setText(Integer.toString(mieliala.pointsit));
@@ -135,6 +135,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
                 rb3.setText(R.string.mood1_3);
                 rb4.setText(R.string.mood1_4);
                 rb5.setText(R.string.mood1_5);
+                previous.setVisibility(View.GONE);
                 break;
             case 2:
                 tv.setText(R.string.mood2);
@@ -143,6 +144,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
                 rb3.setText(R.string.mood2_3);
                 rb4.setText(R.string.mood2_4);
                 rb5.setText(R.string.mood2_5);
+                previous.setVisibility(View.VISIBLE);
                 break;
             case 3:
                 tv.setText(R.string.mood3);
