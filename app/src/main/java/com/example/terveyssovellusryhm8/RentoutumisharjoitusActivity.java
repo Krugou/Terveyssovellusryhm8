@@ -1,6 +1,5 @@
 package com.example.terveyssovellusryhm8;
 
-import android.content.Intent;
 import android.media.AudioAttributes;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -29,6 +28,22 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     private Handler threadHandler = new Handler();
 
     private MediaPlayer mediaPlayer;
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (this.mediaPlayer.isPlaying()) {
+            doPause();
+        }
+    }
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        if (this.mediaPlayer.isPlaying()) {
+            doPause();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +111,9 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
         if (this.mediaPlayer.isPlaying()) {
             return;
         }
-
+        this.buttonStop.setEnabled(true);
+        this.buttonPause.setEnabled(true);
+        this.buttonStart.setEnabled(false);
         // duration in milliseconds
         int duration = this.mediaPlayer.getDuration();
 
@@ -117,7 +134,13 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
 
     private void doStop(){
         if(this.mediaPlayer.isPlaying()) {
+            this.mediaPlayer.reset();
             this.mediaPlayer.stop();
+
+
+            this.buttonStop.setEnabled(false);
+            this.buttonStart.setEnabled(true);
+            this.buttonPause.setEnabled(true);
         }
     }
     private void doPause(){
@@ -151,8 +174,7 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
         }
     }
     public void goHome(View view){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 }
