@@ -4,28 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
-    // Näihin listoihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
-    private final ArrayList<String> paivamaaraLista = new ArrayList<>();
-    private final ArrayList<String> kaloritLista = new ArrayList<>();
-    private final ArrayList<String> mielialaLista= new ArrayList<>();
-    private final ArrayList<String> kirjausLista = new ArrayList<>();
 
     // Tätä käytetään selvittämään paluunapi viemä sijainti.
     private int viimeActivity;
@@ -38,8 +27,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         String tanPaivanLisays = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
         TextView etsiPaivaRuutuRuudulta  =  findViewById(R.id.editTextPaiva);
         etsiPaivaRuutuRuudulta.setText(tanPaivanLisays);
-
-
     }
 
     // Metodi, joka ajetaan kun lisäysnappia painetaan.
@@ -91,62 +78,17 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             {
                 kirjausString=getString(R.string.tyhjä);
             }
-
-            // Näihin listoihin tallennetaan preferencceihin tallennetut merkkijono listat.
-            ArrayList<String> paivamaaraLista2 = this.getArrayList("paivamaaralista");
-            ArrayList<String> kaloritLista2 = this.getArrayList("kaloritlista");
-            ArrayList<String> mielialaLista2 = this.getArrayList("mielialalista");
-            ArrayList<String> kirjausLista2 = this.getArrayList("kirjauslista");
-
-            // Listoihin lisätään käyttäjän syöttämät tiedot.
-            paivamaaraLista.add(paivamaaraString);
-            kaloritLista.add(kaloritString);
-            mielialaLista.add(mielialaString);
-            kirjausLista.add(kirjausString);
-
-            // Jos preferenccien listat eivät ole tyhjiä, kopioidaan arvot toisiin listoihin.
-            if (paivamaaraLista2 !=null) {
-                paivamaaraLista.addAll(paivamaaraLista2);
-                kaloritLista.addAll(kaloritLista2);
-                mielialaLista.addAll(mielialaLista2);
-                kirjausLista.addAll(kirjausLista2);
-            }
-
-            // Tallennetaan listat preferencceihin.
-            this.saveArrayList(paivamaaraLista, "paivamaaralista");
-            this.saveArrayList(kaloritLista, "kaloritlista");
-            this.saveArrayList(mielialaLista, "mielialalista");
-            this.saveArrayList(kirjausLista, "kirjauslista");
-
+            // Kutsutaan päiväkirjan konstruktoria kenttien tiedoilla.
+            Paivakirja paivakirja = new Paivakirja(paivamaaraString, kaloritString, mielialaString, kirjausString, this);
+            paivakirja.addPrevious();
+            paivakirja.applyChanges();
 
             // Siirrytään takaisin Päiväkirja-aktivitettiin.
             Intent intent = new Intent(this, PaivakirjaActivity.class);
             startActivity(intent);
-
-
         }
     }
-
-    //Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
-    public void saveArrayList(ArrayList<String> list, String key){
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        Gson gson = new Gson();
-        String json = gson.toJson(list);
-        editor.putString(key, json);
-        editor.apply();
-    }
-
-    //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
-    public ArrayList<String> getArrayList(String key){
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = prefs.getString(key, null);
-        Type type = new TypeToken<ArrayList<String>>() {}.getType();
-        return gson.fromJson(json, type);
-    }
     public void goBack(View view){
-
         Intent intent;
         if (viimeActivity==1) {
             intent = new Intent(this, MainActivity.class);
@@ -155,8 +97,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
             intent = new Intent(this, PaivakirjaActivity.class);
         }
         startActivity(intent);
-
-
     }
     // Kun activiteetti käynnistetään, otetaan selvää mistä activiteetista sinne tultiin.
     @Override
@@ -164,9 +104,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         super.onStart();
         Intent intent = getIntent();
         viimeActivity = intent.getIntExtra("viimeactivity", 1);
-
-
     }
-
 
 }

@@ -1,31 +1,14 @@
 package com.example.terveyssovellusryhm8;
 
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-
-
 public class PaivakirjaActivity extends AppCompatActivity {
-
-    //Näihin listoihin tallennetaan preferencceihin tallennetut arvot.
-    private ArrayList<String> paivamaaraLista = new ArrayList<>();
-    private ArrayList<String> kaloritLista = new ArrayList<>();
-    private ArrayList<String> mielialaLista = new ArrayList<>();
-    private ArrayList<String> kirjausLista = new ArrayList<>();
 
     private ArrayAdapter<String> listAdapter;
 
@@ -33,14 +16,15 @@ public class PaivakirjaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paivakirja);
-
     }
+
 //Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View view) {
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
         intent.putExtra("viimeactivity", 2); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
+
 //Metodi, joka siirtää aloitussivulle napin painalluksella.
     public void openHome(View view) {
         Intent intent = new Intent(this, MainActivity.class);
@@ -50,24 +34,17 @@ public class PaivakirjaActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
         ListView paivakirjaLista = findViewById(R.id.paivakirjaLista);
+        Paivakirja paivakirja = new Paivakirja(this);
 
-/*
-Jos käyttäjä on tehnyt lisäyksiä "paivamaaralista!=null", silloin arvot
-tallennetaan luokan sisäisiin listoihin.
- */
-        if (this.getArrayList("paivamaaralista") != null) {
-            paivamaaraLista = this.getArrayList("paivamaaralista");
-            kaloritLista = this.getArrayList("kaloritlista");
-            mielialaLista = this.getArrayList("mielialalista");
-            kirjausLista = this.getArrayList("kirjauslista");
+        // Tarkistetaan ettei listat ole tyhjiä, ennenkuin näytetään listview.
+        if (!paivakirja.isEmpty()) {
 
             // Listview saa adapterin listaan, jossa on päivämäärät.
             this.listAdapter = new ArrayAdapter<>(
                     this,
                     R.layout.listviewtext,
-                    paivamaaraLista);
+                    paivakirja.getPaivamaaraLista());
             paivakirjaLista.setAdapter(this.listAdapter);
 
             // Asetetaan listan näkymille kuuntelija, joka vie painalluksen jälkeen uuteen aktiviteettiin.
@@ -91,18 +68,9 @@ tallennetaan luokan sisäisiin listoihin.
                     // Jos käyttäjä valitsee "Kyllä", listoista poistetaan longclickatun näkymän tiedot.
                     .setPositiveButton(R.string.alertKyllä, (dialogInterface, i1) -> {
 
-                        paivamaaraLista.remove(poistettava);
-                        kaloritLista.remove(poistettava);
-                        mielialaLista.remove(poistettava);
-                        kirjausLista.remove(poistettava);
-
+                        paivakirja.removeFromLists(poistettava);
+                        paivakirja.applyChanges();
                         listAdapter.notifyDataSetChanged(); //Kerrotaan adapterille, että data on muuttunut.
-
-                        //Tallennetaan preferencceihin muutetut listat.
-                        saveArrayList(paivamaaraLista, "paivamaaralista");
-                        saveArrayList(kaloritLista, "kaloritlista");
-                        saveArrayList(mielialaLista, "mielialalista");
-                        saveArrayList(kirjausLista, "kirjauslista");
 
                     })
                     // Jos käyttäjä valitsee "Ei", mitään ei tapahdu.
@@ -113,24 +81,4 @@ tallennetaan luokan sisäisiin listoihin.
         });
 
     }
-
-    //Metodi, Jonka avulla preferencceihin tallennetaan Arraylistoja, listan ja avaimen parametreilla.
-    public void saveArrayList(ArrayList<String> list, String key) {
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        Gson gson = new Gson();
-        String json = gson.toJson(list);
-        editor.putString(key, json);
-        editor.apply();
-    }
-    //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
-    public ArrayList<String> getArrayList(String key) {
-        SharedPreferences prefs = getApplication().getSharedPreferences("testaus20", Context.MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = prefs.getString(key, null);
-        Type type = new TypeToken<ArrayList<String>>() {
-        }.getType();
-        return gson.fromJson(json, type);
-    }
-
 }
