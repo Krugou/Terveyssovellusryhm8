@@ -10,18 +10,22 @@
 
 
     <TextView
-        android:padding="5dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:elevation="10dp"
-        android:background="@drawable/minunotsikkotaustani2"
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/textView31"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
+        android:background="@drawable/minunotsikkotaustani2"
+        android:elevation="10dp"
+        android:padding="5dp"
         android:text="@string/textViewPresents"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/deepteal"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -30,6 +34,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/textView32"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

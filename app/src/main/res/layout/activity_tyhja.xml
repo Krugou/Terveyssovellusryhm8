@@ -12,6 +12,10 @@
     tools:context=".TyhjaActivity">
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/paivamaaraText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -27,6 +31,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/kaloritText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -43,6 +51,10 @@
         app:layout_constraintTop_toBottomOf="@+id/paivamaaraText" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/mielialaText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -71,6 +83,10 @@
         app:layout_constraintVertical_bias="0.110000014">
 
         <TextView
+            app:autoSizeMaxTextSize="30dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
             android:id="@+id/kirjausText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -122,6 +138,10 @@
         app:layout_constraintGuide_percent="0.75" />
 
     <Button
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:background="@drawable/minunnappini"
         android:id="@+id/muokkausButton"
         android:layout_width="wrap_content"

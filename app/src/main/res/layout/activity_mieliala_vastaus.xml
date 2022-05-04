@@ -31,6 +31,10 @@
         app:layout_constraintGuide_percent="0.1" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/mielialani"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,6 +51,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline40" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/points"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -64,6 +72,10 @@
         app:layout_constraintVertical_bias="0.237" />
 
     <TextView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/selitys"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

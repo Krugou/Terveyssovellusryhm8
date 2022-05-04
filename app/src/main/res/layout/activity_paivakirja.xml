@@ -16,11 +16,15 @@
         android:clickable="true"
         android:contentDescription="@string/button_teelisayspaivakirjassa"
         android:onClick="openDiaryEditor"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
         app:layout_constraintStart_toStartOf="@+id/guideline17"
-        app:layout_constraintTop_toTopOf="@+id/guideline18"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <ListView
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/paivakirjaLista"
         android:layout_width="0dp"
         android:layout_height="692dp"

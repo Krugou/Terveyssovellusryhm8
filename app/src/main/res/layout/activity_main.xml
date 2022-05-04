@@ -25,6 +25,10 @@
 
 
     <Button
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/lisaysButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -48,6 +52,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline24" />
 
     <Button
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/paivakirjaButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -69,6 +77,10 @@
         app:layout_constraintStart_toStartOf="@+id/guideline29" />
 
     <Button
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -91,6 +103,10 @@
         app:layout_constraintStart_toStartOf="@+id/guideline30" />
 
     <Button
+        app:autoSizeMaxTextSize="30dp"
+     app:autoSizeMinTextSize="10dp"
+    app:autoSizeTextType="uniform"
+    android:ellipsize="end"
         android:id="@+id/button5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

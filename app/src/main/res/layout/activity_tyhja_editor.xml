@@ -10,6 +10,10 @@
     tools:context=".TyhjaActivityEditorActivity">
 
     <EditText
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/editKirjaus"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -31,6 +35,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13" />
     <Button
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:background="@drawable/minunnappini"
         android:padding="5dp"
         android:id="@+id/buttonTallenna"
@@ -45,6 +53,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline19"
         app:layout_constraintVertical_bias="0.648"  />
     <EditText
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:layout_margin="10dp"
         android:id="@+id/editPaiva"
         android:layout_width="wrap_content"
@@ -64,6 +76,10 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline23"
         app:layout_constraintTop_toTopOf="@+id/guideline19" />
     <EditText
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/editKalorit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,6 +99,10 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline23"
         app:layout_constraintTop_toBottomOf="@+id/editPaiva"/>
     <EditText
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeMinTextSize="10dp"
+        app:autoSizeTextType="uniform"
+        android:ellipsize="end"
         android:id="@+id/editMieliala"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
