@@ -24,38 +24,39 @@ public class TyhjaActivity extends AppCompatActivity {
         Paivakirja paivakirja = new Paivakirja(this);
 
         //Näkymän numeroarvon avulla haetaan kirjauksen informaatio ja lisätään se textviewiin.
-        String placeholder = getString(R.string.logi)+" "+paivakirja.getKirjausLista().get(indeksi);
+        String placeholder = getString(R.string.logi) + " " + paivakirja.getKirjausLista().get(indeksi);
         TextView tvKirjaus = findViewById(R.id.kirjausText);
         tvKirjaus.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan paivamaaran informaatio ja lisätään se textviewiin.
-        placeholder=getString(R.string.päivä)+" "+paivakirja.getPaivamaaraLista().get(indeksi);
+        placeholder = getString(R.string.päivä) + " " + paivakirja.getPaivamaaraLista().get(indeksi);
         TextView tvPaiva = findViewById(R.id.paivamaaraText);
         tvPaiva.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan kaloreiden informaatio ja lisätään se textviewiin.
         //Jos kalorit jätetty tyhjäksi, ei ilmoiteta arvoa kilokaloreina. Tyhjän arvo on ladattu stringeistä.
-        if(paivakirja.getKaloritLista().get(indeksi).equals(getString(R.string.tyhjä))) {
-            placeholder = getString(R.string.kalorit) +" "+ paivakirja.getKaloritLista().get(indeksi);
-        }
-        else{
-            placeholder = getString(R.string.kalorit) +" "+ paivakirja.getKaloritLista().get(indeksi) + " kcal";
+        if (paivakirja.getKaloritLista().get(indeksi).equals(getString(R.string.tyhjä))) {
+            placeholder = getString(R.string.kalorit) + " " + paivakirja.getKaloritLista().get(indeksi);
+        } else {
+            placeholder = getString(R.string.kalorit) + " " + paivakirja.getKaloritLista().get(indeksi) + " kcal";
         }
         TextView tvKalorit = findViewById(R.id.kaloritText);
         tvKalorit.setText(placeholder);
 
         //Näkymän numeroarvon avulla haetaan mielialan informaatio ja lisätään se textviewiin.
-        placeholder=getString(R.string.mielialaString)+" "+paivakirja.getMielialaLista().get(indeksi);
+        placeholder = getString(R.string.mielialaString) + " " + paivakirja.getMielialaLista().get(indeksi);
         TextView tvMieliala = findViewById(R.id.mielialaText);
         tvMieliala.setText(placeholder);
 
     }
+
     //Metodi, jonka avulla käyttäjä palaa päiväkirja-aktiviteettiin napin painalluksella.
-    public void goBack(View view){
+    public void goBack(View view) {
         Intent intent = new Intent(this, PaivakirjaActivity.class);
         startActivity(intent);
     }
-    public void openEditor(View view){
+
+    public void openEditor(View view) {
         Intent intent = new Intent(this, TyhjaActivityEditorActivity.class);
         intent.putExtra("indeksi", indeksi); // Mukaan indeksi, jolla editori aktiviteetti osaa navigoida listoja.
         startActivity(intent);

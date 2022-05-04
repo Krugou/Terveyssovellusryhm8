@@ -1,6 +1,7 @@
 package com.example.terveyssovellusryhm8;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,14 +19,14 @@ public class PaivakirjaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_paivakirja);
     }
 
-//Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
+    //Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View view) {
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
         intent.putExtra("viimeactivity", 2); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
 
-//Metodi, joka siirtää aloitussivulle napin painalluksella.
+    //Metodi, joka siirtää aloitussivulle napin painalluksella.
     public void openHome(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
@@ -59,7 +60,7 @@ public class PaivakirjaActivity extends AppCompatActivity {
         paivakirjaLista.setOnItemLongClickListener((adapterView, view, i, l) -> {
             final int poistettava = i; //Tallennetaan longclickatun näkymän arvo.
 
-        //Tehdään alertti, joka varmistaa käyttäjän poistamisen.
+            //Tehdään alertti, joka varmistaa käyttäjän poistamisen.
             new AlertDialog.Builder(PaivakirjaActivity.this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle(R.string.alertVaroitus)
