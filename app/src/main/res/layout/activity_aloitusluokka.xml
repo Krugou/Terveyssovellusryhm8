@@ -176,6 +176,7 @@
         app:autoSizeMaxTextSize="30dp"
         app:autoSizeMinTextSize="10dp"
         app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline9"
