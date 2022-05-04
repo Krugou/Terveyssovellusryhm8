@@ -1,73 +1,153 @@
 package com.example.terveyssovellusryhm8;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.media.AudioAttributes;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
+import android.widget.SeekBar;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+import java.util.concurrent.TimeUnit;
+
+// A lot of code has been taken from
+// https://o7planning.org/12601/android-mediaplayer
+// and modified by us
 
 public class RentoutumisharjoitusActivity extends AppCompatActivity {
 
-    int i = 0;
-    int firstTime = 0;
+    private Button buttonStart;
+    private Button buttonStop;
+    private Button buttonPause;
+    private SeekBar seekBar;
 
-    Player soundPlayer = new Player();
+    private TextView current;
+    private TextView duration;
+
+    private Handler threadHandler = new Handler();
+
+    private MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rentoutumisharjoitus);
-    }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        if (i == 1){
-            i = 0;
-            soundPlayer.stopHumppa();
-            soundPlayer.release();
+        this.duration=(TextView)this.findViewById(R.id.duration);
+        this.current=(TextView)this.findViewById(R.id.current);
+
+        this.buttonStart=(Button)this.findViewById(R.id.playButton);
+        this.buttonStop=(Button)this.findViewById(R.id.stopButton);
+        this.buttonPause=(Button)this.findViewById(R.id.pauseButton);
+
+        this.seekBar=(SeekBar) this.findViewById(R.id.seekBar);
+        this.seekBar.setClickable(false);
+
+        this.buttonStart.setOnClickListener(new View.OnClickListener(){
+           @Override
+           public void onClick(View v){
+
+               doStart();
+           }
+        });
+        this.buttonPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doPause();
+            }
+        });
+        this.buttonStop.setOnClickListener(new View.OnClickListener(){
+           @Override
+           public void onClick(View v) {
+               doStop();
+           }
+        });
+
+        // Mediaplayer
+        this.mediaPlayer = new MediaPlayer();
+        // The line below is taken from Android tutorials
+        mediaPlayer.setAudioAttributes(
+                new AudioAttributes.Builder()
+                        .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
+                        .setUsage(AudioAttributes.USAGE_MEDIA)
+                        .build()
+        );
+
+        this.mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                doStop(); // Stop current media.
+            }
+        });
+
+        this.mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                doComplete();
+            }
+        });
+        Player.playRawMedia(this, this.mediaPlayer);
+    }
+    // OnCreate ends here
+
+    private void doStart(){
+        if (this.mediaPlayer.isPlaying()) {
+            return;
         }
 
+        // duration in milliseconds
+        int duration = this.mediaPlayer.getDuration();
+
+        int currentPosition = this.mediaPlayer.getCurrentPosition();
+
+        if(currentPosition==0){
+            this.seekBar.setMax(duration);
+            this.duration.setText(this.millisecondsToString(duration));
+        }else if(currentPosition== duration) {
+            // Resets the MediaPlayer to its uninitialized state.
+            this.mediaPlayer.reset();
+        }
+        this.mediaPlayer.start();
+        // Create a thread to update position of SeekBar.
+        UpdateSeekBarThread updateSeekBarThread= new UpdateSeekBarThread();
+        threadHandler.postDelayed(updateSeekBarThread,50);
     }
 
-    @Override
-    protected void onPause()
-    {
-        super.onPause();
-        if (i == 1){
-            i = 0;
-            soundPlayer.stopHumppa();
-            soundPlayer.release();
+    private void doStop(){
+        if(this.mediaPlayer.isPlaying()) {
+            this.mediaPlayer.stop();
         }
     }
-
-    @Override
-    protected void onResume()
-    {
-        super.onResume();
-        // initialiseSounds(this);
+    private void doPause(){
+        this.mediaPlayer.pause();
+        this.buttonPause.setEnabled(false);
+        this.buttonStart.setEnabled(true);
     }
 
-    public void playHumppa(View v){
-        System.out.println(Integer.toString(i));
+    private void doComplete() {
 
-        if (i == 0) {
-            new Thread(new Runnable() {
-                public void run() {
-                    String url = "https://supla.digitacdn.net/live/_definst_/supla/radiorock/chunklist.m3u8";
-                    soundPlayer.playSomeMusic(url, firstTime);
-                }
-            }).start();
+    }
 
+    // Convert millisecond to string.
+    private String millisecondsToString(int milliseconds)  {
+        long minutes = TimeUnit.MILLISECONDS.toMinutes((long) milliseconds);
+        long seconds =  TimeUnit.MILLISECONDS.toSeconds((long) milliseconds) ;
+        return minutes + ":"+ seconds;
+    }
 
-            firstTime = 1;
-            i = 1;
-        } else{
+    // Thread to Update position for SeekBar.
+    class UpdateSeekBarThread implements Runnable {
 
-            i = 0;
-            soundPlayer.stopHumppa();
+        public void run()  {
+            int currentPosition = mediaPlayer.getCurrentPosition();
+            String currentPositionStr = millisecondsToString(currentPosition);
+            current.setText(currentPositionStr);
 
+            seekBar.setProgress(currentPosition);
+            // Delay thread 50 milisecond.
+            threadHandler.postDelayed(this, 50);
         }
-
     }
 
 }
