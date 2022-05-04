@@ -144,6 +144,7 @@
     <string name="home">Koti</string>
 
     <string name="results">Mielialakyselyn tulokset</string>
+    <string name="radionappi">radionappi</string>
 
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->
@@ -524,6 +525,7 @@
     <string name="Lainaustekija181" translatable="false">Marie Osmond</string>
     <string name="Lainausteksti182">Jos valitset, jopa odottamattomat takaiskut voivat tuoda uusia ja myönteisiä mahdollisuuksia.</string>
     <string name="Lainaustekija182" translatable="false">Ralph Marston</string>
+
 
     <!--lainaukset loppuu-->
     <!--Aleksin stringit loppuu-->

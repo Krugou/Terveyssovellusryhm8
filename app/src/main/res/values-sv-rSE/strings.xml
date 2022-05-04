@@ -361,6 +361,7 @@
     <string name="Lainaustekija80">" Författare okänd "</string>
     <string name="Lainausteksti40">" Ändå tror jag att människor är goda i hjärtat. "</string>
     <string name="Lainausteksti23">" Den som kan få fram skratt till rummet är välsignad. "</string>
+    <string name="radionappi">Radio knapp</string>
     <!--lainaukset loppuu-->
     <!--Aleksin stringit loppuu-->
 </resources>

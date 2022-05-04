@@ -361,5 +361,6 @@
     <string name = "Lainausteksti181"> You can do anything to prevent bad things from happening to you, but in the end something bad will happen, so the best prevention is a positive attitude. </string>
     <string name = "Lainausteksti182"> If you choose, even unexpected setbacks can bring new and positive opportunities. </string>
     <string name="Lainaustekija47">Author unknown</string>
+    <string name="radionappi">radiobutton</string>
 
 </resources>
