@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.paateematerveyssovellus">
+        
+        <activity
+            android:name=".RentoutumisharjoitusActivity"
+            android:exported="false" />
         <activity
             android:name=".MielialaVastausActivity"
             android:exported="false" />
