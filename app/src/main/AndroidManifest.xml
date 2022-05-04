@@ -16,10 +16,10 @@
             android:name=".MielialakyselyActivity"
             android:exported="false" />
         <activity
-            android:name=".tyhjaActivityEditor"
+            android:name=".TyhjaActivityEditorActivity"
             android:exported="false" />
         <activity
-            android:name=".tyhjaActivity"
+            android:name=".TyhjaActivity"
             android:exported="false" />
         <activity
             android:name=".PaivakirjaLisaysActivity"

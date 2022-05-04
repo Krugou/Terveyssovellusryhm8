@@ -72,7 +72,7 @@ tallennetaan luokan sisäisiin listoihin.
 
             // Asetetaan listan näkymille kuuntelija, joka vie painalluksen jälkeen uuteen aktiviteettiin.
             paivakirjaLista.setOnItemClickListener((adapterView, view, i, l) -> {
-                Intent intent = new Intent(getApplicationContext(), tyhjaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), TyhjaActivity.class);
                 intent.putExtra("nro", i); //Viedään extrana painetun viewin numeroarvo.
                 startActivity(intent);
             });

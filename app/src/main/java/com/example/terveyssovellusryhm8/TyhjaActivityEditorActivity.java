@@ -16,7 +16,7 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
-public class tyhjaActivityEditor extends AppCompatActivity {
+public class TyhjaActivityEditorActivity extends AppCompatActivity {
 
     // Näihin listoihin lisätään käyttäjän syöttämä tieto, ja lisätään preferencceissä oleva tieto.
     private ArrayList<String> paivamaaraLista = new ArrayList<>();

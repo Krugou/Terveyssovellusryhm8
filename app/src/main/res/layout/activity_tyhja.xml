@@ -9,7 +9,7 @@
     android:windowNoTitle="true"
 
 
-    tools:context=".tyhjaActivity">
+    tools:context=".TyhjaActivity">
 
     <TextView
         android:id="@+id/paivamaaraText"

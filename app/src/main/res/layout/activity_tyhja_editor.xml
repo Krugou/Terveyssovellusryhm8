@@ -7,7 +7,7 @@
     android:background="@color/aquasqueeze"
 
 
-    tools:context=".tyhjaActivityEditor">
+    tools:context=".TyhjaActivityEditorActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline13"

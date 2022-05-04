@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 
 
-public class tyhjaActivity extends AppCompatActivity {
+public class TyhjaActivity extends AppCompatActivity {
     // Globaali indeksi muuttuja
     private int indeksi;
     @Override
@@ -82,7 +82,7 @@ public class tyhjaActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openEditor(View view){
-        Intent intent = new Intent(this, tyhjaActivityEditor.class);
+        Intent intent = new Intent(this, TyhjaActivityEditorActivity.class);
         intent.putExtra("indeksi", indeksi);
         startActivity(intent);
     }
