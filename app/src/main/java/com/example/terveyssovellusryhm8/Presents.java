@@ -35,9 +35,9 @@ public class Presents extends AppCompatActivity {
 
                 } finally {
 
-                    Intent i = new Intent(Presents.this,
+                    Intent seuraavaluokka = new Intent(Presents.this,
                             Aloitusluokka.class);
-                    startActivity(i);
+                    startActivity(seuraavaluokka);
                     finish();
                 }
             }
