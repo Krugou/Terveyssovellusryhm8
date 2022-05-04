@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.Arrays;
 
 public class MielialakyselyActivity extends AppCompatActivity {
+    // The line of code below is taken from our materials
     public static final String EXTRA_MESSAGE = "com.example.terveyssovellusryhm8.MESSAGE";
     int round;
     int[] points = new int[14];
@@ -23,6 +24,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mielialakysely);
 
+        // Android studio suggested to change my original for loop into this
         Arrays.fill(points, -1);
 
         round = 0;
@@ -31,27 +33,23 @@ public class MielialakyselyActivity extends AppCompatActivity {
 
 
     public void forwards(View v){
+        // The line of code below is taken from our materials
         RadioGroup rg = findViewById(R.id.radioGroup);
+        // The line of code below is taken from our materials
         TextView tn = findViewById(R.id.testNumber);
         //
         if (round < 13){
 
             if (rg.getCheckedRadioButtonId() != -1) {
                 tn.setText("");
-                // Tallenna arvo
+                // Save the value.
+                // Original code from the line below is from our materials, but I changed it a bit.
                 points[round] = rg.indexOfChild(findViewById(rg.getCheckedRadioButtonId()));
-
-                System.out.println(rg.getCheckedRadioButtonId());
 
                 //rg.clearCheck();
                 rg.clearCheck();
                 round++;
                 printTexts(round);
-                //debuggaus koodia
-                System.out.println("round " + round);
-                for (int x = 0; x < points.length; x++){
-                    System.out.println("Round " + x + " is " + points[x]);
-                }
 
             } else {
                 // Add code to get out from this mood questionnaire
@@ -63,6 +61,8 @@ public class MielialakyselyActivity extends AppCompatActivity {
             }
         // if it's the last round, go here
         } else{
+            // This part of the code is modified code taken from
+            // https://developer.android.com/training/basics/firstapp/starting-activity
             Intent intent = new Intent(this, MielialaVastausActivity.class);
             intent.putExtra(EXTRA_MESSAGE, points);
 
@@ -110,6 +110,11 @@ public class MielialakyselyActivity extends AppCompatActivity {
                 rb = findViewById(R.id.option1);
         }
         rb.setChecked(true);
+    }
+
+    // Go home button
+    public void goHome(View view){
+        finish();
     }
 
 
