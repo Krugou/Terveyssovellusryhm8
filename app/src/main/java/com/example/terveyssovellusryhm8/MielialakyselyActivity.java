@@ -63,6 +63,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         } else{
             // This part of the code is modified code taken from
             // https://developer.android.com/training/basics/firstapp/starting-activity
+            points[round] = rg.indexOfChild(findViewById(rg.getCheckedRadioButtonId()));
             Intent intent = new Intent(this, MielialaVastausActivity.class);
             intent.putExtra(EXTRA_MESSAGE, points);
 
