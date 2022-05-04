@@ -30,17 +30,17 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
-        android:padding="5dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:elevation="10dp"
-        android:background="@drawable/minunotsikkotaustani2"
         android:id="@+id/textView32"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/minunotsikkotaustani2"
+        android:elevation="10dp"
+        android:padding="5dp"
         android:text="@string/textViewPresents2"
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/deepteal"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -52,6 +52,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
@@ -77,15 +84,13 @@
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="0dp"
-        android:layout_height="409dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="70sp"
-        android:layout_marginTop="253dp"
         android:layout_marginRight="70sp"
         app:layout_constraintBottom_toTopOf="@+id/textView32"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView31"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/guideline42" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

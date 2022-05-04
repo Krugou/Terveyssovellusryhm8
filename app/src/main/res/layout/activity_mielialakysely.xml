@@ -37,7 +37,7 @@
         android:focusableInTouchMode="false"
         android:text="Mielialakysely"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline37"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +60,11 @@
         app:layout_constraintTop_toTopOf="@+id/guideline36">
 
         <RadioButton
+            app:autoSizeMaxTextSize="20dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            
             android:id="@+id/option1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -73,6 +78,11 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <RadioButton
+            app:autoSizeMaxTextSize="20dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            
             android:id="@+id/option2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -88,6 +98,11 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <RadioButton
+            app:autoSizeMaxTextSize="20dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            
             android:id="@+id/option3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -105,6 +120,11 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <RadioButton
+            app:autoSizeMaxTextSize="20dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            
             android:id="@+id/option4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -121,6 +141,11 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <RadioButton
+            app:autoSizeMaxTextSize="20dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            
             android:id="@+id/option5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
