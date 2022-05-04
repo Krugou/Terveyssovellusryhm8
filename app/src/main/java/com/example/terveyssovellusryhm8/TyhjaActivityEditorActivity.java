@@ -136,4 +136,10 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
         Type type = new TypeToken<ArrayList<String>>() {}.getType();
         return gson.fromJson(json, type);
     }
+    // Metodi, joka vie takaisin TyhjaActivityyn.
+    public void goBack(View view){
+        Intent intent = new Intent(this, TyhjaActivity.class);
+        intent.putExtra("nro", indeksi); // Mukaan indeksi, jonka avulla TyhjaActivity hakee infot listoista.
+        startActivity(intent);
+    }
 }

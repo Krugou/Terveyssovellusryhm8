@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline20" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLisays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPressed"
@@ -110,11 +110,11 @@
         app:layout_constraintGuide_percent="0.1" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/buttonTakaisinLisays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:contentDescription="@string/buttonTakaisin"
+        android:contentDescription="@string/button_takaisin"
         android:onClick="goBack"
         app:layout_constraintBottom_toTopOf="@+id/guideline22"
         app:layout_constraintStart_toStartOf="@+id/guideline17"

@@ -83,7 +83,7 @@ public class TyhjaActivity extends AppCompatActivity {
     }
     public void openEditor(View view){
         Intent intent = new Intent(this, TyhjaActivityEditorActivity.class);
-        intent.putExtra("indeksi", indeksi);
+        intent.putExtra("indeksi", indeksi); // Mukaan indeksi, jolla editori aktiviteetti osaa navigoida listoja.
         startActivity(intent);
     }
 }

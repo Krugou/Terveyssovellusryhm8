@@ -64,9 +64,9 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/kirjotatahan"
+        android:inputType="textMultiLine"
         android:maxLength="600"
         android:maxLines="20"
-        android:inputType="textMultiLine"
         android:minHeight="48dp"
         android:textColor="@color/deepteal"
         android:textColorHint="#616161"
@@ -81,8 +81,10 @@
         android:layout_height="wrap_content"
         android:onClick="saveEdits"
         android:text="@string/buttonTallenna"
-        app:layout_constraintBottom_toTopOf="@+id/guideline13"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
 
     <EditText
         android:id="@+id/editPaiva"
@@ -117,5 +119,16 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonTakaisinTyhjaEditor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/buttonTakaisin"
+        android:onClick="goBack"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
