@@ -172,7 +172,7 @@
         android:text="@string/oletustextview"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:autoSizeMaxTextSize="30dp"
         app:autoSizeMinTextSize="10dp"
         app:autoSizeTextType="uniform"
