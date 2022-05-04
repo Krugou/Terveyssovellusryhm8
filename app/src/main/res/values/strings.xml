@@ -526,9 +526,9 @@
     <string name="Lainausteksti182">Jos valitset, jopa odottamattomat takaiskut voivat tuoda uusia ja myönteisiä mahdollisuuksia.</string>
     <string name="Lainaustekija182" translatable="false">Ralph Marston</string>
     <string name="tekijat" translatable="false">Tekijät</string>
-    <string name="Ohjelmointimestari" translatable="false">Joonas "Ohjelmointimestari" Lamminmäki</string>
-    <string name="Koodivelho" translatable="false">Tor-Erik "Koodivelho" Nygård</string>
-    <string name="Todellinenhakkeri" translatable="false">Aleksi "Todellinen hakkeri" Nokelainen</string>
+    <string name="Ohjelmointimestari" translatable="false">Joonas \"Ohjelmointimestari\" Lamminmäki</string>
+    <string name="Koodivelho" translatable="false">Tor-Erik \"Koodivelho\" Nygård</string>
+    <string name="Todellinenhakkeri" translatable="false">Aleksi \"Todellinen hakkeri\" Nokelainen</string>
 
 
 
