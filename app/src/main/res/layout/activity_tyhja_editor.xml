@@ -9,84 +9,43 @@
 
     tools:context=".TyhjaActivityEditorActivity">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.1" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.17" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.23" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.75" />
-
-    <EditText
-        android:id="@+id/editMieliala"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/mieliala"
-        android:inputType="textPersonName"
-        android:maxLength="50"
-        android:minHeight="48dp"
-        android:textColor="@color/deepteal"
-        android:textColorHint="#616161"
-        app:layout_constraintBottom_toTopOf="@+id/guideline21"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <EditText
         android:id="@+id/editKirjaus"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_margin="30dp"
         android:autofillHints=""
         android:ems="10"
-        android:gravity="start|top"
-        android:hint="@string/kirjotatahan"
+        android:gravity="center_horizontal"
+        android:hint="@string/multilineedittext_kirjaus2"
         android:inputType="textMultiLine"
         android:maxLength="600"
         android:maxLines="20"
         android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/deepteal"
-        android:textColorHint="#616161"
+        android:textColorHint="#546E7A"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline21" />
-
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
     <Button
+        android:background="@drawable/minunnappini"
+        android:padding="5dp"
         android:id="@+id/buttonTallenna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:onClick="saveEdits"
+        android:textColor="#FFFDE7"
         android:text="@string/buttonTallenna"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline19" />
-
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toTopOf="@+id/guideline19"
+        app:layout_constraintVertical_bias="0.648"  />
     <EditText
+        android:layout_margin="10dp"
         android:id="@+id/editPaiva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,16 +56,19 @@
         android:maxLength="18"
         android:maxLines="1"
         android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
         android:textColor="@color/deepteal"
         android:textColorHint="#546E7A"
-        app:layout_constraintBottom_toTopOf="@+id/guideline13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
     <EditText
         android:id="@+id/editKalorit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/edittext_kalorit"
@@ -114,21 +76,70 @@
         android:maxLength="12"
         android:maxLines="1"
         android:minHeight="48dp"
+        android:textAlignment="center"
         android:textColor="@color/deepteal"
-        android:textColorHint="#616161"
-        app:layout_constraintBottom_toTopOf="@+id/guideline19"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColorHint="#546E7A"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toBottomOf="@+id/editPaiva"/>
+    <EditText
+        android:id="@+id/editMieliala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/mieliala"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/deepteal"
+        android:textColorHint="#546E7A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toBottomOf="@+id/editKalorit" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:background="@drawable/minunnappini"
         android:id="@+id/buttonTakaisinTyhjaEditor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:contentDescription="@string/buttonTakaisin"
         android:onClick="goBack"
-        app:layout_constraintBottom_toTopOf="@+id/guideline13"
-        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
         app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -114,6 +114,7 @@
         app:layout_constraintGuide_percent="0.75" />
 
     <Button
+        android:background="@drawable/minunnappini"
         android:id="@+id/muokkausButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

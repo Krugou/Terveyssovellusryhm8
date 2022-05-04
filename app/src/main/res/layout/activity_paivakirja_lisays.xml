@@ -13,18 +13,20 @@
         android:id="@+id/editTextKirjaus"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_margin="30dp"
         android:autofillHints=""
         android:ems="10"
-        android:gravity="start|top"
+        android:gravity="center_horizontal"
         android:hint="@string/multilineedittext_kirjaus2"
+        android:inputType="textMultiLine"
         android:maxLength="600"
         android:maxLines="20"
-        android:inputType="textMultiLine"
         android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/deepteal"
         android:textColorHint="#546E7A"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline20" />
@@ -33,12 +35,14 @@
         android:id="@+id/buttonLisays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/minunnappini"
         android:onClick="buttonPressed"
+        android:padding="5dp"
         android:text="@string/button_lisaa"
+        android:textColor="#FFFDE7"
         app:layout_constraintBottom_toTopOf="@+id/guideline20"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline33"
         app:layout_constraintTop_toTopOf="@+id/guideline22"
         app:layout_constraintVertical_bias="0.648" />
 
@@ -46,6 +50,7 @@
         android:id="@+id/editTextPaiva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/edittext_paivamaara"
@@ -53,17 +58,20 @@
         android:maxLength="18"
         android:maxLines="1"
         android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
         android:textColor="@color/deepteal"
         android:textColorHint="#546E7A"
-        app:layout_constraintBottom_toTopOf="@+id/guideline22"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline33"
+        app:layout_constraintTop_toTopOf="@+id/guideline22" />
 
     <EditText
         android:id="@+id/editTextKalorit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/edittext_kalorit"
@@ -71,28 +79,30 @@
         android:maxLength="12"
         android:maxLines="1"
         android:minHeight="48dp"
+        android:textAlignment="center"
         android:textColor="@color/deepteal"
-        android:textColorHint="#616161"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="#546E7A"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline33"
         app:layout_constraintTop_toBottomOf="@+id/editTextPaiva" />
 
     <EditText
         android:id="@+id/editTextMieliala"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/mieliala"
-        android:maxLength="50"
         android:inputType="textPersonName"
+        android:maxLength="50"
         android:minHeight="48dp"
+        android:textAlignment="center"
         android:textColor="@color/deepteal"
-        android:textColorHint="#616161"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="#546E7A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintEnd_toStartOf="@+id/guideline33"
         app:layout_constraintTop_toBottomOf="@+id/editTextKalorit" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -110,9 +120,11 @@
         app:layout_constraintGuide_percent="0.1" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:background="@drawable/minunnappini"
         android:id="@+id/buttonTakaisinLisays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:color="@color/nappivari"
         android:clickable="true"
         android:contentDescription="@string/button_takaisin"
         android:onClick="goBack"
@@ -126,5 +138,12 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
