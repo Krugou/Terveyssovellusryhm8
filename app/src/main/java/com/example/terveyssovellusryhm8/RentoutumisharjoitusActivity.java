@@ -1,5 +1,6 @@
 package com.example.terveyssovellusryhm8;
 
+import android.content.Intent;
 import android.media.AudioAttributes;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -148,6 +149,10 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
             // Delay thread 50 milisecond.
             threadHandler.postDelayed(this, 50);
         }
+    }
+    public void goHome(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }
