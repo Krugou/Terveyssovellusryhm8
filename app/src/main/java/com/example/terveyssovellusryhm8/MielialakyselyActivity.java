@@ -38,7 +38,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
         // The line of code below is taken from our materials
         TextView tn = findViewById(R.id.testNumber);
         //
-        if (round < 13){
+        if (round < 14){
 
             if (rg.getCheckedRadioButtonId() != -1) {
                 tn.setText("");
