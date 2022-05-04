@@ -9,7 +9,7 @@
     <string name="button_teelisayspaivakirjassa">Nappi, joka vie lisäys sivulle</string>
     <string name="edittext_paivamaara">Syötä Päivämäärä</string>
     <string name="button_lisaa">Päivitä Lisäys!</string>
-    <string name="multilineedittext_kirjaus2">Kirjoita Tähän</string>
+    <string name="multilineedittext_kirjaus2">Kirjoita Tähän (maks. 600 merk.)</string>
     <string name="edittext_kalorit">Syötä Kalorimäärä</string>
     <string name="button_koti">Nappi, joka vie kotiin</string>
     <string name="kirjotatahan">Kirjoita tähän</string>

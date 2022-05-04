@@ -10,7 +10,7 @@
     <string name="button_teelisayspaivakirjassa"> Knapp som tar dig till sidan </string>
     <string name="edittext_paivamaara"> Ange datum </string>
     <string name="button_lisaa"> Uppdatera Lägg till! </string>
-    <string name="multilineedittext_kirjaus2"> Ange här </string>
+    <string name="multilineedittext_kirjaus2"> Ange här (max 600 teck.) </string>
     <string name="edittext_kalorit"> Ange antalet kalorier </string>
     <string name="button_koti"> Knappen som tar dig hem </string>
     <string name="kirjotatahan"> Skriv här </string>

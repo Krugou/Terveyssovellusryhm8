@@ -10,7 +10,7 @@
      <string name="button_teelisayspaivakirjassa"> Button that takes you to the page </string>
      <string name="edittext_paivamaara"> Enter Date </string>
      <string name="button_lisaa"> Update Add! </string>
-     <string name="multilineedittext_kirjaus2"> Enter Here </string>
+     <string name="multilineedittext_kirjaus2"> Enter Here (max 600 char.) </string>
      <string name="edittext_kalorit"> Enter calories </string>
      <string name="button_koti"> The button that takes you home </string>
      <string name="kirjotatahan"> Type here </string>
