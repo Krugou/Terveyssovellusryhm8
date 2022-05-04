@@ -33,6 +33,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="rentoutumisharjoitus">Relaxation exercise</string>
     <string name="mielialakysely">Mood questionnaire</string>
     <string name="mood1">1. How is your mood?</string>
     <string name="mood1_1">My mood is bright and good</string>

@@ -74,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("viimeactivity", 1); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
+    public void openRelax(View v){
+        Intent intent = new Intent(this, RentoutumisharjoitusActivity.class);
+        startActivity(intent);
+    }
 
 
 }

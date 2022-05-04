@@ -3,6 +3,7 @@
     <string name="app_name">Terveyssovellusryhmä8</string>
     <!--Joonaksen stringit-->
     <!--päiväkirja stringit-->
+    <string name="rentoutumisharjoitus">Avslappningsövning</string>
     <string name="button_teelisays"> Lägg till! </string>
     <string name="button_avaapaivakirja"> Öppna dagbok </string>
     <string name="textview_title"> NÄRINGSDAGBOK </string>
