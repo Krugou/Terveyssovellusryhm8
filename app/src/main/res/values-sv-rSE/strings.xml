@@ -144,6 +144,10 @@
     <string name="end">Se resultatet</string>
     <string name="home">Hem</string>
 
+    <string name="start">Spela</string>
+    <string name="stop">Stopp</string>
+    <string name="pause">Paus</string>
+
     <string name="results">Humör frågeformulär resultat</string>
     <!--Tor-Erikin stringit loppuu-->
     <!--Aleksin stringit alkaa-->

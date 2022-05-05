@@ -143,7 +143,9 @@
     <string name="answer">Could you answer the question, please</string>
     <string name="end">Results</string>
     <string name="home">Home</string>
-
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Oause</string>
 
     <string name="results">Mood questionnaire results</string>
     <!--Tor-Erikin stringit loppuu-->

@@ -143,6 +143,9 @@
     <string name="answer">Vastaa kysymykseen!</string>
     <string name="end">Katso tulokset</string>
     <string name="home">Koti</string>
+    <string name="start">Soita</string>
+    <string name="stop">Seis</string>
+    <string name="pause">Pysäytä</string>
 
 
     <string name="results">Mielialakyselyn tulokset</string>
