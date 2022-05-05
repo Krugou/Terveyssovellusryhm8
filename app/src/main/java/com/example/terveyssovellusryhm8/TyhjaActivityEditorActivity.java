@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+/**
+ * The type Tyhja activity editor activity.
+ */
 public class TyhjaActivityEditorActivity extends AppCompatActivity {
 
     // Näillä päästään käsiksi EditText-näkymiin.
@@ -46,7 +49,12 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
 
     }
 
-    // Tätä kutsutaan, kun Tallenna-nappia painetaan.
+    /**
+     * Save edits.
+     *
+     * @param view the view
+     */
+// Tätä kutsutaan, kun Tallenna-nappia painetaan.
     public void saveEdits(View view) {
         boolean ready;
         String editoituPaivamaara = paivamaaraEdit.getText().toString();
@@ -96,7 +104,12 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
         }
     }
 
-    // Metodi, joka vie takaisin TyhjaActivityyn.
+    /**
+     * Go back.
+     *
+     * @param view the view
+     */
+// Metodi, joka vie takaisin TyhjaActivityyn.
     public void goBack(View view) {
         Intent intent = new Intent(this, TyhjaActivity.class);
         intent.putExtra("nro", indeksi); // Mukaan indeksi, jonka avulla TyhjaActivity hakee infot listoista.

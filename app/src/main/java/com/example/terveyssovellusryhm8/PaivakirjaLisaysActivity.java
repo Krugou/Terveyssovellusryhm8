@@ -14,6 +14,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+/**
+ * The type Paivakirja lisays activity.
+ */
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
 
@@ -31,7 +34,12 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         etsiPaivaRuutuRuudulta.setText(tanPaivanLisays);
     }
 
-    // Metodi, joka ajetaan kun lisäysnappia painetaan.
+    /**
+     * Button pressed.
+     *
+     * @param view the view
+     */
+// Metodi, joka ajetaan kun lisäysnappia painetaan.
     public void buttonPressed(View view) {
 
         boolean ready; // Tällä arvolla todetaan, onko päivämäärä täytetty
@@ -87,6 +95,11 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Go back.
+     *
+     * @param view the view
+     */
     public void goBack(View view) {
         Intent intent;
         if (viimeActivity == 1) {

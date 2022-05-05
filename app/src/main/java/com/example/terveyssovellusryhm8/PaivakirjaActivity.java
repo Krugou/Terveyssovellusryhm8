@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+/**
+ * The type Paivakirja activity.
+ */
 public class PaivakirjaActivity extends AppCompatActivity {
 
     private ArrayAdapter<String> listAdapter;
@@ -19,14 +22,24 @@ public class PaivakirjaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_paivakirja);
     }
 
-    //Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
+    /**
+     * Open diary editor.
+     *
+     * @param view the view
+     */
+//Metodi, joka siirtää lisäys aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View view) {
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
         intent.putExtra("viimeactivity", 2); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
 
-    //Metodi, joka siirtää aloitussivulle napin painalluksella.
+    /**
+     * Open home.
+     *
+     * @param view the view
+     */
+//Metodi, joka siirtää aloitussivulle napin painalluksella.
     public void openHome(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

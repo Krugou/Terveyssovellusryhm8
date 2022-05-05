@@ -13,10 +13,22 @@ import android.widget.TextView;
 
 import java.util.Arrays;
 
+/**
+ * The type Mielialakysely activity.
+ */
 public class MielialakyselyActivity extends AppCompatActivity {
-    // The line of code below is taken from our materials
+    /**
+     * The constant EXTRA_MESSAGE.
+     */
+// The line of code below is taken from our materials
     public static final String EXTRA_MESSAGE = "com.example.terveyssovellusryhm8.MESSAGE";
+    /**
+     * The Round.
+     */
     int round;
+    /**
+     * The Points.
+     */
     int[] points = new int[14];
 
     @Override
@@ -32,6 +44,11 @@ public class MielialakyselyActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Forwards.
+     *
+     * @param v the v
+     */
     public void forwards(View v){
         // The line of code below is taken from our materials
         RadioGroup rg = findViewById(R.id.radioGroup);
@@ -71,7 +88,12 @@ public class MielialakyselyActivity extends AppCompatActivity {
         }
     }
 
-    // The method that is called when you call the
+    /**
+     * Backwards.
+     *
+     * @param v the v
+     */
+// The method that is called when you call the
     // backwards button. It shows the previous question.
     public void backwards(View v){
         if (round != 0) {
@@ -86,7 +108,10 @@ public class MielialakyselyActivity extends AppCompatActivity {
         }
     }
 
-    // This method chooses the answer the user had
+    /**
+     * Set chosen.
+     */
+// This method chooses the answer the user had
     // previously chosen
     public void setChosen(){
         RadioButton rb;
@@ -113,7 +138,12 @@ public class MielialakyselyActivity extends AppCompatActivity {
         rb.setChecked(true);
     }
 
-    // Go home button
+    /**
+     * Go home.
+     *
+     * @param view the view
+     */
+// Go home button
     public void goHome(View view){
         finish();
     }
@@ -123,6 +153,11 @@ public class MielialakyselyActivity extends AppCompatActivity {
     // So that a single activity can have all the 14 questions.
     // Integer i is the number of question
 
+    /**
+     * Print texts.
+     *
+     * @param i the
+     */
     public void printTexts(int i){
         TextView tv = findViewById(R.id.moodQuestion);
         RadioButton rb1 = findViewById(R.id.option1);

@@ -11,8 +11,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 
+/**
+ * The type Aloitusluokka.
+ */
 public class Aloitusluokka extends AppCompatActivity {
+    /**
+     * The Ensimmaista kertaa kayttamassa.
+     */
     boolean ensimmaistaKertaaKayttamassa;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -236,6 +243,9 @@ public class Aloitusluokka extends AppCompatActivity {
         }
 
         Thread tervetuloaLanka = new Thread() {
+            /**
+             *
+             */
             @Override
             public void run() {
                 try {

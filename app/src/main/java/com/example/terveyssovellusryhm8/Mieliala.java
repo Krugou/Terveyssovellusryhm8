@@ -1,9 +1,18 @@
 package com.example.terveyssovellusryhm8;
 
+/**
+ * The type Mieliala.
+ */
 public class Mieliala {
         // Kaik on kesken
 
-        public int calculateTotal(int[] mood) {
+    /**
+     * Calculate total int.
+     *
+     * @param mood the mood
+     * @return the int
+     */
+    public int calculateTotal(int[] mood) {
             int points = 0;
             for (int j : mood) {
                 points += j;

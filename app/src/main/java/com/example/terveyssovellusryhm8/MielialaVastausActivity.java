@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * The type Mieliala vastaus activity.
+ */
 public class MielialaVastausActivity extends AppCompatActivity {
 
     @Override
@@ -34,6 +37,12 @@ public class MielialaVastausActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Total value int.
+     *
+     * @param points the points
+     * @return the int
+     */
     public int totalValue(int[] points){
 
         int totalValue = 0;
@@ -43,6 +52,12 @@ public class MielialaVastausActivity extends AppCompatActivity {
         }
         return totalValue;
     }
+
+    /**
+     * Go home.
+     *
+     * @param view the view
+     */
     public void goHome(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

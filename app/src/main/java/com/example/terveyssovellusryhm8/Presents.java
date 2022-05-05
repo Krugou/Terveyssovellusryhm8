@@ -7,6 +7,9 @@ import android.widget.VideoView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * The type Presents.
+ */
 public class Presents extends AppCompatActivity {
     
     @Override

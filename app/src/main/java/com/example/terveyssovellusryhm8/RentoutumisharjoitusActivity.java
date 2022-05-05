@@ -15,6 +15,9 @@ import java.util.concurrent.TimeUnit;
 // https://o7planning.org/12601/android-mediaplayer
 // and modified by us
 
+/**
+ * The type Rentoutumisharjoitus activity.
+ */
 public class RentoutumisharjoitusActivity extends AppCompatActivity {
 
     private Button buttonStart;
@@ -160,7 +163,10 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
         return minutes + ":"+ seconds;
     }
 
-    // Thread to Update position for SeekBar.
+    /**
+     * The type Update seek bar thread.
+     */
+// Thread to Update position for SeekBar.
     class UpdateSeekBarThread implements Runnable {
 
         public void run()  {
@@ -173,6 +179,12 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
             threadHandler.postDelayed(this, 50);
         }
     }
+
+    /**
+     * Go home.
+     *
+     * @param view the view
+     */
     public void goHome(View view){
         finish();
     }

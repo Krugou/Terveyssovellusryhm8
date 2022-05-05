@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * The type Tyhja activity.
+ */
 public class TyhjaActivity extends AppCompatActivity {
     // Globaali indeksi muuttuja
     private int indeksi;
@@ -50,12 +53,22 @@ public class TyhjaActivity extends AppCompatActivity {
 
     }
 
-    //Metodi, jonka avulla käyttäjä palaa päiväkirja-aktiviteettiin napin painalluksella.
+    /**
+     * Go back.
+     *
+     * @param view the view
+     */
+//Metodi, jonka avulla käyttäjä palaa päiväkirja-aktiviteettiin napin painalluksella.
     public void goBack(View view) {
         Intent intent = new Intent(this, PaivakirjaActivity.class);
         startActivity(intent);
     }
 
+    /**
+     * Open editor.
+     *
+     * @param view the view
+     */
     public void openEditor(View view) {
         Intent intent = new Intent(this, TyhjaActivityEditorActivity.class);
         intent.putExtra("indeksi", indeksi); // Mukaan indeksi, jolla editori aktiviteetti osaa navigoida listoja.

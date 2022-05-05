@@ -11,7 +11,13 @@ import android.widget.VideoView;
 
 import java.util.Random;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
+    /**
+     * Video play loop.
+     */
     public void videoPlayLoop(){
         // sekalainen video main aktiviteetille
         VideoView videoView = (VideoView) findViewById(R.id.videoView2);
@@ -58,22 +64,46 @@ public class MainActivity extends AppCompatActivity {
         videoPlayLoop();
 
     }
+
+    /**
+     * Open mood activity.
+     *
+     * @param view the view
+     */
     public void openMoodActivity(View view) {
         Intent intent = new Intent(this, MielialakyselyActivity.class);
         startActivity(intent);
     }
-    //Metodi, joka siirtää päiväkirja-aktiviteettiin napin painalluksella.
+
+    /**
+     * Open diary.
+     *
+     * @param v the v
+     */
+//Metodi, joka siirtää päiväkirja-aktiviteettiin napin painalluksella.
     public void openDiary(View v){
         Intent intent = new Intent(this, PaivakirjaActivity.class);
 
         startActivity(intent);
     }
-    //Metodi, joka siirtää päiväkirjanlisäys-aktiviteettiin napin painalluksella.
+
+    /**
+     * Open diary editor.
+     *
+     * @param v the v
+     */
+//Metodi, joka siirtää päiväkirjanlisäys-aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View v){
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
         intent.putExtra("viimeactivity", 1); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
+
+    /**
+     * Open relax.
+     *
+     * @param v the v
+     */
     public void openRelax(View v){
         Intent intent = new Intent(this, RentoutumisharjoitusActivity.class);
         startActivity(intent);
