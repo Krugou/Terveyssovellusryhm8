@@ -151,7 +151,7 @@ public class Paivakirja {
 
     //Koodi on kopioitu:https://gist.github.com/WrathChaos/5f39e3ce3874a049d25e2ca8958d18b6
     public void saveArrayList(ArrayList<String> list, String key) {
-        SharedPreferences prefs = this.context.getSharedPreferences("testaus41", Context.MODE_PRIVATE);
+        SharedPreferences prefs = this.context.getSharedPreferences("com.example.terveyssovellusryhm8", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         Gson gson = new Gson();
         String json = gson.toJson(list);
@@ -167,7 +167,7 @@ public class Paivakirja {
 //Metodi, jonka avulla preferencceistä haetaan tallennettu Arraylista avaimen parametrilla.
     // Koodi on kopioitu: https://gist.github.com/WrathChaos/5f39e3ce3874a049d25e2ca8958d18b6
     public ArrayList<String> getArrayList(String key) {
-        SharedPreferences prefs = this.context.getSharedPreferences("testaus41", Context.MODE_PRIVATE);
+        SharedPreferences prefs = this.context.getSharedPreferences("com.example.terveyssovellusryhm8", Context.MODE_PRIVATE);
         Gson gson = new Gson();
         String json = prefs.getString(key, null);
         Type type = new TypeToken<ArrayList<String>>() {
