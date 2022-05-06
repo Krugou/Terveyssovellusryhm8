@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * The type Tyhja activity.
+ * @author Joonas
+ * Luokka, jossa tulostetaan TyhjaActivity-aktiviteettiin paivakirja listojen tietoa.
  */
 public class TyhjaActivity extends AppCompatActivity {
     // Globaali indeksi muuttuja
@@ -54,20 +55,17 @@ public class TyhjaActivity extends AppCompatActivity {
     }
 
     /**
-     * Go back.
-     *
-     * @param view the view
+     * Metodi, joka vie takaisin PaivakirjaActivity-aktiviteettin.
+     * @param view metodiin liitetty floating-nappi R.id.takaisinButton
      */
-//Metodi, jonka avulla käyttäjä palaa päiväkirja-aktiviteettiin napin painalluksella.
     public void goBack(View view) {
         Intent intent = new Intent(this, PaivakirjaActivity.class);
         startActivity(intent);
     }
 
     /**
-     * Open editor.
-     *
-     * @param view the view
+     * Metodi, joka siirtyy TyhjaActivityEditorActivity-aktiviteettiin.
+     * @param view metodiin liitetty nappi R.id.muokkausButton
      */
     public void openEditor(View view) {
         Intent intent = new Intent(this, TyhjaActivityEditorActivity.class);

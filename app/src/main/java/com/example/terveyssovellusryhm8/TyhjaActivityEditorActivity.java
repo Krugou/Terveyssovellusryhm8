@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 
 /**
- * The type Tyhja activity editor activity.
+ * @author Joonas
+ * Luokka, jossa jonkin tietyn päiväkirja lisäyksen dataa muokataan.
  */
 public class TyhjaActivityEditorActivity extends AppCompatActivity {
 
@@ -50,11 +51,9 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
     }
 
     /**
-     * Save edits.
-     *
-     * @param view the view
+     * Metodi, jolla tallennetaan päiväkirja dataan muutokset.
+     * @param view Tallenna napin näkymä. R.id.buttonTallenna
      */
-// Tätä kutsutaan, kun Tallenna-nappia painetaan.
     public void saveEdits(View view) {
         boolean ready;
         String editoituPaivamaara = paivamaaraEdit.getText().toString();
@@ -105,11 +104,9 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
     }
 
     /**
-     * Go back.
-     *
-     * @param view the view
+     * Metodi, jolla siirrytään TyhjaActivityyn.
+     * @param view floating-napin näkymä. R.id.buttonTakaisinTyhjaEditor
      */
-// Metodi, joka vie takaisin TyhjaActivityyn.
     public void goBack(View view) {
         Intent intent = new Intent(this, TyhjaActivity.class);
         intent.putExtra("nro", indeksi); // Mukaan indeksi, jonka avulla TyhjaActivity hakee infot listoista.

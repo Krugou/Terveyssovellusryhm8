@@ -15,7 +15,8 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * The type Paivakirja lisays activity.
+ * @author Joonas
+ * Luokka PaivakirjaLisaysActivity-aktiviteetille, jossa käyttäjä tekee päiväkirjaan lisäyksiä.
  */
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
@@ -35,11 +36,10 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
     }
 
     /**
-     * Button pressed.
-     *
-     * @param view the view
+     * Metodi, jota kutsutaan kun lisääysnappia painetaan.
+     * @param view nappi näkymä. R.id.buttonLisays
      */
-// Metodi, joka ajetaan kun lisäysnappia painetaan.
+
     public void buttonPressed(View view) {
 
         boolean ready; // Tällä arvolla todetaan, onko päivämäärä täytetty
@@ -96,9 +96,8 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
     }
 
     /**
-     * Go back.
-     *
-     * @param view the view
+     * Metodi, jolla siirrytään takaisin viime aktiviteettiin.
+     * @param view floating-napin näkymä. R.id.buttonTakaisinLisays
      */
     public void goBack(View view) {
         Intent intent;
