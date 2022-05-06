@@ -59,16 +59,19 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
         this.buttonStart=(Button)this.findViewById(R.id.playButton);
         this.buttonStop=(Button)this.findViewById(R.id.stopButton);
         this.buttonPause=(Button)this.findViewById(R.id.pauseButton);
+        this.buttonStop.setEnabled(false);
+        this.buttonStart.setEnabled(true);
+        this.buttonPause.setEnabled(true);
 
         this.seekBar=(SeekBar) this.findViewById(R.id.seekBar);
         this.seekBar.setClickable(false);
 
         this.buttonStart.setOnClickListener(new View.OnClickListener(){
-           @Override
-           public void onClick(View v){
+            @Override
+            public void onClick(View v){
 
-               doStart();
-           }
+                doStart();
+            }
         });
         this.buttonPause.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,10 +80,10 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
             }
         });
         this.buttonStop.setOnClickListener(new View.OnClickListener(){
-           @Override
-           public void onClick(View v) {
-               doStop();
-           }
+            @Override
+            public void onClick(View v) {
+                doStop();
+            }
         });
 
         // Mediaplayer
@@ -138,12 +141,11 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     private void doStop(){
         if(this.mediaPlayer.isPlaying()) {
             this.mediaPlayer.reset();
-            this.mediaPlayer.stop();
-
 
             this.buttonStop.setEnabled(false);
             this.buttonStart.setEnabled(true);
             this.buttonPause.setEnabled(true);
+            Player.playRawMedia(this, this.mediaPlayer);
         }
     }
     private void doPause(){
@@ -153,13 +155,31 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     }
 
     private void doComplete() {
+        this.mediaPlayer.reset();
 
+        this.buttonStop.setEnabled(false);
+        this.buttonStart.setEnabled(true);
+        this.buttonPause.setEnabled(true);
+
+        Player.playRawMedia(this, this.mediaPlayer);
     }
 
     // Convert millisecond to string.
+    // There was a bug in the original tutorial, it didn't remove the seconds
+    // if there was more than 60 seconds, so I fixed it.
+    // It's a bubblegum fix but it works and I'm out of time.
     private String millisecondsToString(int milliseconds)  {
-        long minutes = TimeUnit.MILLISECONDS.toMinutes((long) milliseconds);
-        long seconds =  TimeUnit.MILLISECONDS.toSeconds((long) milliseconds) ;
+        int minutes = (int) TimeUnit.MILLISECONDS.toMinutes(milliseconds);
+        int seconds = (int) TimeUnit.MILLISECONDS.toSeconds(milliseconds);
+        int y = 0;
+        for (int i = minutes; i > 0; i--){
+            seconds = seconds-60;
+            y = 1;
+        }
+        if (seconds < 10 ){
+            return minutes + ":" + "0" + seconds;
+        }
+
         return minutes + ":"+ seconds;
     }
 
