@@ -1,7 +1,7 @@
 package com.example.terveyssovellusryhm8;
 
 /**
- * The type Positiivisetsanat.
+ * @author Aleksi
  */
 public class Positiivisetsanat {
     /**

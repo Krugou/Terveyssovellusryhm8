@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.Arrays;
 
 /**
- * The type Mielialakysely activity.
+ * @author Tor-Erik
  */
 public class MielialakyselyActivity extends AppCompatActivity {
     /**

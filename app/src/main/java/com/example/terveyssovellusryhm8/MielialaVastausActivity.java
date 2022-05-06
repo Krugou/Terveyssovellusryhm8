@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * The type Mieliala vastaus activity.
+ * @author Tor-Erik
  */
 public class MielialaVastausActivity extends AppCompatActivity {
 

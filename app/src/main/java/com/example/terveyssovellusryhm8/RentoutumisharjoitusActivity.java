@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 // and modified by us
 
 /**
- * The type Rentoutumisharjoitus activity.
+ * @author Tor-Erik
  */
 public class RentoutumisharjoitusActivity extends AppCompatActivity {
 

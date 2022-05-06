@@ -9,7 +9,7 @@ import android.net.Uri;
 
 
 /**
- * The type Player.
+ * @author Tor-Erik
  */
 public class Player extends Activity {
 

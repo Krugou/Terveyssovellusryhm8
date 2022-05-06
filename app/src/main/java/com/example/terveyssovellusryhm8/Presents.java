@@ -8,7 +8,7 @@ import android.widget.VideoView;
 import androidx.appcompat.app.AppCompatActivity;
 
 /**
- * The type Presents.
+ * @author Aleksi
  */
 public class Presents extends AppCompatActivity {
     

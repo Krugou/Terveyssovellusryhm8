@@ -1,7 +1,7 @@
 package com.example.terveyssovellusryhm8;
 
 /**
- * The type Mieliala.
+ * @author Tor-Erik
  */
 public class Mieliala {
         // Kaik on kesken

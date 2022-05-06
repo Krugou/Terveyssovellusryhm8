@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 
 /**
- * The type Aloitusluokka.
+ * @author Aleksi
  */
 public class Aloitusluokka extends AppCompatActivity {
     /**

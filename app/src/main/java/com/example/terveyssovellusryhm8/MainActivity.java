@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void videoPlayLoop(){
         // sekalainen video main aktiviteetille
-        VideoView videoView = (VideoView) findViewById(R.id.videoView2);
+        VideoView videoView =findViewById(R.id.videoView2);
         Random sekalainen = new Random();
         int videoNumero = sekalainen.nextInt((6 - 1) + 1) + 1;
         Log.i("my_app", String.valueOf(videoNumero));
