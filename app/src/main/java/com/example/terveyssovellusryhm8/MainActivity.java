@@ -3,14 +3,11 @@ package com.example.terveyssovellusryhm8;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.VideoView;
-
 import java.util.Random;
-
 /**
  * The type Main activity.
  */
@@ -34,20 +31,14 @@ public class MainActivity extends AppCompatActivity {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental4);
         } else if (videoNumero == 5) {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental5);
-        // Ei tarvi olla else if viimisessä
+
         } else {
             videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.mental6);
 
         }
         videoView.start();
         // looppi videolle
-        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-                videoView.start();
-            }
-        });
+        videoView.setOnCompletionListener(mediaPlayer -> videoView.start());
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

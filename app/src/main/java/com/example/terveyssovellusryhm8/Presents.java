@@ -17,7 +17,7 @@ public class Presents extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presentsluokka);
         // alkuvideo
-        VideoView videoView = (VideoView) findViewById(R.id.videoView);
+        VideoView videoView =  findViewById(R.id.videoView);
         videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.start);
         // alkuvideon käynnistys
         videoView.start();
