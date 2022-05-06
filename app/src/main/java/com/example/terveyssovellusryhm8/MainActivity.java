@@ -95,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
 //Metodi, joka siirtää päiväkirjanlisäys-aktiviteettiin napin painalluksella.
     public void openDiaryEditor(View v){
         Intent intent = new Intent(this, PaivakirjaLisaysActivity.class);
-        intent.putExtra("viimeactivity", 1); // Viedään mukana numero, joka kertoo mistä aktiviteetista tultiin.
         startActivity(intent);
     }
 

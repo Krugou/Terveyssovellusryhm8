@@ -100,21 +100,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
      * @param view floating-napin näkymä. R.id.buttonTakaisinLisays
      */
     public void goBack(View view) {
-        Intent intent;
-        if (viimeActivity == 1) {
-            intent = new Intent(this, MainActivity.class);
-        } else {
-            intent = new Intent(this, PaivakirjaActivity.class);
-        }
-        startActivity(intent);
+        finish();
     }
-
-    // Kun activiteetti käynnistetään, otetaan selvää mistä activiteetista sinne tultiin.
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Intent intent = getIntent();
-        viimeActivity = intent.getIntExtra("viimeactivity", 1);
-    }
-
 }
