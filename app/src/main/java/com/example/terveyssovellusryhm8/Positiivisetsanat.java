@@ -1,22 +1,24 @@
 package com.example.terveyssovellusryhm8;
 
 /**
+ * 
+ * 
+ * 
  * @author Aleksi
  */
 public class Positiivisetsanat {
     /**
-     * The Positiviset sanat.
+     * Create string of positive words.
      */
 // positiivisien sanojen olioluokka
     String positivisetSanat;
 
     /**
-     * The Positiviset sanat tekija.
+     * Create string of positive words author.
      */
     String positivisetSanatTekija;
-
     /**
-     * Instantiates a new Positiivisetsanat.
+     * 
      *
      * @param positivisetSanat       the positiviset sanat
      * @param positivisetSanatTekija the positiviset sanat tekija
@@ -28,7 +30,7 @@ public class Positiivisetsanat {
 
 
     /**
-     * Gets positiiviset sanat.
+     * Palauttaa positiivisen lauseen.
      *
      * @return the positiiviset sanat
      */
@@ -38,7 +40,7 @@ public class Positiivisetsanat {
     }
 
     /**
-     * Gets positiiviset sanat tekija.
+     * Palauttaa positiivisen sanojen tekijän.
      *
      * @return the positiiviset sanat tekija
      */

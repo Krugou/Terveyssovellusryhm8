@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class Aloitusluokka extends AppCompatActivity {
     /**
-     * The Ensimmaista kertaa kayttamassa.
+     * create boolean of ensimmaista kertaa käynnistyksestä.
      */
     boolean ensimmaistaKertaaKayttamassa;
 
@@ -242,7 +242,7 @@ public class Aloitusluokka extends AppCompatActivity {
 
         Thread tervetuloaLanka = new Thread() {
             /**
-             *
+             * Automatic forward to next activity in certain time.
              */
             @Override
             public void run() {
