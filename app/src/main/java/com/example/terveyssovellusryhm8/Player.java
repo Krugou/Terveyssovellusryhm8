@@ -1,23 +1,17 @@
 package com.example.terveyssovellusryhm8;
-
-
-
 import android.app.Activity;
 import android.content.Context;
 import android.media.MediaPlayer;
 import android.net.Uri;
 
-
 /**
  * @author Tor-Erik
+ *  Rentoutumisharjoitus, eli mediaplayer joka soittaa meidän rentoutumisharjoitusta.
+ *  Koodia on otettu osoitteesta https://o7planning.org/12601/android-mediaplayer ja muokattu.
  */
 public class Player extends Activity {
-
-    //private MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.rentoutumisharjoitusmusiconly);
-
-
     /**
-     * Play raw media.
+     * Soita äänitiedosto
      *
      * @param context     the context
      * @param mediaPlayer the media player

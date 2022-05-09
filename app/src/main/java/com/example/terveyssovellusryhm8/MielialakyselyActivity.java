@@ -19,16 +19,16 @@ import java.util.Arrays;
  */
 public class MielialakyselyActivity extends AppCompatActivity {
     /**
-     * The constant EXTRA_MESSAGE.
+     * Muuttuja joka tarvitaan jotta uuden aktiviteetin avaaminen tietoa syöttämällä toimisi
      */
 // The line of code below is taken from our materials
     public static final String EXTRA_MESSAGE = "com.example.terveyssovellusryhm8.MESSAGE";
     /**
-     * The Round.
+     * Monesko kysymys on menossa
      */
     int round;
     /**
-     * The Points.
+     * Mielialakyselyn pistemäärä
      */
     int[] points = new int[14];
 
@@ -44,9 +44,8 @@ public class MielialakyselyActivity extends AppCompatActivity {
         printTexts(round);
     }
 
-
     /**
-     * Forwards.
+     * Metodi joka siirtyy seuraavaan kysymykseen tai jos kysymykset loppuvat, vastauksiin.
      *
      * @param v the v
      */
@@ -90,7 +89,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
     }
 
     /**
-     * Backwards.
+     * Metodi, joka siirtyy edelliseen kysymykseen
      *
      * @param v the v
      */
@@ -110,10 +109,9 @@ public class MielialakyselyActivity extends AppCompatActivity {
     }
 
     /**
-     * Set chosen.
+     * Mentäessä kysymyksissä taaksepäin aiemmin valitsemasi kysymys näkyy valmiiksi valittuna
+     * Sama jos taaksepäin mentyäsi menet eteenpäin.
      */
-// This method chooses the answer the user had
-    // previously chosen
     public void setChosen(){
         RadioButton rb;
 
@@ -140,7 +138,7 @@ public class MielialakyselyActivity extends AppCompatActivity {
     }
 
     /**
-     * Go home.
+     * Kotiinpalaamisfunktio
      *
      * @param view the view
      */
@@ -149,15 +147,11 @@ public class MielialakyselyActivity extends AppCompatActivity {
         finish();
     }
 
-
-    // Method that changes the texts and buttons.
-    // So that a single activity can have all the 14 questions.
-    // Integer i is the number of question
-
     /**
-     * Print texts.
+     * Metodi jolla vaihdetaan näkyvää kysymystä ja sen vastausvaihtoja
+     * jotta yhdessä activityssä voisi olla kaikki 14 numeroa
      *
-     * @param i the
+     * @param i on nykyisen kysymyksen numero
      */
     public void printTexts(int i){
         TextView tv = findViewById(R.id.moodQuestion);
@@ -168,12 +162,8 @@ public class MielialakyselyActivity extends AppCompatActivity {
         RadioButton rb5 = findViewById(R.id.option5);
         Button next = findViewById(R.id.button2);
         Button previous = findViewById(R.id.button3);
-        // Testikoodia, poista lopulliseen
-        //TextView tn = findViewById(R.id.testNumber);
-        //tn.setText(Integer.toString(mieliala.pointsit));
 
         switch(i){
-
             case 0:
                 tv.setText(R.string.mood1);
                 rb1.setText(R.string.mood1_1);

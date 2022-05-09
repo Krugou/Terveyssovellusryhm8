@@ -11,25 +11,17 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.concurrent.TimeUnit;
 
-// A lot of code has been taken from
-// https://o7planning.org/12601/android-mediaplayer
-// and modified by us
-
 /**
  * @author Tor-Erik
+ * Rentoutumisharjoitus, eli mediaplayer joka soittaa meidän rentoutumisharjoitusta.
+ * Koodia on otettu osoitteesta https://o7planning.org/12601/android-mediaplayer ja muokattu.
  */
 public class RentoutumisharjoitusActivity extends AppCompatActivity {
 
-    private Button buttonStart;
-    private Button buttonStop;
-    private Button buttonPause;
+    private Button buttonStart, buttonStop, buttonPause;
     private SeekBar seekBar;
-
-    private TextView current;
-    private TextView duration;
-
+    private TextView current, duration;
     private Handler threadHandler = new Handler();
-
     private MediaPlayer mediaPlayer;
 
     @Override
@@ -171,10 +163,8 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     private String millisecondsToString(int milliseconds)  {
         int minutes = (int) TimeUnit.MILLISECONDS.toMinutes(milliseconds);
         int seconds = (int) TimeUnit.MILLISECONDS.toSeconds(milliseconds);
-        int y = 0;
         for (int i = minutes; i > 0; i--){
             seconds = seconds-60;
-            y = 1;
         }
         if (seconds < 10 ){
             return minutes + ":" + "0" + seconds;
@@ -184,7 +174,7 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     }
 
     /**
-     * The type Update seek bar thread.
+     * Luokka SeekBarin päivittämiseen
      */
 // Thread to Update position for SeekBar.
     class UpdateSeekBarThread implements Runnable {
@@ -201,7 +191,7 @@ public class RentoutumisharjoitusActivity extends AppCompatActivity {
     }
 
     /**
-     * Go home.
+     * Mee kotiin
      *
      * @param view the view
      */

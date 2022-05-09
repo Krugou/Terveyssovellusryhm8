@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 /**
  * @author Tor-Erik
- * Luokka sisältää vastaukset RBDI-mielialakyselyyn
+ * Luokka sisältää vastausnäkymän RBDI-mielialakyselyyn
  */
 public class MielialaVastausActivity extends AppCompatActivity {
 
@@ -35,7 +35,6 @@ public class MielialaVastausActivity extends AppCompatActivity {
         } else {
             resultView.setText(R.string.depression4);
         }
-
     }
 
     /**
