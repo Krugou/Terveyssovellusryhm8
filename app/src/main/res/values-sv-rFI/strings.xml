@@ -5,7 +5,7 @@
     <!--päiväkirja stringit-->
     <string name="button_teelisays"> Lägg till! </string>
     <string name="button_avaapaivakirja"> Öppna dagbok </string>
-    <string name="textview_title"> NÄRINGSDAGBOK </string>
+    <string name="textview_title"> EN HUMÖRFEG FÖR TRE COWBOYS</string>
     <string name="textview_paivakirjatitle"> Din dagbok </string>
     <string name="button_teelisayspaivakirjassa"> Knapp som tar dig till sidan </string>
     <string name="edittext_paivamaara"> Ange datum </string>

@@ -5,7 +5,7 @@
     <!--päiväkirja stringit-->
     <string name="button_teelisays"> Make an Addition! </string>
     <string name="button_avaapaivakirja"> Open Diary </string>
-    <string name="textview_title"> NUTRITION DIARY </string>
+    <string name="textview_title"> THREE COWBOY\'S MENTAL APP</string>
     <string name="textview_paivakirjatitle"> Your Diary </string>
     <string name="button_teelisayspaivakirjassa"> Button that takes you to the page </string>
     <string name="edittext_paivamaara"> Enter Date </string>
