@@ -3,10 +3,15 @@ package com.example.terveyssovellusryhm8;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.EditText;
+
+import java.util.Calendar;
 
 /**
  * @author Joonas
@@ -19,6 +24,8 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
     private EditText kaloritEdit;
     private EditText mieliaalaEdit;
     private EditText kirjausEdit;
+
+    private DatePickerDialog picker;
 
     private Paivakirja paivakirja;
     // Globaali indeksi muuttuja.
@@ -47,6 +54,34 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
         mieliaalaEdit.setText(paivakirja.getMielialaLista().get(indeksi));
         kirjausEdit.setText(paivakirja.getKirjausLista().get(indeksi));
 
+        paivamaaraEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Calendar cldr = Calendar.getInstance();
+                int day = cldr.get(Calendar.DAY_OF_MONTH);
+                int month = cldr.get(Calendar.MONTH);
+                int year = cldr.get(Calendar.YEAR);
+
+                paivamaaraEdit.setInputType(InputType.TYPE_NULL);
+                // date picker dialog
+                picker = new DatePickerDialog(TyhjaActivityEditorActivity.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                                monthOfYear++;
+                                String day = Integer.toString(dayOfMonth);
+                                String month = Integer.toString(monthOfYear);
+                                if (monthOfYear < 10){
+                                    month = "0" + monthOfYear;
+                                } if (dayOfMonth < 10){
+                                    day = "0" + dayOfMonth;
+                                }
+                                paivamaaraEdit.setText(day + "." + month + "." + year);
+                            }
+                        }, year, month, day);
+                picker.show();
+            }
+        });
 
     }
 
@@ -55,12 +90,15 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
      * @param view Tallenna napin näkymä. R.id.buttonTallenna
      */
     public void saveEdits(View view) {
-        boolean ready;
         String editoituPaivamaara = paivamaaraEdit.getText().toString();
+
+        // Tallennetaan käyttäjän syöttämät arvot merkkijonoihin
+        String editoituKalori = kaloritEdit.getText().toString();
+        String editoituMieliala = mieliaalaEdit.getText().toString();
+        String editoituKirjaus = kirjausEdit.getText().toString();
 
         // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus, joka käskee täyttää sen.
         if (editoituPaivamaara.equals("")) {
-            ready = false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle(R.string.alertVaroitus) // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
@@ -68,16 +106,26 @@ public class TyhjaActivityEditorActivity extends AppCompatActivity {
                     .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
                     })
                     .show();
-        } else {
-            ready = true;
         }
-        if (ready) {
+        else if (editoituMieliala.equals("") && editoituKirjaus.equals("")) {
+            new AlertDialog.Builder(this)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
+                    .setMessage(R.string.etVastannutAlert)
+                    .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
 
-            // Tallennetaan käyttäjän syöttämät arvot merkkijonoihin
-            String editoituKalori = kaloritEdit.getText().toString();
-            String editoituMieliala = mieliaalaEdit.getText().toString();
-            String editoituKirjaus = kirjausEdit.getText().toString();
+                    })
+                    .show();
+        } else if (!editoituMieliala.matches(".*[^0-9].*")) {
+            new AlertDialog.Builder(this)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
+                    .setMessage(R.string.alertVainNumeroita)
+                    .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
 
+                    })
+                    .show();
+        } else {
             // Jos käyttäjä ei syöttänyt joitain arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä. Huom. monikielisyys.
             if (editoituKalori.equals("")) {
                 editoituKalori = getString(R.string.tyhjä);

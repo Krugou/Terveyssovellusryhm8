@@ -6,9 +6,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import android.app.DatePickerDialog;
+import android.widget.DatePicker;
+import java.util.Calendar;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -19,7 +24,7 @@ import java.util.Locale;
  * Luokka PaivakirjaLisaysActivity-aktiviteetille, jossa käyttäjä tekee päiväkirjaan lisäyksiä.
  */
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
-
+    private DatePickerDialog picker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +35,35 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
         String tanPaivanLisays = new SimpleDateFormat("dd.MM.yyyy", Locale.getDefault()).format(new Date());
         TextView etsiPaivaRuutuRuudulta = findViewById(R.id.editTextPaiva);
         etsiPaivaRuutuRuudulta.setText(tanPaivanLisays);
+        etsiPaivaRuutuRuudulta.setInputType(InputType.TYPE_NULL);
+        etsiPaivaRuutuRuudulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Calendar cldr = Calendar.getInstance();
+                int day = cldr.get(Calendar.DAY_OF_MONTH);
+                int month = cldr.get(Calendar.MONTH);
+                int year = cldr.get(Calendar.YEAR);
+
+                // date picker dialog
+                picker = new DatePickerDialog(PaivakirjaLisaysActivity.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                                monthOfYear++;
+                                String day = Integer.toString(dayOfMonth);
+                                String month = Integer.toString(monthOfYear);
+                                if (monthOfYear < 10){
+                                    month = "0" + monthOfYear;
+                                } if (dayOfMonth < 10){
+                                    day = "0" + dayOfMonth;
+                                }
+                                etsiPaivaRuutuRuudulta.setText(day + "." + month + "." + year);
+                            }
+                        }, year, month, day);
+                picker.show();
+            }
+        });
+
     }
 
     /**
