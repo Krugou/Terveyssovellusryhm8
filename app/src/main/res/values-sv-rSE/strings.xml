@@ -34,6 +34,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="rbdi">RBDI Humår Frågeformulär</string>
     <string name="alertVainNumeroita">Ditt humör bör innehålla bokstäver eller mödrar</string>
     <string name="etVastannutAlert">Du skrev inte ditt humör eller uppdaterade</string>
     <string name="mielialakysely">Humör frågeformulär</string>

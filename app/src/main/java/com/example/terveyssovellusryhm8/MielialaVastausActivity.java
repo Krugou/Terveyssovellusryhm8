@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 /**
  * @author Tor-Erik
+ * Luokka sisältää vastaukset RBDI-mielialakyselyyn
  */
 public class MielialaVastausActivity extends AppCompatActivity {
 
@@ -39,7 +40,7 @@ public class MielialaVastausActivity extends AppCompatActivity {
 
     /**
      * Total value int.
-     *
+     * Luokka laskee yhteen taulukkoon tallennetut pisteet
      * @param points the points
      * @return the int
      */
@@ -47,7 +48,6 @@ public class MielialaVastausActivity extends AppCompatActivity {
 
         int totalValue = 0;
         for (int point : points) {
-            //System.out.println(Integer.toString(i) + " " + Integer.toString(points[i]));
             totalValue += point;
         }
         return totalValue;

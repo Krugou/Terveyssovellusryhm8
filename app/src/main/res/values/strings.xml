@@ -32,6 +32,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="rbdi">RBDI-Mielialakysely</string>
     <string name="alertVainNumeroita">Mielialasi tulee sisältää kirjaimia tai emojeja</string>
     <string name="rentoutumisharjoitus">Rentoutumisharjoitus</string>
     <string name="mielialakysely">Mielialakysely</string>

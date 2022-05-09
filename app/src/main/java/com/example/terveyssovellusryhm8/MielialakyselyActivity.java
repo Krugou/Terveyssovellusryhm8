@@ -15,6 +15,7 @@ import java.util.Arrays;
 
 /**
  * @author Tor-Erik
+ *  Luokka sisältää RBDI-mielialakyselyn ja metodit jotka sen kyselyosaan tarvitaan
  */
 public class MielialakyselyActivity extends AppCompatActivity {
     /**

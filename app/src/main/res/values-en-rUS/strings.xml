@@ -33,6 +33,7 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="rbdi">RBDI Mood Questionnaire</string>
     <string name="alertVainNumeroita">Your mood can\'t be just numbers</string>
     <string name="etVastannutAlert">You need to enter your mood or diary entry</string>
     <string name="rentoutumisharjoitus">Relaxation exercise</string>
