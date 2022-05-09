@@ -20,10 +20,6 @@ import java.util.Locale;
  */
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
-
-    // Tätä käytetään selvittämään paluunapi viemä sijainti.
-    private int viimeActivity;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
