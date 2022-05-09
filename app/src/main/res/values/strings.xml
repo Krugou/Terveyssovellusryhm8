@@ -4,7 +4,7 @@
     <!--päiväkirja stringit-->
     <string name="button_teelisays">Tee Lisäys!</string>
     <string name="button_avaapaivakirja">Avaa Päiväkirja</string>
-    <string name="textview_title">RAVINTO PÄIVÄKIRJA</string>
+    <string name="textview_title">RAVINTOPÄIVÄKIRJA</string>
     <string name="textview_paivakirjatitle">Sinun Päiväkirjasi</string>
     <string name="button_teelisayspaivakirjassa">Nappi, joka vie lisäys sivulle</string>
     <string name="edittext_paivamaara">Syötä Päivämäärä</string>
@@ -18,7 +18,7 @@
     <string name="alertViesti">Sinun pitää syöttää päivämäärä ennen jatkamista</string>
     <string name="alertKyllä">Kyllä</string>
     <string name="alertVaroitus">Varoitus!</string>
-    <string name="alertPoistoViesti">Haluatko poistaa lisäyksen?</string>
+    <string name="alertPoistoViesti">Haluatko poistaa päiväkirjamerkinnän?</string>
     <string name="alertEi">Ei</string>
     <string name="alertOk">Okei</string>
     <string name="päivä">Päivä:</string>
@@ -32,8 +32,10 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="alertVainNumeroita">Mielialasi tulee sisältää kirjaimia tai emojeja</string>
     <string name="rentoutumisharjoitus">Rentoutumisharjoitus</string>
     <string name="mielialakysely">Mielialakysely</string>
+    <string name="etVastannutAlert">Et kirjoittanut mielialaasi tai päivitystä</string>
     <string name="mood1">1. Minkälainen on mielialasi?</string>
     <string name="mood1_1">Mielialani on melko valoisa ja hyvä</string>
     <string name="mood1_2">En ole alakuloinen tai surullinen</string>

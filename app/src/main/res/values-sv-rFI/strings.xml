@@ -16,7 +16,7 @@
     <string name="kirjotatahan"> Skriv här </string>
     <string name="mieliala"> humör </string>
     <string name="button_takaisin"> En knapp som tar dig tillbaka till dagboken </string>
-    <string name="alertViesti">Du måste ange ett datum innan du fortsätter</string>
+    <string name="alertViesti">Du måste lägga till ett datum</string>
     <string name="alertKyllä">Ja</string>
     <string name="alertVaroitus">Varning!</string>
     <string name="alertPoistoViesti">Vill du ta bort tillägget?</string>
@@ -34,6 +34,8 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="alertVainNumeroita">Ditt humör bör innehålla bokstäver eller mödrar</string>
+    <string name="etVastannutAlert">Du skrev inte ditt humör eller uppdaterade</string>
     <string name="rentoutumisharjoitus">Avslappningsövning</string>
     <string name="mielialakysely">Humör frågeformulär</string>
     <string name="mood1">1. Hurdan är din sinnesstämning?</string>

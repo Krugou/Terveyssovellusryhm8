@@ -20,6 +20,7 @@ import java.util.Locale;
  */
 public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +39,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
     public void buttonPressed(View view) {
 
-        boolean ready; // Tällä arvolla todetaan, onko päivämäärä täytetty
-
         // Tehdään EditText-näkymiin syötetyistä arvoista merkkijonoja.
         EditText paivamaara = findViewById(R.id.editTextPaiva);
         String paivamaaraString = paivamaara.getText().toString();
@@ -55,7 +54,6 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
 
         // Jos päivämäärä puuttuu lähetetään käyttäjälle ilmoitus, joka käskee täyttää sen.
         if (paivamaaraString.equals("")) {
-            ready = false;
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
@@ -65,10 +63,25 @@ public class PaivakirjaLisaysActivity extends AppCompatActivity {
                     })
                     .show();
 
-        } else {
-            ready = true;
-        }
-        if (ready) {
+        } else if (kirjausString.equals("") && mielialaString.equals("")) {
+            new AlertDialog.Builder(this)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
+                    .setMessage(R.string.etVastannutAlert)
+                    .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
+
+                    })
+                    .show();
+        } else if (!mielialaString.matches(".*[^0-9].*")) {
+            new AlertDialog.Builder(this)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setTitle(R.string.alertVaroitus) // // Ladataan alertiin liittyvät asiat stringeistä, jotta käyttö on monikielistä.
+                    .setMessage(R.string.alertVainNumeroita)
+                    .setPositiveButton(R.string.alertOk, (dialogInterface, i) -> {
+
+                    })
+                    .show();
+        } else{
 
             //Jos käyttäjä ei lisännyt joitakin arvoja, niihin merkitään arvo "tyhjä" joka ladataan stringeistä. huom. monikielisyys.
             if (kaloritString.equals("")) {

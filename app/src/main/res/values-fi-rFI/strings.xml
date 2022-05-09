@@ -33,6 +33,8 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="alertVainNumeroita">Mielialasi tulee sisältää kirjaimia tai emojeja</string>
+    <string name="etVastannutAlert">Et kirjoittanut mielialaasi tai päivitystä</string>
     <string name="rentoutumisharjoitus">Rentoutumisharjoitus</string>
     <string name="mielialakysely">Mielialakysely</string>
     <string name="mood1">1. Minkälainen on mielialasi?</string>

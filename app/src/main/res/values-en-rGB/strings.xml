@@ -16,7 +16,7 @@
     <string name="kirjotatahan"> Type here </string>
     <string name="mieliala"> mood </string>
     <string name="button_takaisin"> A button that takes you back to the diary </string>
-    <string name="alertViesti">You have to enter a date before continuing</string>
+    <string name="alertViesti">Could you enter a date please?</string>
     <string name="alertKyllä">Yes</string>
     <string name="alertVaroitus">Warning!</string>
     <string name="alertPoistoViesti">Do you want to delete the entry?</string>
@@ -33,8 +33,12 @@
     <!--päiväkirja stringit loppuu-->
     <!--Joonaksen stringit loppuu-->
     <!--Tor-Erikin stringit-->
+    <string name="alertVainNumeroita">Your mood can\'t be just numbers</string>
+    <string name="etVastannutAlert">You need to enter your mood or diary entry</string>
     <string name="rentoutumisharjoitus">Relaxation exercise</string>
     <string name="mielialakysely">Mood questionnaire</string>
+
+
     <string name="mood1">1. How is your mood?</string>
     <string name="mood1_1">My mood is bright and good</string>
     <string name="mood1_2">I\'m not sad nor gloomy</string>

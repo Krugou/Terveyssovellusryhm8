@@ -37,8 +37,7 @@ public class PaivakirjaActivity extends AppCompatActivity {
      * @param view floating nappi. R.id.palaakotiinButton
      */
     public void openHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        navigateUpTo(new Intent(getBaseContext(), MainActivity.class));
     }
 
     @Override
