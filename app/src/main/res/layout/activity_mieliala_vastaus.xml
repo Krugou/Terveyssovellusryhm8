@@ -107,4 +107,26 @@
         android:text="@string/home"
         app:layout_constraintBottom_toTopOf="@+id/guideline40"
         app:layout_constraintStart_toStartOf="@+id/guideline43" />
+
+    <TextView
+        android:id="@+id/rbdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="24dp"
+        android:duplicateParentState="false"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:text="@string/rbdi"
+        android:textAlignment="center"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="@+id/guideline43"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
