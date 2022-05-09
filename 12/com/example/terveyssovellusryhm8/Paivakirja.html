@@ -136,7 +136,7 @@ extends java.lang.Object</pre>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>Joonas
- Luokka sisÃ¤ltÃ¤Ã¤ pÃ¤ivÃ¤kirjan kÃ¤yttÃ¤mÃ¤t listat ja yllÃ¤pitÃ¤Ã¤ niiden tallennusta SharedPreferencceihin</dd>
+ Luokka sisältää päiväkirjan käyttämät listat ja ylläpitää niiden tallennusta SharedPreferencceihin</dd>
 </dl>
 </li>
 </ul>
@@ -190,7 +190,7 @@ extends java.lang.Object</pre>
 <td class="colFirst"><code>private java.util.ArrayList&lt;java.lang.String&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#paivamaaraLista">paivamaaraLista</a></span></code></th>
 <td class="colLast">
-<div class="block">Lista, johon tallennetaan pÃ¤ivÃ¤mÃ¤Ã¤rÃ¤t</div>
+<div class="block">Lista, johon tallennetaan päivämäärät</div>
 </td>
 </tr>
 </table>
@@ -213,7 +213,7 @@ extends java.lang.Object</pre>
 <tr class="altColor">
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(android.content.Context)">Paivakirja</a></span>&#8203;(android.content.Context&nbsp;context)</code></th>
 <td class="colLast">
-<div class="block">Konstruktori, jolla pÃ¤Ã¤stÃ¤Ã¤n ainoastaan kÃ¤siksi luokan metodeihin.</div>
+<div class="block">Konstruktori, jolla päästään ainoastaan käsiksi luokan metodeihin.</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -223,7 +223,7 @@ extends java.lang.Object</pre>
           java.lang.String&nbsp;kirjaus,
           android.content.Context&nbsp;context)</code></th>
 <td class="colLast">
-<div class="block">Konstruktori, joka tekee uuden lisÃ¤yksen pÃ¤ivÃ¤kirja listoihin.</div>
+<div class="block">Konstruktori, joka tekee uuden lisäyksen päiväkirja listoihin.</div>
 </td>
 </tr>
 </table>
@@ -248,7 +248,7 @@ extends java.lang.Object</pre>
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addPrevious()">addPrevious</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Metodi lisÃ¤Ã¤ listohin preferencceissÃ¤ olevien listojen tiedot.</div>
+<div class="block">Metodi lisää listohin preferencceissä olevien listojen tiedot.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -262,7 +262,7 @@ extends java.lang.Object</pre>
 <td class="colFirst"><code>java.util.ArrayList&lt;java.lang.String&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getArrayList(java.lang.String)">getArrayList</a></span>&#8203;(java.lang.String&nbsp;key)</code></th>
 <td class="colLast">
-<div class="block">Hakee SharedPreferencceistÃ¤ ArrayListan.</div>
+<div class="block">Hakee SharedPreferencceistä ArrayListan.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -297,7 +297,7 @@ extends java.lang.Object</pre>
 <td class="colFirst"><code>boolean</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#isEmpty()">isEmpty</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Metodi, joka tarkistaa, onko paivamaaraLista tyhjÃ¤.</div>
+<div class="block">Metodi, joka tarkistaa, onko paivamaaraLista tyhjä.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -346,7 +346,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>paivamaaraLista</h4>
 <pre>private final&nbsp;java.util.ArrayList&lt;java.lang.String&gt; paivamaaraLista</pre>
-<div class="block">Lista, johon tallennetaan pÃ¤ivÃ¤mÃ¤Ã¤rÃ¤t</div>
+<div class="block">Lista, johon tallennetaan päivämäärät</div>
 </li>
 </ul>
 <a id="kaloritLista">
@@ -410,13 +410,13 @@ extends java.lang.Object</pre>
                   java.lang.String&nbsp;mieliala,
                   java.lang.String&nbsp;kirjaus,
                   android.content.Context&nbsp;context)</pre>
-<div class="block">Konstruktori, joka tekee uuden lisÃ¤yksen pÃ¤ivÃ¤kirja listoihin.</div>
+<div class="block">Konstruktori, joka tekee uuden lisäyksen päiväkirja listoihin.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>paivamaara</code> - merkkijono, joka lisÃ¤tÃ¤Ã¤n paivamaaraListaan.</dd>
-<dd><code>kalorit</code> - merkkijono, joka listÃ¤Ã¤n kaloritListaan.</dd>
-<dd><code>mieliala</code> - merkkijono, joka lisÃ¤tÃ¤Ã¤n mielialaListaan.</dd>
-<dd><code>kirjaus</code> - merkkijono, joka lisÃ¤tÃ¤Ã¤n kirjausListaan.</dd>
+<dd><code>paivamaara</code> - merkkijono, joka lisätään paivamaaraListaan.</dd>
+<dd><code>kalorit</code> - merkkijono, joka listään kaloritListaan.</dd>
+<dd><code>mieliala</code> - merkkijono, joka lisätään mielialaListaan.</dd>
+<dd><code>kirjaus</code> - merkkijono, joka lisätään kirjausListaan.</dd>
 <dd><code>context</code> - contexti, joka tallennetaan context muuttujaan.</dd>
 </dl>
 </li>
@@ -428,7 +428,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>Paivakirja</h4>
 <pre>public&nbsp;Paivakirja&#8203;(android.content.Context&nbsp;context)</pre>
-<div class="block">Konstruktori, jolla pÃ¤Ã¤stÃ¤Ã¤n ainoastaan kÃ¤siksi luokan metodeihin.</div>
+<div class="block">Konstruktori, jolla päästään ainoastaan käsiksi luokan metodeihin.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>context</code> - contexti, joka tallennetaan context muuttujaan.</dd>
@@ -452,7 +452,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>addPrevious</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;addPrevious()</pre>
-<div class="block">Metodi lisÃ¤Ã¤ listohin preferencceissÃ¤ olevien listojen tiedot.</div>
+<div class="block">Metodi lisää listohin preferencceissä olevien listojen tiedot.</div>
 </li>
 </ul>
 <a id="applyChanges()">
@@ -472,7 +472,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>isEmpty</h4>
 <pre class="methodSignature">public&nbsp;boolean&nbsp;isEmpty()</pre>
-<div class="block">Metodi, joka tarkistaa, onko paivamaaraLista tyhjÃ¤.</div>
+<div class="block">Metodi, joka tarkistaa, onko paivamaaraLista tyhjä.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>palauttaa boolean arvon</dd>
@@ -572,7 +572,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>getArrayList</h4>
 <pre class="methodSignature">public&nbsp;java.util.ArrayList&lt;java.lang.String&gt;&nbsp;getArrayList&#8203;(java.lang.String&nbsp;key)</pre>
-<div class="block">Hakee SharedPreferencceistÃ¤ ArrayListan.</div>
+<div class="block">Hakee SharedPreferencceistä ArrayListan.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>key</code> - avain, joka vastaa listaa.</dd>
